@@ -1,23 +1,21 @@
-// pages/index.js
 'use client'
+// pages/index.js
 
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 export default function Home() {
 
+  const [message, setMessage] = useState('');
+
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      console.log(window.location); 
+    async function fetchData() {
+      const response = await axios.get('http://localhost:5328/api/hello');
+      setMessage(response.data); 
     }
+    fetchData();
+  }, []);
 
-    async function callPython() {
-      const resp = await fetch('/api/python'); 
-      const data = await resp.json();
-      console.log(data);
-    }
+  return <div>{message}</div>;
 
-    callPython();  // This should be inside the useEffect hook.
-  }, []); 
-
-  return <div>Welcome!</div>
 }

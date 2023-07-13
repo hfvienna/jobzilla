@@ -2,7 +2,12 @@
 
 Jobzilla stomps onto the job search scene, ferociously sniffing out opportunities like a wild beast on the hunt, aggressively tracking down opportunities and crushing its competition with its monstrous AI might.
 
-# 
+![image](https://github.com/hfvienna/jobzilla/assets/130350299/7175e37d-3b84-4d89-9ac6-7b03c49d34a1)
+
+
+
+# What is this?
+
 
 
 

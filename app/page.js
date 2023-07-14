@@ -1,10 +1,12 @@
 'use client'
-// pages/index.js
+// app/page.js
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './globals.css';
 import 'daisyui/dist/full.css';
+import Link from 'next/link';
+
 
 
 
@@ -30,6 +32,7 @@ return (
         <button className="btn">Button 1</button>
         <button className="btn btn-outline">Button 2</button>
       </div>
+      <Link href="/ranking">Go to Ranking</Link>
     </div>
   </div>
 );

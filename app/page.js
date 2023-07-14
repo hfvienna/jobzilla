@@ -1,4 +1,4 @@
-// app/page.js
+// root/app/page.js
 
 'use client'
 

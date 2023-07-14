@@ -12,7 +12,9 @@ export default function JobsTable() {
       // Fetch data from your JSON file
       const response = await fetch('/table.json');
       const data = await response.json();
-    
+      
+      console.log(data);  // Log the data here
+      
       // Set the state
       setJobs(data);
     }
@@ -35,22 +37,23 @@ export default function JobsTable() {
         </thead>
 
         <tbody>
-          {jobs.map((job, index) => (
-            <tr key={index}>
-              <th>
-                <label>  
-                  <input type="checkbox" className="checkbox" />
-                </label>
-              </th>
-              <td>{job.company}</td>
-              <td>{job.title}</td>
-              <td>{job.fit}</td>
-              <td>{job.dateAdded}</td>
-              <td>{job.salaryRange}</td>
-              <td>{job.location}</td>
-            </tr>
-          ))}
+        {jobs.map((job, index) => (
+          <tr key={index}>
+            <th>
+              <label>  
+                <input type="checkbox" className="checkbox" />
+              </label>
+            </th>
+            <td>{job.company || '-'}</td>
+            <td>{job.title || '-'}</td>
+            <td>{job.fit || '-'}</td>
+            <td>{job.dateAdded || '-'}</td>
+            <td>{job.salaryRange || '-'}</td>
+            <td>{job.location || '-'}</td>
+          </tr>
+        ))}
         </tbody>
+
 
         <tfoot>
           <tr>

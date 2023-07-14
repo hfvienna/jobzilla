@@ -1,0 +1,254 @@
+14/07/2023, 20:48 Prompt Engineering Internship at Helloprint - Valencia, Comunidad Valenciana, Spain | ai-jobs.net
+https://ai-jobs.net/job/54024-prompt-engineering-internship/ 1/8Prompt Engineering Internship
+Valencia, Comunidad Valenciana, Spain
+InternshipEntry-level / Junior @Helloprint LinkedIn Website 
+Helloprint
+Lassen Sie Ihre Flyer, Visitenkarten und
+mehr mit HelloPrint bedrucken. Ihr One-
+Stop-Shop für personalisierte Produkte
+höchster Qualität zu fairen Preisen.
+View company page Apply now
+ Apply later
+Posted 1 month ago
+About Us:
+Helloprint is the #1 marketplace for customized print products. We bring local production and
+delivery to a global audience of creative entrepreneurs, SMBs and e-commerce companies,
+reducing cost, speed of delivery and carbon footprint.
+At Helloprint, we constantly innovate and improve our processes, being at the forefront of
+technological development. Currently, weʼre working on implementing many AI technologies into
+our systems, and we need smart and motivated people to work with us on this ;-)
+Job Description:
+As a Prompt Engineer, you will work closely with our experienced development team to design,
+develop, and optimize our solutions. Currently, weʼre building exciting new capabilities to
+improve the customer experience. Your role will involve understanding the AI model's
+capabilities, trialling different strategies to improve it, identifying areas of improvement, and
+effectively communicating these insights to our development team.
+ai-jobs.net
+ Search  Emails  Saved  Profile14/07/2023, 20:48 Prompt Engineering Internship at Helloprint - Valencia, Comunidad Valenciana, Spain | ai-jobs.net
+https://ai-jobs.net/job/54024-prompt-engineering-internship/ 2/8Key Responsibilities:
+Assist in creating and optimizing prompts
+Design and perform tests to evaluate the performance of AI models
+Try and compare the performance of different LLMs (GPT vs LLaMA vs PaLM)
+Try and compare the results of different fine-tuning strategies
+Try and compare different strategies for document loading, chunking and vector search
+Qualifications:
+Currently pursuing or recently completed a degree in Computer Science, Data Science, or a
+related field (or similar experience)
+Good spoken and written English
+Ambitious and eager to learn
+Willingness to wor
+k as an integrated part of the team and the ability to extend your internship afterwards
+Able to code in Python
+Curious, enthusiastic, with an experimental and problem-solving attitude
+Minimum availability of 4 months
+Nice to have:
+Experience with Notebooks, Pandas, and NumPy.
+Experience with Langchain.
+Experience with vector databases like Pinecone and pg-vector.
+ai-jobs.net
+ Search  Emails  Saved  Profile14/07/2023, 20:48 Prompt Engineering Internship at Helloprint - Valencia, Comunidad Valenciana, Spain | ai-jobs.net
+https://ai-jobs.net/job/54024-prompt-engineering-internship/ 3/8What We Offer:
+A once-in-a-lifetime opportunity to work on something truly exciting with a new in-house
+entrepreneurial team
+An opportunity to work with leading-edge new technology
+Mentorship from experienced professionals
+A friendly, inclusive, and dynamic work environment
+Market-conform internship fee
+This is an on-site opportunity based at our office in Valencia.
+Are you up for it?
+Our Helloprint talent acquisition process is straightforward, with one important goal - knowing
+for sure that you and Helloprint are both up for it in the long run. Our culture is extremely
+important to us, so a fit between you and our culture is an absolute must. Check for yourself
+whether you think this would be a good match by reading our Helloprint Culture Book.
+To apply, email tijmen.vandenelzen@helloprint.com with a cover letter explaining why you would
+be a good fit for the role.
+We look forward to hearing from you!
+Requirements
+ai-jobs.net
+ Search  Emails  Saved  Profile14/07/2023, 20:48 Prompt Engineering Internship at Helloprint - Valencia, Comunidad Valenciana, Spain | ai-jobs.net
+https://ai-jobs.net/job/54024-prompt-engineering-internship/ 4/8Welcome to Helloprint. Design Yourself!
+*acquisition will not be appreciated; potential talent only please!
+ Apply now
+ Apply later
+Share this job via or  Copy link to this job
+Tags: Computer ScienceCXE-commerceEngineeringGPTLangChainLLaMA
+LLMsNumPyPandasPineconePrompt engineeringPython
+Region: Europe Country: Spain
+Job stats:   255   29   0
+Categories: Engineering JobsGenerative AI Jobs
+More jobs like this
+ Natick,
+Massachusetts,
+United States
+Full Time
+Entry
+USD 30K+ *Allurion
+Data/Machine Learning Engineer Co'Op
+APIsChatbotsComputer ScienceEngineering
+Machine LearningML models+5
+Career developmentCompetitive pay
+ Lille, Hauts-de-
+France, France
+Full Time
+EntryExotec
+Machine Learning Engineer
+Computer VisionCUDADeep LearningGPUKubernetes
+Machine Learning+4
+ai-jobs.net
+ Search  Emails  Saved  Profile14/07/2023, 20:48 Prompt Engineering Internship at Helloprint - Valencia, Comunidad Valenciana, Spain | ai-jobs.net
+https://ai-jobs.net/job/54024-prompt-engineering-internship/ 5/8USD 30K+ * Career development
+ Rennes, France
+Full Time
+Entry
+USD 59K+ *Talan
+Data Engineer Spark/Scala - H/F
+AnsibleAWSAzureBig DataCassandraConsulting
++15
+ Paris, France
+Full Time
+Internship
+EntryDeezer
+Analytics Engineer - Data Management
+Data managementData pipelinesData qualityPipelines
+PythonSQL+1
+Career developmentHealth careInsuranceSalary bonusStartup environment
+ Zagreb, Croatia
+Full Time
+Entry
+USD 59K+ *Nets
+Junior Data Engineer (m/f/d)
+BankingData analysisData AnalyticsData governance
+Data qualityData Warehousing+6
+Career developmentCompetitive payFlex hoursGearTeam events
+ Athens, Attica,
+Greece
+Full Time
+Entry
+USD 39K+ *SoftOne Technologies
+Junior Full Stack Developer (AI)
+AngularComputer ScienceJavaScriptKerasMongoDB
+NoSQL+5
+Health care
+ Cluses, France
+Full Time
+Entry
+USD 30K+ *SOMFY Group
+Machine Learning Engineer (M/F)
+AgileAPIsArrowComputer ScienceConsulting
+Engineering+14
+Career developmentSalary bonusStartup environmentTeam eventsWellness
+ Employees can
+work remotely, …
+Full Time
+Entry
+USD 59K+ *Accesa & RaRo
+Data Engineer (Power BI) for Financial
+Services
+AgileBankingData analysisData qualityJiraKanban
++5
+Career developmentFlex hoursFlex vacationHealth careTeam events
+ai-jobs.net
+ Search  Emails  Saved  Profile14/07/2023, 20:48 Prompt Engineering Internship at Helloprint - Valencia, Comunidad Valenciana, Spain | ai-jobs.net
+https://ai-jobs.net/job/54024-prompt-engineering-internship/ 6/8« Back to job search To the top ↑
+Explore more AI, ML, Data Science career opportunities
+Find even more open roles in Artificial Intelligence (AI), Machine Learning (ML), Natural
+Language Processing (NLP), Computer Vision (CV), Data Engineering, Data Analytics, Big Data,
+and Data Science in general - ordered by popularity of job title or skills, toolset and products
+used - below.
+Open Data Engineer II jobs
+Open BI Analyst jobs
+Open Power BI Developer jobs
+Open Staff Data Scientist jobs
+Open Sr. Data Scientist jobs
+Open Data Manager jobs
+Open Director, Data Engineering jobs
+Open (Senior) Digital Analytics Engineer jobs
+Open Product Data Analyst jobs
+Open Junior Data Engineer jobs
+Open Lead Data Analyst jobs
+Open MLOps Engineer jobs
+Open Principal Data Scientist jobs
+Open Sr Data Engineer jobs
+ Saint-Herblain,
+France
+Full Time
+Entry
+USD 59K+ *Sopra Steria
+Data Engineer - Big Data - Data Factory -
+Nantes
+AzureBig DataCI/CDData analysisDatabricksHadoop
++11
+Career development
+ Düsseldorf, United
+Kingdom
+Full Time
+Entry
+USD 59K+ *Statkraft
+Data Engineer- Energy Market Digitalisation,
+Trading & Origination
+API DevelopmentAPIsArchitectureData analysis
+Data governanceData management+12
+Career development
+ai-jobs.net
+ Search  Emails  Saved  Profile14/07/2023, 20:48 Prompt Engineering Internship at Helloprint - Valencia, Comunidad Valenciana, Spain | ai-jobs.net
+https://ai-jobs.net/job/54024-prompt-engineering-internship/ 7/8Open Senior Data Architect jobs
+Open Data Analytics Engineer jobs
+Open Data Engineer (Remote) jobs
+Open Big Data Engineer jobs
+Open Senior Manager, Data Science jobs
+Open Cloud Data Engineer jobs
+Open Manager, Data Engineering jobs
+Open Research Scientist jobs
+Open Data Scientist Intern jobs
+Open Senior Data Analyst (Bangkok Based, relocation provided) jobs
+Open Clinical Data Manager jobs
+Open Excel-related jobs
+Open ML models-related jobs
+Open Data quality-related jobs
+Open Business Intelligence-related jobs
+Open Data visualization-related jobs
+Open Finance-related jobs
+Open Privacy-related jobs
+Open Deep Learning-related jobs
+Open APIs-related jobs
+Open Airflow-related jobs
+Open Data management-related jobs
+Open Consulting-related jobs
+Open TensorFlow-related jobs
+Open Snowflake-related jobs
+Open Hadoop-related jobs
+Open PhD-related jobs
+Open PyTorch-related jobs
+Open Scala-related jobs
+Open Git-related jobs
+Open Kafka-related jobs
+Open DevOps-related jobs
+Open Data warehouse-related jobs
+Open NLP-related jobs
+Open Docker-related jobs
+Open Kubernetes-related jobs
+ai-jobs.net
+ Search  Emails  Saved  Profile14/07/2023, 20:48 Prompt Engineering Internship at Helloprint - Valencia, Comunidad Valenciana, Spain | ai-jobs.net
+https://ai-jobs.net/job/54024-prompt-engineering-internship/ 8/8Got questions, feedback or ideas? Drop us a message.
+For candidates
+ Find a job
+ Talent profile
+ Job emails
+ Saved jobs
+ Country search
+ Career insightsFor employers
+ Post a job
+ Find talent
+ Job ads
+ Orders
+ Recruiting insights
+Connect
+ Reddit
+ Mastodon
+ Twitter
+ LinkedIn
+ RSS
+© 2023 ai-jobs.net| v4.6.2| Made with ☕  + ♥  by foorilla
+Terms and conditions | Privacy policy | About
+ai-jobs.net
+ Search  Emails  Saved  Profile

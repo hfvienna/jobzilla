@@ -27,7 +27,7 @@ export default function JobsTable() {
             <th></th>
             <th>Company</th> 
             <th>Job Title</th>
-            <th>Company-Applicant Fit</th>
+            <th>Company Applicant Fit</th>
             <th>Date Added</th>
             <th>Salary Range</th>
             <th>Location</th>
@@ -57,7 +57,7 @@ export default function JobsTable() {
             <th></th>
             <th>Company</th>
             <th>Job Title</th>
-            <th>Company-Applicant Fit</th>
+            <th>Company Applicant Fit</th>
             <th>Date Added</th>
             <th>Salary Range</th>
             <th>Location</th>

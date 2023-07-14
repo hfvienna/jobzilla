@@ -36,6 +36,8 @@ Join us in redefining job acquisition. Try Jobzilla today.
 ├── next.config.js  
 ├── node_modules  
 
+If you copy and paste the tree into an environment that uses a monospace font (like most code editors or terminals), the vertical lines (│) align correctly. If you're seeing misalignment this is due to GitHub's markdown renderer.
+
 ## Next.js
 
 

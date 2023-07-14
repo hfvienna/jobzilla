@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "start": "craco start",
     "build": "craco build",
+    "start": "craco start",
+    "lint": "next lint",
     "test": "craco test"
   },
   "dependencies": {
@@ -23,5 +21,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  },
+  "devDependencies": {
+    "daisyui": "^3.2.1"
   }
 }

@@ -4,6 +4,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './globals.css';
+import 'daisyui/dist/full.css';
+
 
 
 export default function Home() {
@@ -19,8 +21,16 @@ export default function Home() {
 //  }, []);
 
 return (
-  <div className="p-4 max-w-md mx-auto bg-indigo-200 rounded-lg shadow-md">
-    <h1 className="text-lg font-medium text-gray-700">Hello Tailwindcss</h1>
+  <div className="card bg-base-200 shadow-xl">
+    <div className="card-body">
+      <h2 className="card-title">Hello DaisyUI!</h2> 
+      <p>Let's add some Daisy styling!</p>
+
+      <div className="btn-group">
+        <button className="btn">Button 1</button>
+        <button className="btn btn-outline">Button 2</button>
+      </div>
+    </div>
   </div>
 );
 }

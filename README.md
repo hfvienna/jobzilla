@@ -20,23 +20,21 @@ Join us in redefining job acquisition. Try Jobzilla today.
 
 # tree -L 2
 
-Looks ugly atm, but Anthropic Claude 2 understands what it means...
-
-.
-├── README.md
-├── api
-│   ├── __pycache__
-│   └── index.py
-├── app
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── layout.js
-│   ├── page.js
-│   └── ranking
-├── craco.config.js
-├── jsconfig.json
-├── next.config.js
-├── node_modules
+.  
+├── README.md  
+├── api  
+│   ├── __pycache__  
+│   └── index.py  
+├── app  
+│   ├── favicon.ico  
+│   ├── globals.css  
+│   ├── layout.js  
+│   ├── page.js  
+│   └── ranking  
+├── craco.config.js  
+├── jsconfig.json  
+├── next.config.js  
+├── node_modules  
 
 ## Next.js
 

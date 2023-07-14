@@ -4,13 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "craco build",
-    "start": "craco start",
-    "lint": "next lint",
-    "test": "craco test"
+    "build": "next build",
+    "lint": "next lint"
   },
+
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "@tailwindcss/postcss7-compat": "^2.2.17",
     "autoprefixer": "^9.8.8",
     "axios": "^1.4.0",

@@ -1,9 +1,23 @@
-// app/ranking/page.js
+'use client'
 
-// Import Table and other components
+import { useState, useEffect } from 'react';
 import 'daisyui/dist/full.css';
+import axios from 'axios';
 
 export default function JobsTable() {
+  const [jobs, setJobs] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      // Fetch data from your JSON file
+      const response = await fetch('/table.json');
+      const data = await response.json();
+    
+      // Set the state
+      setJobs(data);
+    }
+    fetchData();
+  }, []);
 
   return (
     <div className="overflow-x-auto">
@@ -21,47 +35,21 @@ export default function JobsTable() {
         </thead>
 
         <tbody>
-          <tr>
-            <th>
-              <label>  
-                <input type="checkbox" className="checkbox" />
-              </label>
-            </th>
-            <td>Anthropic</td>
-            <td>Software Engineer</td>
-            <td>4/5</td>
-            <td>July 10, 2023</td>
-            <td>$120k - $150k</td>
-            <td>Remote</td>
-          </tr>
-          
-          <tr>
-            <th>
-              <label>
-                <input type="checkbox" className="checkbox" />
-              </label>  
-            </th>
-            <td>Google</td>
-            <td>Product Manager</td>
-            <td>3/5</td>
-            <td>July 12, 2023</td>
-            <td>$150k - $180k</td>
-            <td>Mountain View, CA</td>
-          </tr>
-          
-          <tr>
-            <th>
-              <label>
-                <input type="checkbox" className="checkbox" />
-              </label>
-            </th>
-            <td>Microsoft</td>
-            <td>Software Engineer</td>
-            <td>5/5</td> 
-            <td>July 14, 2023</td>
-            <td>$130k - $160k</td>
-            <td>Redmond, WA</td>
-          </tr>
+          {jobs.map((job, index) => (
+            <tr key={index}>
+              <th>
+                <label>  
+                  <input type="checkbox" className="checkbox" />
+                </label>
+              </th>
+              <td>{job.company}</td>
+              <td>{job.title}</td>
+              <td>{job.fit}</td>
+              <td>{job.dateAdded}</td>
+              <td>{job.salaryRange}</td>
+              <td>{job.location}</td>
+            </tr>
+          ))}
         </tbody>
 
         <tfoot>
@@ -77,6 +65,5 @@ export default function JobsTable() {
         </tfoot>
       </table>
     </div>
-  )
-
+  );
 }

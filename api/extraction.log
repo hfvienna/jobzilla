@@ -1,0 +1,49 @@
+INFO:root:Text extraction complete
+ERROR:root:No PDFs found in input folder ./public/jobs/pdfs
+INFO:root:PDF extraction complete
+ERROR:root:No PDFs found in input folder /Users/hannesmacbookpro16/jobzilla/api/public/jobs/pdfs
+INFO:root:PDF extraction complete
+ERROR:root:No PDFs found in input folder /Users/hannesmacbookpro16/jobzilla/api/public/jobs/pdfs
+INFO:root:PDF extraction complete
+ERROR:root:No PDFs found in input folder /Users/hannesmacbookpro16/jobzilla/api/public/jobs/pdfs
+INFO:root:PDF extraction complete
+ERROR:root:No PDFs found in input folder /Users/hannesmacbookpro16/jobzilla/api/public/jobs/pdfs
+INFO:root:PDF extraction complete
+ERROR:root:No PDFs found in input folder /Users/hannesmacbookpro16/jobzilla/api/public/jobs/pdfs
+INFO:root:PDF extraction complete
+INFO:root:2 PDFs found in input folder
+ERROR:root:Error opening PDF /Users/hannesmacbookpro16/jobzilla/public/jobs/pdfs/Expert_in Application Management & Support (w_m_d).pdf: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+Traceback (most recent call last):
+  File "/Users/hannesmacbookpro16/jobzilla/api/pdf_to_text.py", line 27, in extract_pdf_text
+    pdf = pdf2.PdfFileReader(str(pdf_path))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/PyPDF2/_reader.py", line 1974, in __init__
+    deprecation_with_replacement("PdfFileReader", "PdfReader", "3.0.0")
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/PyPDF2/_utils.py", line 369, in deprecation_with_replacement
+    deprecation(DEPR_MSG_HAPPENED.format(old_name, removed_in, new_name))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/PyPDF2/_utils.py", line 351, in deprecation
+    raise DeprecationError(msg)
+PyPDF2.errors.DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+ERROR:root:Error opening PDF /Users/hannesmacbookpro16/jobzilla/public/jobs/pdfs/AI Integration Manager (w_m_d) bei Anton Paar GmbH _ karriere.at.pdf: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+Traceback (most recent call last):
+  File "/Users/hannesmacbookpro16/jobzilla/api/pdf_to_text.py", line 27, in extract_pdf_text
+    pdf = pdf2.PdfFileReader(str(pdf_path))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/PyPDF2/_reader.py", line 1974, in __init__
+    deprecation_with_replacement("PdfFileReader", "PdfReader", "3.0.0")
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/PyPDF2/_utils.py", line 369, in deprecation_with_replacement
+    deprecation(DEPR_MSG_HAPPENED.format(old_name, removed_in, new_name))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/PyPDF2/_utils.py", line 351, in deprecation
+    raise DeprecationError(msg)
+PyPDF2.errors.DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+INFO:root:PDF extraction complete
+ERROR:root:No PDFs found in input folder /Users/hannesmacbookpro16/jobzilla/api/public/jobs/pdfs
+INFO:root:PDF extraction complete
+INFO:root:2 PDFs found in input folder
+INFO:root:Text extracted to /Users/hannesmacbookpro16/jobzilla/public/jobs/pdfs/Expert_in Application Management & Support (w_m_d).txt
+INFO:root:Text extracted to /Users/hannesmacbookpro16/jobzilla/public/jobs/pdfs/AI Integration Manager (w_m_d) bei Anton Paar GmbH _ karriere.at.txt
+INFO:root:PDF extraction complete
+INFO:root:2 PDFs found in input folder
+INFO:root:Text extracted to /Users/hannesmacbookpro16/jobzilla/public/jobs/txts/Expert_in Application Management & Support (w_m_d).txt
+INFO:root:Text extracted to /Users/hannesmacbookpro16/jobzilla/public/jobs/txts/AI Integration Manager (w_m_d) bei Anton Paar GmbH _ karriere.at.txt
+INFO:root:PDF extraction complete

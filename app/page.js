@@ -1,5 +1,6 @@
-'use client'
 // app/page.js
+
+'use client'
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';

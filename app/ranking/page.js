@@ -1,3 +1,5 @@
+// app/ranking/page.js
+
 // Import Table and other components
 import 'daisyui/dist/full.css';
 

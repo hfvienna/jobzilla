@@ -61,6 +61,7 @@ __pycache__/
 **/repository_code.txt
 **/clean_code.txt
 **/clean_code.py
+**/.log.md
 **/question_response_pairs.json
 llms/interactions_log_anthropic_for_debugging.txt
 

@@ -4,6 +4,7 @@ Jobzilla stomps onto the job search scene, ferociously sniffing out opportunitie
 
 # What is this?
 
+![Jobzilla](https://github.com/hfvienna/jobzilla/assets/130350299/ee3d9394-12dd-48d0-82cb-ff75bfb45851)
 
 
 

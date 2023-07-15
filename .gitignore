@@ -63,10 +63,15 @@ __pycache__/
 **/clean_code.py
 **/.log.md
 **/question_response_pairs.json
-llms/interactions_log_anthropic_for_debugging.txt
+**/llms/interactions_log_anthropic_for_debugging.txt
+**/extraction.log
+**/processed_files.log
 
 # Ignore .DS_Store in all directories
 **/.DS_Store
 
 # Ignore else
 .vscode/
+
+# Ignore jobs
+**/public/jobs

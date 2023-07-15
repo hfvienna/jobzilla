@@ -27,4 +27,4 @@ data = load_job_data("../public/jobs/JSONs")  # Load job data
 print(data)  # Print the DataFrame
 
 df_sorted = data.sort_values("fit", ascending=False)  # Sort by fit
-df_sorted.to_json("../app/table2.json", orient="records")  # Save DataFrame to JSON
+df_sorted.to_json("../app/job_table.json", orient="records")  # Save DataFrame to JSON

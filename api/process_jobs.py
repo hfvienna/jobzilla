@@ -62,6 +62,13 @@ with open(REQUIREMENTS_FILE) as f:
 
 for filename in os.listdir(JOBS_FOLDER):
     if filename.endswith(".txt"):
+        json_filename = os.path.splitext(filename)[0] + ".json"
+        json_path = os.path.join(JSON_FOLDER, json_filename)
+        
+        # Check if JSON file already exists, and if so, skip processing this TXT file
+        if os.path.exists(json_path):
+            continue
+
         with open(os.path.join(JOBS_FOLDER, filename)) as f:
             job_text = f.read()
 
@@ -81,9 +88,6 @@ for filename in os.listdir(JOBS_FOLDER):
 
         print(clean_result)
 
-    # Save result to JSON file
-    json_filename = os.path.splitext(filename)[0] + ".json"
-    json_path = os.path.join(JSON_FOLDER, json_filename)
-
-    with open(json_path, "w") as f:
-        json.dump(clean_result, f)
+        # Save result to JSON file
+        with open(json_path, "w") as f:
+            json.dump(clean_result, f)

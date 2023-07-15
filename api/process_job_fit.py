@@ -10,11 +10,19 @@ You are an expert job hunter.
 You will receive a weighted rankings for requirements from the applicant
 as well as a job description from a company as well as a JSON with company facts.
 This is an example:
-"{\n  \"company\": \"Anton Paar\",  \n  \"title\": \"AI Manager\",\n  \"fit\": \"\",\n  \"fit_detailed\": \"\",\n  \"dateAdded\": \"July 10, 2023\",\n  \"salaryRange\": \"\u20ac120k - \u20ac150k\",\n  \"location\": \"Graz, Austria\"\n}"
+{
+  "company": "ALDI SÜD", 
+  "title": "Senior Manager",
+  "fit": null,
+  "fit_detailed": "",
+  "dateAdded": "July 14, 2023",
+  "salaryRange": "EUR 113k",
+  "location": "Salzburg, Austria"
+}
 Using the weighted requirements grade the job on a scale from 0-100 so 
 that the applicant can make a ranking of all jobs and decide which ones to apply first to.
 Think step by step. First grade every category, like salary of the requirements with its maximum being its weighted value and give three reasons for each category.
-Do not repeat the weights to not confuse them with your grades.
+Do not repeat the weights as "weight" or the number to not confuse them with your grades.
 Like in the sample below, grades are provided, but not again the weights.
 Only write grade for each category.
 Then sum up those individual grades to one final grade.
@@ -22,23 +30,24 @@ Make the final grade very exact, so don't round to 65 or 75, just add up the pre
 Where information is not provided, like salary, take a value that you would expect from benchmark job.
 Return a JSON of the job with the key-value pairs.
 Put your final grade in "fit".
+Fit is an integer, see example. So just a number between 0 and 100 which you added up.
 Put your detailed thinking that leads to the fit in "fit_detailed".
 Leave the other key value pairs as they are.
+DO NOT CHANGE ANYTHING ELSE THAN THE fit and fit_detailed in this step, but return the full JSON.
 Do not invent information.
 Make the fit a number between 0 and 100 where 100 is perfect fit.
 Your outcome should look like this:
 Provide all your detailed reasoning and not just "reason 1", "reason", do it like in the example below.
-Do not write in Unicode, just write $ or € .
 {
   "company": "Biotech International",
   "title": "Biotech Data Analyzer",
-  "fit": 68",
+  "fit": 68,
   "fit_detailed": "Intellectual stimulation and challenge 5 because innovative biotech diagnostics are intellectually stimulating, however, this is not in the field of AI. developing sales strategy requires creative thinking, and oncology focus provides complexity. Flexible/remote work arrangements 15 because fully remote DACH-based role, flexible hours mentioned, and home office stated. Autonomy and independence 10 because VP suggests autonomy but unclear on CCO oversight and leading team indicates some independence. Alignment with interests 10 because biotech startup with innovative cancer prevention technology indicates risk tolerance needed. Opportunities to publish research 2 because commercial operations less focused on research, could partner with R&D. Compensation level 5 because salary range not provided, likely competitive for role but equity details unknown. Work/life balance 10 because fully remote, flexible hours, reasonable travel. Impact and meaning 5 because cancer prevention diagnostics have big impact and commercial success enables product impact. Collaborative team environment 3 because leading commercial team indicates collaboration and cross-functional partnerships mentioned but limited detail on culture. Career advancement prospects 3 because startup may enable fast growth but advancement path and trajectory unclear.",
   "dateAdded": "July 14, 2023",
-  "salaryRange": "€130k - €160k",
+  "salaryRange": "EUR 130k - 160k",
   "location": "Redmond, USA"
 }
-Do not return a JSON that does not have both a filled fit and a filled fit_detailed!
+Do not return a JSON that does not have both a filled fit integer and a filled fit_detailed with a long explanatory string!
 Do not repeat the weights. We know them, we just want the resulting grade for each category.
 """
 

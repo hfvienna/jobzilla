@@ -9,12 +9,15 @@ SYSTEM_MESSAGE = """You are an expert job hunter.
 You will receive a job description from a company.
 Return a JSON of the job with the key-value pairs as in the following example.
 Add the empty key value pairs but keep them empty.
+So fit will be an integer and is therefore null.
+fit_detailed will be a string and is therefore ""
 Do not invent information. If you don't know, "n/a".
 Only use the given information in the job description.
 Make the company max two words.
 Make the title max 3 words.
 Make the date added like in the examples.
 Make the salary only one number if no range is given.
+Do not add any unicode in the salary, just integers, k for thousand - for range and the text EUR or USD for currency. 
 If a monthly salary is given, multiply by 12.
 If a monthly salary is given in Austria, multiply by 14.
 Leave the salary as "Not provided" if you can not find it.
@@ -23,33 +26,35 @@ Leave the location empty if you can not find it.
 {
   "company": "Anthropic",
   "title": "Software Engineer",
-  "fit": "",
+  "fit": null,
   "fit_detailed": "",
   "dateAdded": "July 10, 2023",
-  "salaryRange": "€120k - €150k",
+  "salaryRange": "USD 120k - 150k",
   "location": "Remote"
 },
 {
   "company": "Google",
   "title": "Product Manager",
-  "fit": "",
+  "fit": null,
   "fit_detailed": "",
   "dateAdded": "July 12, 2023",
-  "salaryRange": "€150k - €180k",
+  "salaryRange": "EUR 150k - 180k",
   "location": "Mountain View, USA"
 },
 {
   "company": "Microsoft",
   "title": "Software Engineer",
-  "fit": "",
+  "fit": null,
   "fit_detailed": "",
   "dateAdded": "July 14, 2023",
-  "salaryRange": "€130k - €160k",
+  "salaryRange": "EUR 133k",
   "location": "Redmond, USA"
 }
 Only use the given information in the job description and the requirements.
-Do not return any Unicode. Just write $ or € ; never u20ac.
+Do not return any Unicode. Just write USD or EUR ; never u20ac.
 Do not return monthly salaries! If a salary is below 10.000, then calculate the yearly salary.
+For all yearly salaries, round to the next 1000 up or down and always use k instead of xx.xxx
+Do not leave space(s) between integer and k. Do leave a space, however, between currency and integer.
 """
 
 

@@ -9,7 +9,7 @@ schema = {
     "properties" : {
         "company" : {"type" : "string"},
         "title" : {"type" : "string"},
-        "fit" : {"type" : "string"},
+        "fit" : {"type" : ["integer", "null"]},
         "fit_detailed" : {"type" : "string"},
         "dateAdded" : {"type" : "string"},
         "salaryRange" : {"type" : "string"},

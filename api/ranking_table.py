@@ -8,20 +8,16 @@ import pandas as pd
 def load_job_data(directory):
     data = []
     for filename in os.listdir(directory):
-        file_path = os.path.join(directory, filename)
         if filename.endswith(".json"):
-            with open(file_path, "r") as f:
+            with open(os.path.join(directory, filename), "r") as f:
                 job_str = f.read().strip('"')  # Read the file as a string and remove leading/trailing quotes
                 job_str = ast.literal_eval(f'"{job_str}"')  # Unescape the JSON string
                 try:
                     job = json.loads(job_str)  # Parse the JSON string
                     data.append(job)
                 except json.JSONDecodeError as e:
-                    print(f"JSONDecodeError in file {filename}: ", e.doc, e.pos)
-#                    os.remove(file_path)  # Delete the problematic file
-                    print(f"Deleted file {filename} due to JSONDecodeError")
+                    print("JSONDecodeError: ", e.doc, e.pos)
     return pd.DataFrame(data)  # Convert list of dicts to DataFrame
-
 
 
 data = load_job_data("../public/jobs/JSONs_fits")  # Load job data

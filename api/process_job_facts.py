@@ -45,8 +45,7 @@ Leave the location empty if you can not find it.
   "fit_detailed": "",
   "dateAdded": "July 14, 2023",
   "salaryRange": "€130k - €160k",
-  "location":
-  "city": "Redmond, USA"
+  "location": "Redmond, USA"
 }
 Only use the given information in the job description and the requirements.
 """

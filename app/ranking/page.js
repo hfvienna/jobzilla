@@ -18,9 +18,11 @@ export default function JobsTable() {
     <table className="table table-zebra w-full">
       <thead>
         <tr>
+          <th>#</th>
           <th>Company</th>
           <th>Job Title</th>
           <th>Company Applicant Fit</th>
+          <th>Fit Detailed</th>
           <th>Date Added</th>
           <th>Salary Range</th>
           <th>Location</th>
@@ -28,11 +30,13 @@ export default function JobsTable() {
       </thead>
 
       <tbody>
-        {jobs.map((job) => (
+        {jobs.map((job, index) => (
           <tr key={job.id}>
+            <td>{index + 1}</td>
             <td>{job.company || DEFAULT_VALUE}</td>
             <td>{job.title || DEFAULT_VALUE}</td>
             <td>{job.fit || DEFAULT_VALUE}</td>
+            <td>{job.fit_detailed || DEFAULT_VALUE}</td>
             <td>{job.dateAdded || DEFAULT_VALUE}</td>
             <td>{job.salaryRange || DEFAULT_VALUE}</td>
             <td>{job.location || DEFAULT_VALUE}</td>
@@ -42,9 +46,11 @@ export default function JobsTable() {
 
       <tfoot>
         <tr>
+          <th>#</th>
           <th>Company</th>
           <th>Job Title</th>
           <th>Company Applicant Fit</th>
+          <th>Fit Detailed</th>
           <th>Date Added</th>
           <th>Salary Range</th>
           <th>Location</th>

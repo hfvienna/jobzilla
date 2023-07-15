@@ -5,54 +5,41 @@ import os
 
 from claude import llm
 
-SYSTEM_MESSAGE = """You are an expert job hunter.
+SYSTEM_MESSAGE = """
+You are an expert job hunter.
 You will receive a weighted rankings for requirements from the applicant
-as well as a job description from a company.
+as well as a job description from a company as well as a JSON with company facts.
+This is an example:
+"{\n  \"company\": \"Anton Paar\",  \n  \"title\": \"AI Manager\",\n  \"fit\": \"\",\n  \"fit_detailed\": \"\",\n  \"dateAdded\": \"July 10, 2023\",\n  \"salaryRange\": \"\u20ac120k - \u20ac150k\",\n  \"location\": \"Graz, Austria\"\n}"
 Using the weighted requirements grade the job on a scale from 0-100 so 
 that the applicant can make a ranking of all jobs and decide which ones to apply first to.
-Return a JSON of the job with the key-value pairs as in the following example.
-Do not invent information. If you don't know, write don't know.
-Only use the given information in the job description and the requirements.
-Make the company max two words.
-Make the title max 3 words.
+Think step by step. First grade every category, like salary of the requirements with its maximum being its weighted value and give three reasons for each category.
+Then sum up those individual grades to one final grade.
+Where information is not provided, like salary, take a value that you would expect from benchmark job.
+Return a JSON of the job with the key-value pairs.
+Put your final grade in "fit".
+Put your detailed thinking that leads to the fit in "fit_detailed".
+Leave the other key value pairs as they are.
+Do not invent information.
 Make the fit a number between 0 and 100 where 100 is perfect fit.
-Make the date added like in the examples
-Make the salary only one number if no range is given.
-Leave the salary as "Not provided" if you can not find it.
-Make the location City, Country or Remote.
-Leave the location empty if you can not find it.
-{
-  "company": "Anthropic",
-  "title": "Software Engineer",
-  "fit": 95,
-  "dateAdded": "July 10, 2023",
-  "salaryRange": "€120k - €150k",
-  "location": "Remote"
-},
-{
-  "company": "Google",
-  "title": "Product Manager",
-  "fit": 75,
-  "dateAdded": "July 12, 2023",
-  "salaryRange": "€150k - €180k",
-  "location": "Mountain View, USA"
-},
+Your outcome should look like this:
 {
   "company": "Microsoft",
   "title": "Software Engineer",
-  "fit": 98,
+  "fit": "85",
+  "fit_detailed": "Put here all your thinking, like intellectual stimulation 15 because reason 1, 2 ,3, impact 3 because reason 1, reason 2, reason 3, so the final grade adds up to this 85",
   "dateAdded": "July 14, 2023",
   "salaryRange": "€130k - €160k",
-  "location":
-  "city": "Redmond, USA"
+  "location": "Redmond, USA"
 }
-Only use the given information in the job description and the requirements.
+Do not return a JSON that does not have both a filled fit and a filled fit_detailed!
 """
 
 
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
-JSON_FOLDER = os.path.join(ROOT_DIR, "../public/jobs/JSONs")
 JOBS_FOLDER = os.path.join(ROOT_DIR, "../public/jobs/txts")
+JSON_FOLDER_FACTS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_facts")
+JSON_FOLDER_FITS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_fits")
 REQUIREMENTS_FILE = os.path.join(
     ROOT_DIR, "../public/digitaltwin/weighted_rankings_for_requirements.txt"
 )
@@ -60,19 +47,28 @@ REQUIREMENTS_FILE = os.path.join(
 with open(REQUIREMENTS_FILE) as f:
     user_message = f.read()
 
-for filename in os.listdir(JOBS_FOLDER):
-    if filename.endswith(".txt"):
-        json_filename = os.path.splitext(filename)[0] + ".json"
-        json_path = os.path.join(JSON_FOLDER, json_filename)
+for filename in os.listdir(JSON_FOLDER_FACTS):
+    if filename.endswith(".json"):
+        json_filename_fits = os.path.splitext(filename)[0] + ".json"
+        json_path_fits = os.path.join(JSON_FOLDER_FITS, json_filename_fits)
         
-        # Check if JSON file already exists, and if so, skip processing this TXT file
-        if os.path.exists(json_path):
+        # Check if JSON file already exists in JSON_FOLDER_FITS, and if so skip
+        if os.path.exists(json_path_fits):
             continue
 
-        with open(os.path.join(JOBS_FOLDER, filename)) as f:
+        txt_filename = os.path.splitext(filename)[0] + ".txt"
+        txt_path = os.path.join(JOBS_FOLDER, txt_filename)
+
+        # Load job facts JSON
+        with open(os.path.join(JSON_FOLDER_FACTS, filename)) as f:
+            json_facts = json.load(f)
+
+        # Load job text
+        with open(txt_path) as f:
             job_text = f.read()
 
-        context = user_message + "\n" + job_text
+        # Combine all texts
+        context = user_message + "\n" + job_text + "\n" + json.dumps(json_facts)
 
         result = llm(SYSTEM_MESSAGE, context)
 
@@ -89,5 +85,6 @@ for filename in os.listdir(JOBS_FOLDER):
         print(clean_result)
 
         # Save result to JSON file
-        with open(json_path, "w") as f:
+        with open(json_path_fits, "w") as f:
             json.dump(clean_result, f)
+

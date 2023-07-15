@@ -23,6 +23,8 @@ If a monthly salary is given in Austria, multiply by 14.
 Leave the salary as "Not provided" if you can not find it.
 Make the location City, Country or Remote.
 Leave the location empty if you can not find it.
+Leave email empty if you can not find it.
+DON'T write NaN or so, just "".
 {
   "company": "Anthropic",
   "title": "Software Engineer",
@@ -31,6 +33,7 @@ Leave the location empty if you can not find it.
   "dateAdded": "July 10, 2023",
   "salaryRange": "USD 120k - 150k",
   "location": "Remote"
+  "email": hr@anthropic.org
 },
 {
   "company": "Google",
@@ -40,6 +43,7 @@ Leave the location empty if you can not find it.
   "dateAdded": "July 12, 2023",
   "salaryRange": "EUR 150k - 180k",
   "location": "Mountain View, USA"
+  "email": ""
 },
 {
   "company": "Microsoft",
@@ -49,6 +53,7 @@ Leave the location empty if you can not find it.
   "dateAdded": "July 14, 2023",
   "salaryRange": "EUR 133k",
   "location": "Redmond, USA"
+  "email": jobs@microsoft.com
 }
 Only use the given information in the job description and the requirements.
 Do not return any Unicode. Just write USD or EUR ; never u20ac.

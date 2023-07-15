@@ -1,6 +1,5 @@
 import json
 import os
-
 import pandas as pd
 
 def load_job_data(directory):
@@ -22,6 +21,10 @@ data['fit'] = data['fit'].fillna(0)
 
 # Convert "fit" to numeric, coerce errors (invalid values) to NaN, then fill with 0
 data['fit'] = pd.to_numeric(data['fit'], errors='coerce').fillna(0)
+
+# Drop the 'email' column
+if 'email' in data.columns:
+    data = data.drop(columns=['email'])
 
 print(data)  # Print the DataFrame
 

@@ -1,4 +1,4 @@
-# api/process_jobs.py
+# api/process_job_fit.py
 
 import json
 import os
@@ -87,11 +87,14 @@ for filename in os.listdir(JSON_FOLDER_FACTS):
         end = completion.rfind("}") + 1
 
         # extract and clean the JSON string
-        clean_result = completion[start:end]
+        clean_result_str = completion[start:end]
 
-        print(clean_result)
+        # convert the JSON string back to a Python dictionary
+        clean_result_dict = json.loads(clean_result_str)
+
+        # print the dictionary as a pretty JSON string
+        print(json.dumps(clean_result_dict, indent=4))
 
         # Save result to JSON file
         with open(json_path_fits, "w") as f:
-            json.dump(clean_result, f)
-
+            json.dump(clean_result_dict, f, indent=4)

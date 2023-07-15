@@ -1,4 +1,4 @@
-# api/process_jobs_facts.py
+# api/process_job_facts.py
 
 import json
 import os
@@ -72,20 +72,27 @@ for filename in os.listdir(JOBS_FOLDER):
 
         context = job_text
 
-        result = llm(SYSTEM_MESSAGE, context)
+        try:
+            result = llm(SYSTEM_MESSAGE, context)
 
-        # extract the 'completion' part
-        completion = result["completion"]
+            # extract the 'completion' part
+            completion = result["completion"]
 
-        # find the start and end of the JSON string
-        start = completion.find("{")
-        end = completion.rfind("}") + 1
+            # find the start and end of the JSON string
+            start = completion.find("{")
+            end = completion.rfind("}") + 1
 
-        # extract and clean the JSON string
-        clean_result = completion[start:end]
+            # extract and clean the JSON string
+            clean_result = completion[start:end]
 
-        print(clean_result)
+            print(clean_result)
 
-        # Save result to JSON file
-        with open(json_path, "w") as f:
-            json.dump(clean_result, f)
+            # Convert the JSON string to a Python dictionary
+            dict_result = json.loads(clean_result)
+
+            # Save result to JSON file
+            with open(json_path, "w") as f:
+                json.dump(dict_result, f, indent=4)
+        except json.JSONDecodeError:
+            print(f"Failed to process file: {filename}")
+            

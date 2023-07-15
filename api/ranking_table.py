@@ -22,6 +22,12 @@ def load_job_data(directory):
 
 data = load_job_data("../public/jobs/JSONs_fits")  # Load job data
 
+# Fill missing fit values with 0
+data['fit'] = data['fit'].fillna(0)
+
+# Convert "fit" to numeric, coerce errors (invalid values) to NaN, then fill with 0
+data['fit'] = pd.to_numeric(data['fit'], errors='coerce').fillna(0)
+
 print(data)  # Print the DataFrame
 
 df_sorted = data.sort_values("fit", ascending=False)  # Sort by fit

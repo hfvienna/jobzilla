@@ -48,6 +48,8 @@ Leave the location empty if you can not find it.
   "location": "Redmond, USA"
 }
 Only use the given information in the job description and the requirements.
+Do not return any Unicode. Just write $ or € ; never u20ac.
+Do not return monthly salaries! If a salary is below 10.000, then calculate the yearly salary.
 """
 
 

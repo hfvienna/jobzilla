@@ -14,6 +14,9 @@ This is an example:
 Using the weighted requirements grade the job on a scale from 0-100 so 
 that the applicant can make a ranking of all jobs and decide which ones to apply first to.
 Think step by step. First grade every category, like salary of the requirements with its maximum being its weighted value and give three reasons for each category.
+Do not repeat the weights to not confuse them with your grades.
+Like in the sample below, grades are provided, but not again the weights.
+Only write grade for each category.
 Then sum up those individual grades to one final grade.
 Make the final grade very exact, so don't round to 65 or 75, just add up the previous values.
 Where information is not provided, like salary, take a value that you would expect from benchmark job.
@@ -25,6 +28,7 @@ Do not invent information.
 Make the fit a number between 0 and 100 where 100 is perfect fit.
 Your outcome should look like this:
 Provide all your detailed reasoning and not just "reason 1", "reason", do it like in the example below.
+Do not write in Unicode, just write $ or € .
 {
   "company": "Biotech International",
   "title": "Biotech Data Analyzer",
@@ -35,6 +39,7 @@ Provide all your detailed reasoning and not just "reason 1", "reason", do it lik
   "location": "Redmond, USA"
 }
 Do not return a JSON that does not have both a filled fit and a filled fit_detailed!
+Do not repeat the weights. We know them, we just want the resulting grade for each category.
 """
 
 

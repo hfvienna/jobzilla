@@ -15,6 +15,7 @@ Using the weighted requirements grade the job on a scale from 0-100 so
 that the applicant can make a ranking of all jobs and decide which ones to apply first to.
 Think step by step. First grade every category, like salary of the requirements with its maximum being its weighted value and give three reasons for each category.
 Then sum up those individual grades to one final grade.
+Make the final grade very exact, so don't round to 65 or 75, just add up the previous values.
 Where information is not provided, like salary, take a value that you would expect from benchmark job.
 Return a JSON of the job with the key-value pairs.
 Put your final grade in "fit".
@@ -23,11 +24,12 @@ Leave the other key value pairs as they are.
 Do not invent information.
 Make the fit a number between 0 and 100 where 100 is perfect fit.
 Your outcome should look like this:
+Provide all your detailed reasoning and not just "reason 1", "reason", do it like in the example below.
 {
-  "company": "Microsoft",
-  "title": "Software Engineer",
-  "fit": "85",
-  "fit_detailed": "Put here all your thinking, like intellectual stimulation 15 because reason 1, 2 ,3, impact 3 because reason 1, reason 2, reason 3, so the final grade adds up to this 85",
+  "company": "Biotech International",
+  "title": "Biotech Data Analyzer",
+  "fit": 68",
+  "fit_detailed": "Intellectual stimulation and challenge 5 because innovative biotech diagnostics are intellectually stimulating, however, this is not in the field of AI. developing sales strategy requires creative thinking, and oncology focus provides complexity. Flexible/remote work arrangements 15 because fully remote DACH-based role, flexible hours mentioned, and home office stated. Autonomy and independence 10 because VP suggests autonomy but unclear on CCO oversight and leading team indicates some independence. Alignment with interests 10 because biotech startup with innovative cancer prevention technology indicates risk tolerance needed. Opportunities to publish research 2 because commercial operations less focused on research, could partner with R&D. Compensation level 5 because salary range not provided, likely competitive for role but equity details unknown. Work/life balance 10 because fully remote, flexible hours, reasonable travel. Impact and meaning 5 because cancer prevention diagnostics have big impact and commercial success enables product impact. Collaborative team environment 3 because leading commercial team indicates collaboration and cross-functional partnerships mentioned but limited detail on culture. Career advancement prospects 3 because startup may enable fast growth but advancement path and trajectory unclear.",
   "dateAdded": "July 14, 2023",
   "salaryRange": "€130k - €160k",
   "location": "Redmond, USA"

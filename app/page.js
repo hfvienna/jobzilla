@@ -1,9 +1,8 @@
-// root/app/page.js
+// app/page.js
 
 'use client'
 
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 import './globals.css';
 import 'daisyui/dist/full.css';
 import Link from 'next/link';

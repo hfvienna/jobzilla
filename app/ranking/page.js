@@ -1,12 +1,12 @@
+// app/ranking/page.js
+
 'use client';
 
 import { useState, useEffect } from 'react';
 import 'daisyui/dist/full.css';
-import { daisyUI } from 'daisyui';
 
-
-// Import default export 
-import tableData from '../table2.json';
+// Import job_table.json
+import tableData from '../job_table.json';
 
 // Log imported data
 console.log('Imported data:', tableData); 
@@ -25,7 +25,6 @@ export default function JobsTable() {
         <table className="table table-zebra w-full">
           <thead>
             <tr>
-              <th></th>
               <th>Company</th> 
               <th>Job Title</th>
               <th>Company Applicant Fit</th>

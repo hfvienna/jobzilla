@@ -3,8 +3,6 @@ import json
 import jsonschema
 from jsonschema import validate
 
-# Fixing the code
-
 # Define the JSON schema you expect
 schema = {
     "type" : "object",
@@ -37,6 +35,9 @@ def count_files(directory):
                         # Validate the loaded JSON against the schema
                         validate(instance=data, schema=schema)
                         num_valid_schema += 1
+                        # If the 'fit_detailed' key contains "", print the JSON
+                        if directory == "../public/jobs/JSONs_fits" and '""' in data.get('fit_detailed', ''):
+                            print(f"JSON from file {f} with '\"\"' in 'fit_detailed': {data}")
                     except json.JSONDecodeError:
                         print(f"Invalid JSON file: {f}")
                         invalid_json_files.append(f)

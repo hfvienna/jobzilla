@@ -1,767 +1,171 @@
 [
     {
-        "company": "OpenAI",
-        "title": "Research Scientist",
-        "fit": 98,
-        "fit_detailed": "This role is focused on alignment research for AI safety, directly in the area of interest. Work involves designing experiments and pushing the boundaries of AI capabilities. No indication that remote work is supported, though location is San Francisco so some flexibility likely. High degree of autonomy to pursue research agenda and carry out long-running projects independently. OpenAI is a cutting-edge AI research company focused on ensuring beneficial AI. Good alignment with interests. Publication likely given focus on advancing research agenda and innovating techniques. Salary range of $245k - $450k exceeds reasonable target compensation level. Unlimited PTO indicates good work/life balance, though startup environment may involve long hours. Ensuring beneficial AI has tremendous positive impact. Strong mission alignment. Cross-functional collaboration mentioned, though limited detail on culture. Startup environment provides growth opportunities, but trajectory unclear.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 245k - 450k",
-        "location": "San Francisco, USA"
+        "uuid": 27,
+        "company": "Stockholm International Peace Research Institute",
+        "title": "Researcher, Governance of Artificial Intelligence",
+        "fit_applicant": 75,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge: 10\nThe role involves research and analysis on AI governance which provides intellectual stimulation, however not directly in AI development. Still an emerging policy area providing complexity.\n\nFlexible/remote work arrangements: 5  \nLocation is Solna, Sweden, so likely requires relocation from current location. Some travel mentioned. Unclear on remote work flexibility.\n\nAutonomy and independence: 10\nDevelop and conduct research activities independently and collaboratively indicates a high degree of autonomy.\n\nAlignment with interests: 10 \nFocus on AI governance, international security, and policy aligns directly with interests.\n\nOpportunities to publish research: 10\nStrong emphasis on developing expertise, conducting research, and publishing findings.\n\nCompensation level: 5\nSalary not provided, expected to be reasonable for academic research role but likely below industry compensation.\n\nWork/life balance: 5\nSome travel required, unclear on remote flexibility, full-time role indicates standard hours.\n\nImpact and meaning: 10\nDirectly aimed at informing AI governance for peace and security, high societal impact.\n\nCollaborative team environment: 5\nMix of independent and collaborative work, positive culture referenced.\n\nCareer advancement prospects: 5\n2 year contract with possible extension provides some initial security. Unclear long-term trajectory.\n\nFinal fit: 75",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 7/10 - Has experience with generative AI and prompt engineering through academic projects and publications, but no direct industrial experience cited (CV). Educational Qualifications: 5/5 \u2013 Has a relevant master\u2019s degree in computer science/engineering (CV). Cultural Fit: 7/7.5 \u2013 Academic and entrepreneurial background suggests good fit for innovative, fast-paced environment (CV). Communication Skills: 6/7.5 \u2013 Can communicate technical details in writing, evidenced by publications, but verbal skills not demonstrated (CV). Problem-Solving Ability: 4/5 \u2013Shows analytical skills through academic projects and publications, but no industrial problems cited (CV). Adaptability: 4/5 \u2013 Academic and consulting work suggests adaptability, but no evidence in industrial settings (CV). Initiative and Motivation: 4/5 \u2013 Founded a company and pursued research, showing initiative, but no evidence in research roles (CV). Teamwork: 3/2.5 \u2013 Some collaboration shown in academic projects (CV). Leadership Potential: 2/2.5 \u2013 No clear evidence, but could likely develop over time. Total: 41/50. The candidate has relevant technical skills but lacks direct industrial experience. Cultural fit and potential are decent. More proven applied experience would strengthen candidacy, so would recommend an interview to further assess motivation and fit.",
+        "date_added": "July 15, 2023",
+        "salary_range": "Not provided",
+        "location": "Solna, Sweden",
+        "fit_total": 116
     },
     {
-        "company": "Anthropic",
-        "title": "Research Scientist",
-        "fit": 92,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 20 because the role focuses on mechanistic interpretability of AI/ML models, directly in my field of interest.\n\nFlexible/remote work arrangements (Weight: 15/100) \nGrade: 10 because the role is hybrid with 25% required time in the office.\n\nAutonomy and independence (Weight: 15/100)\nGrade: 15 because the role involves independently designing and running experiments to understand neural network behavior.\n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 10 because Anthropic is an AI startup focused on beneficial AI research.\n\nOpportunities to publish research (Weight: 5/100) \nGrade: 5 because publishing research is a key responsibility. \n\nCompensation level (Weight: 10/100)\nGrade: 10 because the salary range of $250k - $520k exceeds my benchmark.\n\nWork/life balance (Weight: 10/100)\nGrade: 8 because the role offers unlimited PTO and parental leave, though 25% office time limits full flexibility.\n\nImpact and meaning (Weight: 5/100)  \nGrade: 5 because the research contributes to safe and beneficial AI systems.\n\nCollaborative team environment (Weight: 5/100)\nGrade: 5 because the role involves close collaboration with cross-functional teams. \n\nCareer advancement prospects (Weight: 5/100)\nGrade: 4 because advancement opportunities are not explicitly mentioned.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 250k - 520k",
-        "location": "San Francisco, USA"
+        "uuid": 18,
+        "company": "EWP Recycling",
+        "title": "Leitung Operations",
+        "fit_applicant": 48,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 3 because operations role provides some challenge but not in AI field. Flexible/remote work arrangements 5 because flexible hours mentioned but unclear on remote work. Autonomy and independence 10 because leading operations indicates high autonomy. Alignment with interests 2 because operations not aligned with tech/startup interests. Opportunities to publish research 0 as operations role. Compensation level 5 because 75k EUR reasonable but below 100k target. Work/life balance 5 due to flexible hours. Impact and meaning 10 because building recycling infrastructure has sustainability impact. Collaborative team environment 3 because leading operations team. Career advancement prospects 5 as fast growth possible in startup.",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 7/10 - Founded and scaled a food tech startup from 0 to 7-digit revenue across 31 countries, demonstrating strong operational skills (CV: Founder Saturo Foods). Has C-level consulting experience focused on strategy, planning, optimization, and training (CV: Novritsch Trading). However, lacks direct experience in recycling operations or supply chain management (CV: No evidence). Educational Qualifications: 3/5 - Has a relevant engineering degree but at the diploma vs master's level (CV: Diploma Industrial Engineering). Cultural Fit: 5/7.5 - Startup and consulting background suggests comfort with a dynamic, high growth environment (CV: Saturo, Novritsch). Shows flexibility and drive (CV: Special Forces training). However, limited evidence of sustainability focus. Communication Skills: 6/7.5 - Fluent in English and German with some French (CV: Languages). No direct evidence of verbal communication skills. Problem-Solving Ability: 5/5 - Strong analytical skills and statistical competence evidenced by academic projects (CV: Publications) and startup growth. However, limited case examples of solving industrial problems. Adaptability: 4/5 - Has worked across different environments which shows adaptability (CV: Saturo, Novritsch, Military). More examples in supply chain contexts would help. Initiative and Motivation: 5/5 - Exhibits strong self-drive founding a startup and pursuing diverse experiences (CV: Saturo, Publications, Exchanges). Teamwork: 3/2.5 - Some evidence of team collaboration through projects (CV: Publications) but limited emphasis on team capabilities. Leadership Potential: 3/2.5 - Demonstrates leadership founding and leading a startup (CV: Saturo CEO). But limited examples in a large corporate context. Total: 41/50 In summary, the candidate shows strong general business skills and drive but lacks direct supply chain operations experience. Cultural fit seems reasonable but more examples of leading large teams and sustainability focus would be beneficial. I would recommend an interview to further assess hands-on capabilities and motivation for the recycling industry.",
+        "date_added": "July 8, 2023",
+        "salary_range": "EUR 75k",
+        "location": "Vienna, Austria",
+        "fit_total": 89
     },
     {
-        "company": "OpenAI",
-        "title": "Research Manager",
-        "fit": 90,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 15 The role involves leading research to align superintelligent AI systems, which provides significant intellectual challenge in the AI space. However, some projects like anomaly detection may not be core AI research. Flexible/remote work arrangements (Weight: 15/100) Grade: 10 The role is based in San Francisco so likely not fully remote, but some flexibility may be possible. Autonomy and independence (Weight: 15/100) Grade: 12 Leading a research team indicates a high degree of autonomy, but need to collaborate on strategy and planning reduces full independence. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 10 OpenAI is a leading AI startup focused on safely advancing AI, well aligned with interests. Opportunities to publish research (Weight: 5/100) Grade: 5 Publishing research is a key part of OpenAI's mission. Compensation level (Weight: 10/100) Grade: 10 Salary range of $420k-500k exceeds reasonable compensation expectations. Work/life balance (Weight: 10/100) Grade: 8 Unlimited PTO and remote flexibility indicates good work/life balance, but based in an office. Impact and meaning (Weight: 5/100) Grade: 5 Aligning AI systems for benefit of humanity provides great meaning and impact. Collaborative team environment (Weight: 5/100) Grade: 5 Team collaboration is required in the role. Career advancement prospects (Weight: 5/100) Grade: 5 Leading a new team provides growth opportunities at a top AI lab. Final Fit Score: 90",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 420k - 500k",
-        "location": "San Francisco, USA"
-    },
-    {
-        "company": "Cooperative AI",
-        "title": "Managing Director",
-        "fit": 89,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100) Grade: 15 The role involves strategically growing an organization focused on an intellectually stimulating mission of improving cooperative AI. This aligns directly with interests in AI safety and technical progress. However, the role is more managerial than technical. Flexible/remote work arrangements (Weight: 15/100) Grade: 15 Fully remote role with a flexible schedule provides maximum flexibility. Autonomy and independence (Weight: 15/100) Grade: 10 Has autonomy to lead the organization's strategy and operations but oversight from a board of trustees. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 10 Directly aligned given nonprofit startup focused on ensuring beneficial AI progress. Opportunities to publish research (Weight: 5/100) Grade: 1 Primarily an operational rather than research role. Compensation level (Weight: 10/100) Grade: 8 Salary range of 80k-100k GBP is quite good for Europe and acceptable given nonprofit context. Work/life balance (Weight: 10/100) Grade: 10 Fully remote with flexible hours provides excellent work/life balance. Impact and meaning (Weight: 5/100) Grade: 5 Directly aligned with goal of maximizing beneficial impact of AI. Collaborative team environment (Weight: 5/100) Grade: 3 Some collaboration implied through staff management but culture unclear. Career advancement prospects (Weight: 5/100) Grade: 2 Progression likely limited within a small nonprofit. Final Grade: 89",
-        "dateAdded": "July 30, 2023",
-        "salaryRange": "GBP 80k - 100k",
-        "location": "Remote"
-    },
-    {
-        "company": "European Commission",
-        "title": "Scientific Project Officer",
-        "fit": 89,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 20 \nReasons: This role focuses directly on trustworthy AI research which aligns very well with interests in AI. The research topics of transparency, fairness, accountability, and human oversight provide intellectual stimulation and challenge.\n\nFlexible/remote work arrangements (Weight: 15/100)  \nGrade: 10\nReasons: The role offers a family-friendly environment and occasional travel, suggesting some flexibility, but unclear on full remote work potential. Ispra or Seville location required. \n\nAutonomy and independence (Weight: 15/100)\nGrade: 15 \nReasons: The role involves establishing an independent research roadmap which indicates a high degree of autonomy. As a scientific researcher, significant independence is expected.\n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 10\nReasons: Direct alignment with interests in AI technology research. The role contributes to cutting edge algorithmic transparency research.\n\nOpportunities to publish research (Weight: 5/100)\nGrade: 5  \nReasons: Publishing scientific research is a key aspect of the role.\n\nCompensation level (Weight: 10/100) \nGrade: 8\nReasons: The salary range of 3877k - 5616k Euros is quite good, meeting the minimum expectations. However, it is below benchmark of 100k Euros for Europe.  \n\nWork/life balance (Weight: 10/100)\nGrade: 8\nReasons: Family-friendly environment suggests good work/life balance. Some travel required but reasonable. Unclear on remote work potential.\n\nImpact and meaning (Weight: 5/100)\nGrade: 5\nReasons: The research has tremendous societal impact through improving trust in AI. Directly supports EU policies.\n\nCollaborative team environment (Weight: 5/100) \nGrade: 5\nReasons: Close collaboration with other JRC researchers is a key aspect of the role. Interdisciplinary teamwork is required.\n\nCareer advancement prospects (Weight: 5/100)\nGrade: 3 \nReasons: Government research role may have limited advancement prospects. However, renewable contract suggests some potential growth.\n\nFinal fit score: 89",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 3877k - 5616k",
-        "location": "Seville, Spain or Ispra, Italy"
-    },
-    {
-        "company": "Partnership on AI",
-        "title": "Chief Programs Officer",
-        "fit": 87,
-        "fit_detailed": "Intellectual stimulation and challenge 20 because role involves shaping strategy for AI programs that address complex sociotechnical issues, requiring deep AI expertise. Flexible/remote work arrangements 15 because fully remote role based in US or Canada. Autonomy and independence 10 because broad strategic leadership role with oversight of programs team. Alignment with interests 10 because nonprofit focused on responsible AI. Opportunities to publish research 3 because some research collaboration but primary role is programs strategy/management. Compensation level 7 because salary range of $175-255k is reasonable but below ideal benchmark. Work/life balance 10 because fully remote flexible role. Impact and meaning 5 because role enables impact via AI programs for social good. Collaborative team environment 5 because must build cohesion across large programs team. Career advancement prospects 2 because growth opportunities within mature nonprofit may be limited.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 175k - 255k",
-        "location": "San Francisco, USA"
-    },
-    {
-        "company": "Ought",
-        "title": "Product Manager",
-        "fit": 87,
-        "fit_detailed": "Intellectual stimulation and challenge 20 because role involves building innovative AI products and pushing boundaries of language models. Flexible/remote work arrangements 15 because fully remote role. Autonomy and independence 10 because product managers typically have high autonomy, setting roadmap and priorities. Alignment with interests 10 because AI startup focused on reasoning assistance. Opportunities to publish research 5 because research publication not a focus but could partner with research team. Compensation level 7 because salary not listed but equity compensation likely competitive for startup PM roles. Work/life balance 8 because remote work enables flexibility. Impact and meaning 5 because products aim to help world reason better. Collaborative team environment 5 because will lead squads of designers and engineers. Career advancement prospects 2 because startup growth enables fast trajectory but specifics unclear.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "San Francisco, USA"
-    },
-    {
-        "company": "publicplan",
-        "title": "Consultant Business Intelligence",
-        "fit": 86,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because consulting role requires analyzing processes and developing solutions for public sector clients, which provides intellectual challenge. However, not specifically focused on AI. Flexible/remote work arrangements 15 because fully remote role with flexible working arrangements mentioned. Autonomy and independence 10 because some autonomy as a consultant role, but unclear on level of oversight from team lead. Alignment with interests in technology, startups, risk 5 because public sector focus, so lower alignment with startups and risk tolerance. But involves latest technology. Opportunities to publish research 2 because no research publishing mentioned for this commercial consulting role. Compensation level 8 because salary range of 60k-80k EUR is good but below the 100k benchmark target. Work/life balance 10 because fully remote, flexible hours supports strong work/life balance. Impact and meaning 5 because consulting work for public sector has societal impact. Collaborative team environment 3 because some collaboration with team lead and analysts, but limited detail on culture. Career advancement prospects 3 because progression path not clearly described.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 60k - 80k",
-        "location": "Remote"
-    },
-    {
-        "company": "CIGI",
-        "title": "Program Manager",
-        "fit": 85,
-        "fit_detailed": "Intellectual stimulation and challenge: Grade 15/20 - Work on global AI risks initiative provides intellectual stimulation, though not directly in AI - Innovative thinking and advice needed on objectives and activities - Ongoing research and analysis on evolving AI risks required Flexible/remote work arrangements: Grade 10/15 - Flexible work location with hybrid remote/on-site options - Some travel to Waterloo or Ottawa may be required Autonomy and independence: Grade 10/15 - Provide thought leadership and innovative thinking indicates autonomy - But reports to Executive Director and represents them externally Alignment with interests: Grade 10/10 - AI governance and risks aligns with interests in technology and startups Opportunities to publish research: Grade 3/5 - Preparing research publications mentioned but not a core focus - More policy and engagement oriented Compensation level: Grade 7/10 - Salary not provided, expected competitive for role and location - Estimated around 90-100k CAD given nonprofit sector Work/life balance: Grade 8/10 - Flexible and remote options help balance - But some travel required Impact and meaning: Grade 5/5 - Initiatives to mitigate global AI risks have big impact Collaborative team environment: Grade 4/5 - Cross-functional collaboration mentioned - Provides coaching to colleagues Career advancement prospects: Grade 3/5 - 1 year contract, extension possible - But nonprofit may limit long-term prospects Total Fit Score: 85/100",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "Not provided",
-        "location": "Waterloo, Canada"
-    },
-    {
-        "company": "gt school",
-        "title": "AI Prompt Engineer",
-        "fit": 85,
-        "fit_detailed": "Intellectual stimulation and challenge 20 because designing and refining AI prompts for education is intellectually stimulating and directly in the AI field. Flexible/remote work arrangements 15 because fully US remote role with flexible hours. Autonomy and independence 10 because collaborating with team but independently iterating on prompts indicates autonomy. Alignment with interests 10 because EdTech startup focused on AI. Opportunities to publish research 0 because no mention of publishing prompts or research. Compensation level 10 because $100k salary is competitive for US remote role. Work/life balance 10 because fully remote with flexible hours. Impact and meaning 5 because educational impact but commercial focus. Collaborative team environment 3 because collaborating with academic team. Career advancement prospects 2 because startup may enable growth but path unclear.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "USD 100k",
-        "location": "United States"
-    },
-    {
+        "uuid": 22,
         "company": "ISG Personalmanagement",
         "title": "Projektleiter",
-        "fit": 84,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 10 Reason: Developing business strategies and leading complex consulting projects provides intellectual challenge, however not specifically in AI. Flexible/remote work arrangements (Weight: 15/100) Grade: 15 Reason: Flexible working hours and uncomplicated home office arrangements mentioned. Autonomy and independence (Weight: 15/100) Grade: 12 Reason: Eigeninitiative and self-sufficiency desired, and flat hierarchy provides autonomy, however still oversight from management. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 5 Reason: Consulting projects relate to innovation and digitalization but no specific mention of technology startups or risk tolerance. Opportunities to publish research (Weight: 5/100) Grade: 1 Reason: Commercial consulting role focused on business strategy rather than academic research. Compensation level (Weight: 10/100) Grade: 8 Reason: Salary of 100k EUR is decent but below benchmark expectation. Work/life balance (Weight: 10/100) Grade: 10 Reason: Flexible working hours and home office arrangements promote work-life balance. Impact and meaning (Weight: 5/100) Grade: 3 Reason: Consulting work can enable positive impact but depends on specific projects. Collaborative team environment (Weight: 5/100) Grade: 5 Reason: Young, flat team structure indicates collaborative environment. Career advancement prospects (Weight: 5/100) Grade: 5 Reason: Consulting experience provides good career development but specific advancement path unclear.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "EUR 100k",
-        "location": "Wien, Austria"
+        "fit_applicant": 34,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 10 because developing business models and leading projects provides intellectual challenge, though not specifically in AI. Flexible/remote work arrangements 5 because flexible hours and home office mentioned but details unclear. Autonomy and independence 10 because leading projects independently and driving change indicates autonomy. Alignment with interests 5 because consulting projects cover various sectors, including startups and innovation. Opportunities to publish research 0 because no mention of publishing. Compensation level 4 because EUR 100k salary is acceptable but below benchmark. Work/life balance 5 because flexible hours and home office enables balance but consulting can have high demands. Impact and meaning 5 because projects enable business impact but depends on client work. Collaborative team environment 5 because young team mentioned but culture unclear. Career advancement prospects 5 because consulting enables growth but trajectory uncertain.",
+        "fit_recruiter": 47,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 10/10 - Founded and led high-growth startup from 0 to 7-digit revenue across 31 countries (CV). Provided C-level consulting at Novritsch, focusing on strategy, planning, optimization, and training (CV). Educational Qualifications: 5/5 - Completed relevant diploma program in industrial engineering at TU Darmstadt with top 10% grade (CV). Cultural Fit: 7/7.5 - Entrepreneurial experience starting two companies indicates comfort with innovative culture (CV). Management consulting work suggests ability to adapt to different clients. Communication Skills: 6/7.5 - Published academic papers demonstrate written communication abilities (CV). No direct evidence of verbal skills. Problem-Solving Ability: 7/5 - Led complex strategy and optimization projects, evidenced by top consulting role (CV). Industrial engineering studies also relevant.  Adaptability: 7/5 - Varied background across startups, consulting, military, and research shows high adaptability (CV). Initiative and Motivation: 10/5 - Clearly demonstrated through founding a startup and leading it to high growth (CV). Also shown in consulting and research.  Teamwork: 5/2.5 - Some team collaboration evidenced through research and cross-functional consulting (CV). More emphasis would be better. Leadership Potential: 5/2.5 - Strongly demonstrated in startup CEO role (CV). More details could be provided. Total: 47/50 In summary, the candidate has excellent relevant skills and experience as an entrepreneur and consultant. Cultural fit seems strong and the candidate demonstrates initiative, motivation, and leadership potential. Communication and teamwork skills could be elaborated on further, but overall the candidate is a very strong match for the Projektleiter role.",
+        "date_added": "July 15, 2023",
+        "salary_range": "EUR 100k",
+        "location": "Wien, Austria",
+        "fit_total": 81
     },
     {
-        "company": "GiveWell",
-        "title": "Senior Researcher",
-        "fit": 84,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 15 The role involves intellectually stimulating work researching and evaluating global health interventions. However, the focus is not on AI. Flexible/remote work arrangements (Weight: 15/100) Grade: 15 The role is fully remote with a flexible schedule. Autonomy and independence (Weight: 15/100) Grade: 10 The role involves independent research and analysis as a Senior Researcher. However, recommendations must align with GiveWell's criteria. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 5 GiveWell is a non-profit organization focused on global health, not a technology startup. The role does not seem to involve much risk-taking. Opportunities to publish research (Weight: 5/100) Grade: 3 Research is made public but focused on practical recommendations rather than academic publication. Compensation level (Weight: 10/100) Grade: 8 The salary range of $193k-209k is competitive but below the benchmark of $200k+. Work/life balance (Weight: 10/100) Grade: 10 The role is fully remote with a flexible schedule supporting work/life balance. Impact and meaning (Weight: 5/100) Grade: 5 The role has high impact by guiding funding allocation for global health interventions. Collaborative team environment (Weight: 5/100) Grade: 5 The role involves collaborating with a small research team. Career advancement prospects (Weight: 5/100) Grade: 3 Advancement prospects are unclear.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 193k - 209k",
-        "location": "Remote"
+        "uuid": 23,
+        "company": "European Commission",
+        "title": "Scientific Project Officer",
+        "fit_applicant": 38,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge: 15/20\nThe role involves research at the cutting edge of trustworthy AI, which provides intellectual stimulation. However, it is focused on policy support rather than core AI research.\n\nFlexible/remote work arrangements: 10/15 \nThe role offers a family-friendly environment with some online collaboration, though occasional travel is required. Exact flexibility unclear.\n\nAutonomy and independence: 10/15\nThe job involves independent research but also contributing to team projects, policy support, and stakeholder engagement. Indicates moderate autonomy.\n\nAlignment with interests: 7/10\nThe focus on trustworthy AI, transparency, and societal impact aligns with interests. However, policy support is a key aspect rather than pure research.  \n\nOpportunities to publish research: 3/5\nResearch is a component but policy support is the priority. Unclear if publishing is encouraged.\n\nCompensation level: 5/10\nThe salary range of 56k-62k Euros is reasonable but below the benchmark expectation.\n\nWork/life balance: 8/10\nThe environment is described as family-friendly and travel is occasional, suggesting good work/life balance.\n\nImpact and meaning: 5/5\nContributing to trustworthy AI policies and methodologies has tremendous societal impact.\n\nCollaborative team environment: 4/5\nInvolves collaboration within an interdisciplinary team and external partners.\n\nCareer advancement prospects: 3/5\nSome potential for career growth in a large organization but trajectory is unclear. \n\nFinal fit score: 38",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 10/10 - Strong technical skills in AI/ML evidenced by publications, projects and founding a company (Saturo). Industrial experience leading a company in product development and growth. (Saturo CEO) Educational Qualifications: 5/5 - Relevant master's degree in industrial engineering. (Diploma TU Darmstadt) Cultural Fit: 6/7.5 - Experience in fast-paced environments. Interest in human enhancement fits innovative culture. (Biohacking interest) Communication Skills: 7.5/7.5 - Fluent in English and German. Published academic papers. (ECIS publication) Problem-Solving Ability: 4/5 - Evidenced by leading a startup. More details on specific problems solved would help. (Saturo CEO) Adaptability: 4/5 - Varied background suggests adaptability. More evidence in research settings needed. Initiative and Motivation: 5/5 - Founded a company and grew it. Clearly exhibits drive. (Saturo CEO) Teamwork: 2.5/2.5 - Some team collaboration shown. More emphasis would be beneficial. (ECIS publication) Leadership Potential: 2/2.5 - Startup leadership but limited other evidence. Could likely develop over time. Total: 41/50 In summary, very strong technical skills and startup experience. Good cultural fit and drive. More traditional research experience would be beneficial but overall a strong candidate.",
+        "date_added": "July 15, 2023",
+        "salary_range": "EUR 56k - 62k",
+        "location": "Seville, Spain or Ispra, Italy",
+        "fit_total": 79
     },
     {
-        "company": "Mistral AI",
-        "title": "AI Researcher",
-        "fit": 83,
-        "fit_detailed": "Intellectual stimulation and challenge 20 because developing generative AI models is highly intellectually stimulating and directly in the AI field. Flexible/remote work arrangements 10 because operating from Europe suggests some remote flexibility but unclear if fully remote. Autonomy and independence 10 because research role likely has autonomy but may depend on management oversight. Alignment with interests 10 because AI startup focused on developing best generative models. Opportunities to publish research 5 because research role enables publishing. Compensation level 7 because 80k-100k Euro is decent but below ideal benchmark. Work/life balance 8 because startup may require long hours but remote flexibility helps. Impact and meaning 5 because advancing AI capabilities has big impact. Collaborative team environment 3 because assembling world-class team indicates collaboration valued but culture unclear. Career advancement prospects 5 because startup growth enables fast advancement but trajectory depends on performance.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 80k - 100k",
-        "location": "Paris, France"
-    },
-    {
-        "company": "Helloprint",
-        "title": "Prompt Engineering Intern",
-        "fit": 83,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because working on optimizing AI solutions and comparing different LLMs provides intellectual stimulation, though not specifically in AI research. Still an innovative application of generative AI. Flexible/remote work arrangements 10 because onsite internship role reduces flexibility. Autonomy and independence 12 because will work closely with team but have freedom to trial strategies independently. Alignment with interests in technology, startups, risk 10 because startup using innovative AI technology aligns with interests. Opportunities to publish research 1 because commercial focus means limited research publication opportunities. Compensation level 5 because EUR 12k internship fee likely market rate but low for cost of living in Spain. Work/life balance 7 because standard work hours and onsite role limits flexibility. Impact and meaning 3 because improving customer experience with AI has moderate impact. Collaborative team environment 5 because will work closely with development team. Culture seems collaborative. Career advancement prospects 5 because startup environment enables potential for fast career growth.",
-        "dateAdded": "June 14, 2023",
-        "salaryRange": "EUR 12k",
-        "location": "Valencia, Spain"
-    },
-    {
-        "company": "GovAI",
-        "title": "Research Fellow",
-        "fit": 83,
-        "fit_detailed": "Intellectual stimulation and challenge 20 because research freedom in AI governance provides significant intellectual challenge and GovAI works on important problems. Flexible/remote work arrangements 10 because remote work possible but preference for Oxford office. Autonomy and independence 15 because self-directed research agenda and freedom emphasized. Alignment with interests 10 because GovAI mission aligns with interests in AI governance and social impact. Opportunities to publish research 5 because research publication encouraged. Compensation level 7 because 60k-80k GBP reasonable but below ideal 100k Euro benchmark. Work/life balance 8 because 25 vacation days and focus on wellbeing. Impact and meaning 5 because AI governance research has meaningful impact. Collaborative team environment 3 because some collaboration opportunities but independent research emphasized. Career advancement prospects 0 because 2 year fixed term contract with unclear trajectory.",
-        "dateAdded": "July 12, 2023",
-        "salaryRange": "GBP 60k - 80k",
-        "location": "Oxford, UK"
-    },
-    {
-        "company": "Cognosys AI",
-        "title": "Founding Engineer",
-        "fit": 83,
-        "fit_detailed": "Intellectual stimulation and challenge 20 because building an AI assistant provides cutting-edge challenges in natural language processing and requires creativity. Flexible/remote work arrangements 15 because the role is fully remote in North America. Autonomy and independence 10 because as a founding engineer you can shape the product and culture. Alignment with interests 10 because startup focused on leveraging AI to boost productivity. Opportunities to publish research 0 because commercial product focus means limited research publishing. Compensation level 7 because salary not provided but equity offered, can't match big tech firms. Work/life balance 8 because remote work supports balance but startup may require long hours. Impact and meaning 8 because goal of improving lives through productivity has meaning. Collaborative team environment 3 because small founding team may limit collaboration early on. Career advancement prospects 2 because startup offers fast growth but trajectory and path unclear.",
-        "dateAdded": "July 17, 2023",
-        "salaryRange": "Not provided",
-        "location": "Remote, North America"
-    },
-    {
-        "company": "Anthropic",
-        "title": "Business Operations",
-        "fit": 82,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because working at innovative AI startup provides intellectual challenge, though not directly in AI research. Flexible/remote work arrangements 10 because hybrid policy with 25% office time provides some flexibility. Autonomy and independence 10 because operating in fast-paced environment indicates autonomy. Alignment with interests 15 because AI startup focused on safety aligns with interests. Opportunities to publish research 0 because business operations role. Compensation level 8 because USD 200-330k is decent but below benchmark. Work/life balance 10 because unlimited PTO policy. Impact and meaning 5 because commercial role enables impact of AI systems. Collaborative team environment 5 because cross-functional collaboration mentioned. Career advancement prospects 4 because startup may provide fast growth but unclear trajectory.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "USD 200k - 330k",
-        "location": "San Francisco, USA"
-    },
-    {
+        "uuid": 20,
         "company": "Inside.com",
         "title": "AI Developer",
-        "fit": 82,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 15 Developing AI solutions like chatbots using state-of-the-art language models provides intellectual stimulation. However, newsletter curation is not core AI research. Flexible/remote work arrangements (Weight: 15/100)  Grade: 15 Fully remote role provides maximum flexibility. Autonomy and independence (Weight: 15/100) Grade: 10   Some autonomy expected as an experienced developer, but unclear how much independence versus oversight by data scientists and product team. Alignment with interests in technology, startups, risk (Weight: 10/100)   Grade: 7 AI and NLP technology aligns with interests, but Inside.com is a relatively established startup rather than an early stage high risk opportunity. Opportunities to publish research (Weight: 5/100) Grade: 2 Implementation focused commercial role less likely to enable publishing research. Compensation level (Weight: 10/100) Grade: 10 $125k salary exceeds minimum expectations. Work/life balance (Weight: 10/100) Grade: 10  Fully remote role enables good work/life balance. Impact and meaning (Weight: 5/100)   Grade: 3 AI to enhance news curation provides some impact through information dissemination. Collaborative team environment (Weight: 5/100) Grade: 3 Some collaboration with data scientists and developers, but culture unclear. Career advancement prospects (Weight: 5/100) Grade: 2 Limited details provided on potential career growth trajectory. Final Overall Fit Score: 82",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "USD 125k",
-        "location": "Remote"
+        "fit_applicant": 38,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 15 because developing AI solutions like chatbots provides intellectual challenge directly in AI area. Flexible/remote work arrangements 15 because fully remote role with flexible hours. Autonomy and independence 10 because collaborating with others but unclear on level of independence. Alignment with interests 10 because AI and tech focus aligns with interests. Opportunities to publish research 1 because no mention of publishing research. Compensation level 5 because $125k USD is decent but below benchmark. Work/life balance 10 because fully remote supports balance. Impact and meaning 5 because AI to enhance news curation has moderate impact. Collaborative team environment 5 because collaborating with data scientists and developers. Career advancement prospects 2 because startup may enable fast growth but path unclear.",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 10/10 - Strong NLP and ML skills, experience with ChatGPT and other language models (CV: competence center, publications). Educational Qualifications: 5/5 - Relevant master's degree in computer science (CV: diploma program). Cultural Fit: 6/7.5 - Entrepreneurial experience suggests good fit for innovative culture (CV: founder of startup). Communication Skills: 7.5/7.5 - Fluent in English and German, published academic papers (CV: languages, publications). Problem-Solving Ability: 5/5 - Evidenced by academic projects and publications (CV: publications). Adaptability: 4/5 - Some evidence through varied experience (CV: work experience). Initiative and Motivation: 4/5 - Founded a company, but more evidence in AI research role needed (CV: founder of startup). Teamwork: 2/2.5 - Some collaboration shown in projects (CV: competence center). Leadership Potential: 2/2.5 - Limited evidence but potential is there (CV: founder of startup). Total: 41/50",
+        "date_added": "July 14, 2023",
+        "salary_range": "USD 125k",
+        "location": "Remote",
+        "fit_total": 79
     },
     {
-        "company": "BRZ",
-        "title": "Solution Architect",
-        "fit": 82,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because innovative predictive analytics provides some intellectual stimulation, however not focused on AI. Some challenge in designing interfaces and optimizing architectures. Flexible/remote work arrangements 10 because flexible working hours mentioned but unclear on remote work policy. Autonomy and independence 12 because architect role and optimizing solutions indicates autonomy, leading development provides some independence. Alignment with interests 7 because public sector focus less aligned with startups and risk taking. Opportunities to publish research 3 because more focused on operational development than publishing research. Compensation level 6 because salary range provided at EUR 73-74k, which is reasonable but below benchmark expectations. Work/life balance 8 because flexible hours helps work/life balance but unclear on remote work policy. Impact and meaning 4 because developing public sector services has societal impact. Collaborative team environment 4 because cross-functional collaboration mentioned but limited detail on culture. Career advancement prospects 3 because public sector may limit fast career growth.",
-        "dateAdded": "July 9, 2023",
-        "salaryRange": "EUR 73k - 74k",
-        "location": "Wien, Austria"
+        "uuid": 25,
+        "company": "gt.school",
+        "title": "AI Prompt Engineer",
+        "fit_applicant": 35,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 15 because role focuses on iterating AI prompts for education which provides intellectual challenge, though not specifically in AI research. Flexible/remote work arrangements 10 because full-time remote role based in US with flexible hours. Autonomy and independence 10 because collaborates with team but independently evaluates and improves AI models. Alignment with interests 10 because role combines interests in AI and education. Opportunities to publish research 0 because no mention of publishing research. Compensation level 5 because $100k salary is decent but below European benchmark. Work/life balance 10 because full-time remote with flexible hours. Impact and meaning 10 because improving education through AI has meaningful impact. Collaborative team environment 5 because collaborates closely with academic team. Career advancement prospects 5 because coaching from executives provides growth opportunities.",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 7/10 - Has experience with generative AI and prompt engineering through academic projects and publications, but no direct industrial experience cited (CV). Educational Qualifications: 5/5 \u2013 Has a relevant master\u2019s degree in computer science/engineering (CV). Cultural Fit: 7/7.5 \u2013 Academic and entrepreneurial background suggests good fit for innovative, fast-paced environment (CV). Communication Skills: 6/7.5 \u2013 Can communicate technical details in writing, evidenced by publications, but verbal skills not demonstrated (CV). Problem-Solving Ability: 4/5 \u2013Shows analytical skills through academic projects and publications, but no industrial problems cited (CV). Adaptability: 4/5 \u2013 Academic and consulting work suggests adaptability, but no evidence in industrial settings (CV). Initiative and Motivation: 4/5 \u2013 Founded a company and pursued research, showing initiative, but no evidence in research roles (CV). Teamwork: 3/2.5 \u2013 Some collaboration shown in academic projects (CV). Leadership Potential: 2/2.5 \u2013 No clear evidence, but could likely develop over time. Total: 41/50. The candidate has relevant technical skills but lacks direct industrial experience. Cultural fit and potential are decent. More proven applied experience would strengthen candidacy, so would recommend an interview to further assess motivation and fit.",
+        "date_added": "July 14, 2023",
+        "salary_range": "USD 100k",
+        "location": "United States",
+        "fit_total": 76
     },
     {
-        "company": "GovAI",
-        "title": "Research Scholar",
-        "fit": 82,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 15. The role involves research in AI governance, which provides intellectual stimulation. However, it is not directly technical AI research. Flexible/remote work arrangements (Weight: 15/100) Grade: 5. The role requires being primarily based in the Oxford office, with some flexibility for exceptional remote candidates. Autonomy and independence (Weight: 15/100) Grade: 10. Significant research freedom is mentioned, though with some supervision. Indicates reasonable autonomy. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 10. GovAI's mission aligns with interests in positively influencing AI. Opportunities to publish research (Weight: 5/100) Grade: 5. Publishing research is a key part of the role. Compensation level (Weight: 10/100) Grade: 8. The \u00a350-60k salary range is quite good for Europe, though a bit below the \u20ac100k benchmark. Work/life balance (Weight: 10/100) Grade: 8. 25 days vacation and wellbeing budget support work/life balance. Impact and meaning (Weight: 5/100) Grade: 5. Influencing AI for social good provides meaning. Collaborative team environment (Weight: 5/100) Grade: 3. Some collaboration opportunities but unclear culture. Career advancement prospects (Weight: 5/100) Grade: 3. Potential to advance to Research Fellow role. Final Grade: 82",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "GBP 50k - 60k",
-        "location": "Oxford, UK"
-    },
-    {
-        "company": "Future of Life Institute",
-        "title": "Various Positions",
-        "fit": 81,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 15\nReasons: Working on mitigating catastrophic risks from AI provides intellectual stimulation and aligns directly with interests in AI safety and governance. However, specific role responsibilities unclear.\n\nFlexible/remote work arrangements (Weight: 15/100) \nGrade: 15 \nReasons: Fully remote organization.\n\nAutonomy and independence (Weight: 15/100)\nGrade: 10\nReasons: Likely high autonomy and independence working in a distributed team, but depends on specific role. \n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 10\nReasons: Directly aligned with interests in AI governance, technology for social good, and mitigating existential risks. Nonprofit rather than startup.\n\nOpportunities to publish research (Weight: 5/100)\nGrade: 3 \nReasons: Research and publications not a primary focus based on description.\n\nCompensation level (Weight: 10/100)\nGrade: 5\nReasons: Salary range not provided. As a nonprofit, may not match benchmark compensation.\n\nWork/life balance (Weight: 10/100) \nGrade: 10\nReasons: Fully remote, flexible schedule.\n\nImpact and meaning (Weight: 5/100) \nGrade: 5\nReasons: Directly aligned with desire for positive societal impact.\n\nCollaborative team environment (Weight: 5/100)\nGrade: 5 \nReasons: Distributed team that meets annually suggests collaboration is valued.\n\nCareer advancement prospects (Weight: 5/100) \nGrade: 3\nReasons: Nonprofit may have flatter structure with fewer advancement opportunities.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Remote"
-    },
-    {
-        "company": "Mostly AI",
-        "title": "Developer in Test",
-        "fit": 81,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100) Grade: 15 Developing test automation frameworks and testing AI/ML systems provides intellectual stimulation, however this is a pure testing role so less direct involvement in cutting-edge R&D. Flexible/remote work arrangements (Weight: 15/100) Grade: 15 Fully remote role with ability to work from anywhere. Autonomy and independence (Weight: 15/100) Grade: 12 Some autonomy to define test plans and frameworks, but takes direction from engineers and product managers. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 10 AI startup focused on privacy-preserving synthetic data generation, directly aligned with interests. Opportunities to publish research (Weight: 5/100) Grade: 1 No research publication opportunities in a testing role. Compensation level (Weight: 10/100) Grade: 5 Salary not provided, expected to be competitive for role and location but specifics unknown. Work/life balance (Weight: 10/100) Grade: 10 Fully remote role provides flexibility. Additional vacation days and team activities indicate strong focus on work-life balance. Impact and meaning (Weight: 5/100) Grade: 5 Enabling responsible use of AI has positive impact. Collaborative team environment (Weight: 5/100) Grade: 5 Emphasis on working cross-functionally in a startup environment. Career advancement prospects (Weight: 5/100) Grade: 3 Startup may provide fast growth but advancement path for this specific role is unclear. Total Fit Score: 81",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Remote"
-    },
-    {
-        "company": "DeepOpinion",
-        "title": "Jr Entrepreneur",
-        "fit": 81,
-        "fit_detailed": "Intellectual stimulation and challenge: Grade 10/20. Working at an AI startup provides intellectual stimulation, however the role seems more focused on operations than core AI research and development. Flexible/remote work arrangements: Grade 15/15. Fully remote role. Autonomy and independence: Grade 12/15. Some autonomy implied by \"wear many hats\" and \"think like a founder\" but unclear how much independence vs oversight by leadership team.  Alignment with interests: Grade 10/10. AI and automation startup aligns with interests in technology and startups. Opportunities to publish research: Grade 1/5. Operations role unlikely to provide research publication opportunities.  Compensation level: Grade 5/10. Salary range not provided, startup equity may provide upside. Benchmark for Europe is 100k EUR. Work/life balance: Grade 8/10. Fully remote provides flexibility but \"fast-paced\" environment may limit balance. Impact and meaning: Grade 4/5. Automating work provides some meaning by improving efficiency. Collaborative team environment: Grade 4/5. Cross-functional collaboration mentioned but culture unclear. Career advancement prospects: Grade 2/5. Startup environment enables growth but path unclear for this operational role. Final fit grade: 81/100",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Remote"
-    },
-    {
-        "company": "Digital Factory Vorarlberg",
-        "title": "Research Engineer",
-        "fit": 80,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 20 Reasons: Role focuses on developing and applying latest AI/ML methods, directly in hfvienna's field of interest. Innovative industrial applications provide intellectual challenge. Flexible/remote work arrangements (Weight: 15/100) Grade: 10 Reasons: Location is specified as Dornbirn, no indication of remote options. Some flexibility may be possible but unclear. Autonomy and independence (Weight: 15/100) Grade: 10 Reasons: Some autonomy is implied through research tasks, but oversight by project leaders and collaboration with teams limits full independence. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 10 Reasons: Digital Factory Vorarlberg is an applied industrial research center focused on AI/ML and other emerging technologies, aligning with hfvienna's interests. Opportunities to publish research (Weight: 5/100) Grade: 5 Reasons: Research projects and possibility for PhD indicate opportunities to publish academic work. Compensation level (Weight: 10/100) Grade: 5 Reasons: Salary range not provided. Research role likely below market rate for industry but sufficient for cost of living in Austria. Work/life balance (Weight: 10/100) Grade: 7 Reasons: Standard full-time role, no indication of exceptional policies. Research centers may offer more flexibility than corporate jobs. Impact and meaning (Weight: 5/100) Grade: 5 Reasons: Developing industrial AI applications creates economic and operational impact. Societal meaning is limited. Collaborative team environment (Weight: 5/100) Grade: 5 Reasons: Interdisciplinary teams and industrial partners indicate a collaborative environment. Culture not specified. Career advancement prospects (Weight: 5/100) Grade: 3 Reasons: Research center may have limited hierarchy for progression. Academic route possible through PhD. Final fit score: 80",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Dornbirn, Austria"
-    },
-    {
-        "company": "epunkt GmbH",
-        "title": "Software Architekt",
-        "fit": 80,
-        "fit_detailed": "Intellectual stimulation and challenge: Grade 15/20\n- Innovative artificial intelligence systems provide intellectual stimulation\n- Research component enables staying on cutting edge of AI\n- However, core role seems more focused on software architecture than active AI research\n\nFlexible/remote work arrangements: Grade 15/15 \n- 60-70% home office and flexible working hours mentioned\n- Fully remote within DACH region\n\nAutonomy and independence: Grade 10/15\n- Architect role suggests some autonomy, but unclear on leadership oversight\n- Collaboration mentioned but independence not explicitly stated\n\nAlignment with interests: Grade 10/10\n- AI and machine learning align with interests in technology and innovation\n- Corporate innovation initiatives match interest in startups and risk taking\n\nOpportunities to publish research: Grade 3/5\n- Research component could enable publishing, but commercial focus reduces emphasis on publishing\n\nCompensation level: Grade 7/10\n- Salary range of 60k-84k Euros is quite good for Europe, but a bit below US big tech compensation  \n\nWork/life balance: Grade 12/10\n- Home office, flexible hours and no mention of travel enable great work/life balance\n\nImpact and meaning: Grade 3/5\n- Innovative AI solutions can enable impact, but commercial focus reduces societal impact\n\nCollaborative team environment: Grade 3/5 \n- Large team suggests collaboration, but culture and environment details lacking\n\nCareer advancement prospects: Grade 2/5\n- Established corporate environment may limit fast growth opportunities",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 60k - 84k",
-        "location": "Wien, Austria"
-    },
-    {
-        "company": "OpenAI",
-        "title": "Head of Procurement",
-        "fit": 78,
-        "fit_detailed": "Intellectual stimulation and challenge 5 because this procurement role does not directly provide intellectual stimulation in AI. Flexible/remote work arrangements 10 because the role is hybrid with 3 days per week in office. Autonomy and independence 10 because as head of function, the role has autonomy and independence. Alignment with interests 10 because OpenAI is an AI startup aligning with interests. Opportunities to publish research 0 because the role has no research component. Compensation level 8 because salary range of $230k-$285k is competitive and meets benchmark. Work/life balance 10 because of unlimited PTO and holidays. Impact and meaning 5 because supporting OpenAI mission provides meaning. Collaborative team environment 5 because works cross-functionally. Career advancement prospects 5 because head of function at growing startup.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "USD 230k - 285k",
-        "location": "San Francisco, USA"
-    },
-    {
-        "company": "BFI Austria",
-        "title": "CEO",
-        "fit": 78,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 10\nReasons: Leading education non-profit provides some intellectual stimulation, but not specifically in AI/tech. Involves strategy and policy but more on the education side.\n\nFlexible/remote work arrangements (Weight: 15/100)\nGrade: 15\nReasons: Role based in Vienna office so does not seem fully remote or flexible.\n\nAutonomy and independence (Weight: 15/100)\nGrade: 12\nReasons: As CEO, has independence in leading the organization's strategy and operations. But has oversight from board and works closely with co-CEO.\n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 5\nReasons: Non-profit education organization, not a tech startup. Seems lower risk tolerance needed.\n\nOpportunities to publish research (Weight: 5/100)\nGrade: 3 \nReasons: Some opportunity for thought leadership publications on education policy. But not core research focus.\n\nCompensation level (Weight: 10/100)\nGrade: 8\nReasons: Salary of 88k EUR is reasonable for non-profit CEO role, but below tech industry benchmarks.\n\nWork/life balance (Weight: 10/100)\nGrade: 8\nReasons: Full-time role based in Vienna office may limit flexibility, but reasonable work-life balance for senior executive still expected.\n\nImpact and meaning (Weight: 5/100)\nGrade: 5\nReasons: Education non-profit has meaningful impact on society.\n\nCollaborative team environment (Weight: 5/100)\nGrade: 4\nReasons: Will lead small team of 3, some collaboration implied but limited details on culture.\n\nCareer advancement prospects (Weight: 5/100)\nGrade: 3\nReasons: Leading established non-profit may have limited advancement prospects.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 88k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "epunkt GmbH",
-        "title": "C++/Python Software Developer",
-        "fit": 78,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 15\nReasons: Software development of power hardware-in-the-loop test applications provides intellectual stimulation, however not specifically in AI which is the preferred area. Work is complex but may lack cutting edge innovation of AI field.\n\nFlexible/remote work arrangements (Weight: 15/100) \nGrade: 10\nReasons: 60-70% remote work is offered which provides some flexibility but not fully remote. No other flexible arrangement details provided. \n\nAutonomy and independence (Weight: 15/100)\nGrade: 12 \nReasons: Maintenance and improvement of existing software indicates some autonomy, though new features guided by hardware engineers. Ownership over software optimization suggests independence.\n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 7\nReasons: Software and hardware for renewable energy technologies aligns with interests, however mature company not a startup. Work seems lower risk than startup.\n\nOpportunities to publish research (Weight: 5/100) \nGrade: 2\nReasons: No research publication opportunities indicated for this commercial software development role.\n\nCompensation level (Weight: 10/100)\nGrade: 8\nReasons: Salary range of 42k-60k Euros is reasonable for role and location, meeting acceptable level but not exceeding.\n\nWork/life balance (Weight: 10/100) \nGrade: 8\nReasons: 60-70% remote work provides work/life balance. No other details on hours or flexibility.\n\nImpact and meaning (Weight: 5/100)\nGrade: 5\nReasons: Renewable energy technology provides meaningful impact on climate change. Direct impact may be limited in software development capacity.\n\nCollaborative team environment (Weight: 5/100)\nGrade: 3\nReasons: Limited details provided on team environment and collaboration.\n\nCareer advancement prospects (Weight: 5/100)\nGrade: 3\nReasons: No details provided on career advancement opportunities within the company.",
-        "dateAdded": "July 10, 2023",
-        "salaryRange": "EUR 42k - 60k",
-        "location": "Klosterneuburg, Austria"
-    },
-    {
-        "company": "Founders Pledge",
-        "title": "Researcher",
-        "fit": 78,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 15\nReasons: Investigating high-impact giving opportunities provides intellectual challenge, however not specifically in AI which is the applicant's main interest. Still involves research skills which provide stimulation.\n\nFlexible/remote work arrangements (Weight: 15/100) \nGrade: 15 \nReasons: Fully remote role based in US, UK or Europe provides full flexibility.\n\nAutonomy and independence (Weight: 15/100)\nGrade: 10\nReasons: Some autonomy to conduct research, but as part of a team so likely some oversight on approach. Unclear how much independence in setting research agenda.  \n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 7 \nReasons: Alignment with effective altruism and high-impact technology entrepreneurs provides partial alignment with interests. But not a startup role itself.\n\nOpportunities to publish research (Weight: 5/100) \nGrade: 3\nReasons: Sharing research insights internally, but unclear if public academic research publishing is an option.\n\nCompensation level (Weight: 10/100)\nGrade: 5 \nReasons: Salary range not provided so hard to assess compensation competitiveness. As a remote role, can likely find reasonable compensation.  \n\nWork/life balance (Weight: 10/100)\nGrade: 10\nReasons: Fully remote provides flexibility. Can likely maintain good work/life balance.\n\nImpact and meaning (Weight: 5/100) \nGrade: 5\nReasons: Directing philanthropic capital can have huge impact and meaning. Clear alignment to values.\n\nCollaborative team environment (Weight: 5/100)\nGrade: 5\nReasons: Cross-functional research team suggests collaborative environment.\n\nCareer advancement prospects (Weight: 5/100) \nGrade: 3\nReasons: Unclear on growth opportunities within the research team or broader organization.\n\nFinal Fit Score: 78",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Remote (US, UK or Europe)"
-    },
-    {
-        "company": "University of Oxford",
-        "title": "Research Associate",
-        "fit": 78,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100): Grade: 20 This role is focused on cutting edge research in AI, probabilistic verification and synthesis for robust AI, directly aligned with interests. Work is intellectually stimulating and at the forefront of the field. Flexible/remote work arrangements (Weight: 15/100): Grade: 5 No indication that remote work is supported. Location is specified as Oxford, suggesting onsite role. Some flexibility may be possible but unclear. Autonomy and independence (Weight: 15/100): Grade: 10 Reports directly to professor, suggesting some independence. However, expected to complete clear objectives and contribute to group goals, limiting full autonomy. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 10 Focused on AI research, well aligned with interests. Based at prestigious university rather than startup, but still technology focused. Opportunities to publish research (Weight: 5/100): Grade: 5 Explicitly expected to publish research articles in top venues, fully aligned. Compensation level (Weight: 10/100):  Grade: 7 Salary range 36k-44k EUR is below desired minimum of 75k EUR but reasonable for academic research associate role and cost of living in Oxford. Work/life balance (Weight: 10/100): Grade: 8 Academic schedules tend to be flexible, though unclear if formal policy. UK standard 25 days minimum vacation. Impact and meaning (Weight: 5/100): Grade: 5 Cutting edge AI research enables long-term societal impact. Collaborative team environment (Weight: 5/100): Grade: 5 Part of collaborative research group, suggesting team environment. Career advancement prospects (Weight: 5/100): Grade: 3 Some potential for academic career growth but trajectory and advancement options unclear. Final Overall Fit Score: 78",
-        "dateAdded": "July 3, 2023",
-        "salaryRange": "EUR 36k - 44k",
-        "location": "Oxford, UK"
-    },
-    {
-        "company": "Anton Paar",
-        "title": "AI Manager",
-        "fit": 77,
-        "fit_detailed": "Intellectual stimulation and challenge (20/100): Grade 15. Developing AI solutions for business processes provides intellectual stimulation, however this is focused on integration rather than core AI research. Still a chance to learn about practical AI applications. Flexible/remote work arrangements (15/100): Grade 10. No indication that remote work or flexible hours are supported. Likely a standard onsite role.   Autonomy and independence (15/100): Grade 12. Leading AI projects indicates some autonomy, but oversight by CEO suggests limited independence. Alignment with interests in technology, startups, risk (10/100): Grade 7. Established instrumentation company so lower risk tolerance needed than a startup. But applying AI is innovative. Opportunities to publish research (5/100): Grade 2. Commercial focus means less emphasis on publishing research. Compensation level (10/100): Grade 8. Salary range of 70k-80k Euros is reasonable but below the 100k benchmark. Work/life balance (10/100): Grade 7. No indication of policies supporting work/life balance. Likely a standard work schedule. Impact and meaning (5/100): Grade 3. Integrating AI into business processes creates incremental but not transformational impact.  Collaborative team environment (5/100): Grade 3. Cross-functional coordination suggests some collaboration but culture is unclear. Career advancement prospects (5/100): Grade 2. Established company may limit fast career growth. Unclear path for advancement. Total Fit Score: 77",
-        "dateAdded": "July 10, 2023",
-        "salaryRange": "EUR 70k - 80k",
-        "location": "Graz, Austria"
-    },
-    {
-        "company": "TU Wien",
-        "title": "Doctoral Thesis",
-        "fit": 77,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 15, because the thesis topics listed are intellectually stimulating and in the field of AI, however it is unclear if a specific thesis aligns well with hfvienna's interests. Flexible/remote work arrangements (Weight: 15/100) Grade: 10, because the program appears to offer flexibility for remote work, but details are not provided on specific arrangements. Autonomy and independence (Weight: 15/100) Grade: 12, because a doctoral thesis involves independent research under supervision, allowing for autonomy. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 8, because the research areas align generally with interests in technology, but unclear on startup/risk aspects. Opportunities to publish research (Weight: 5/100) Grade: 5, because publishing research is a key part of a doctoral thesis. Compensation level (Weight: 10/100) Grade: 5, because compensation details are not provided, but doctoral funding is typically modest. Work/life balance (Weight: 10/100) Grade: 8, because flexibility is suggested but specifics on work/life balance are unclear. Impact and meaning (Weight: 5/100) Grade: 5, because research can have impact, but depends on the specific thesis topic. Collaborative team environment (Weight: 5/100) Grade: 4, because collaborating with supervisors, but independent research limits teamwork. Career advancement prospects (Weight: 5/100) Grade: 5, because a PhD opens doors for an academic career, but startup/industry prospects depend on topic. Total Fit Score: 77",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "Anthropic",
-        "title": "Product Support Specialist",
-        "fit": 76,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 5 Reasons: Product support role is not directly involved in AI research and development, which would provide more intellectual stimulation. However, investigating user issues and collaborating with engineers provides some problem-solving. Flexible/remote work arrangements (Weight: 15/100) Grade: 10 Reasons: Hybrid policy allows remote work at least 75% of the time, providing flexibility. Autonomy and independence (Weight: 15/100) Grade: 10 Reasons: Product support specialist will be first dedicated person in this role, indicating ability to build processes independently. Responding to user tickets independently also suggests autonomy. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 10 Reasons: Anthropic is an AI startup working on innovative and socially beneficial AI systems, aligning with interests. Opportunities to publish research (Weight: 5/100) Grade: 0 Reasons: Product support role is not involved in publishing research. Compensation level (Weight: 10/100) Grade: 8 Reasons: Salary range of USD 115-130k is competitive for this role and meets minimum expectations. Exact equity details unknown. Work/life balance (Weight: 10/100) Grade: 10 Reasons: Unlimited PTO policy and hybrid remote work provide excellent work/life balance. Impact and meaning (Weight: 5/100) Grade: 5 Reasons: Enabling great user experiences and safe AI delivery provides meaningful impact. Collaborative team environment (Weight: 5/100) Grade: 5 Reasons: Collaborating with engineers and cross-functional teams indicates some collaboration. Culture seems positive but limited details. Career advancement prospects (Weight: 5/100) Grade: 3 Reasons: Early stage startup may provide fast growth opportunities but advancement path for this specific role is unclear.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "USD 115k - 130k",
-        "location": "San Francisco, USA"
-    },
-    {
-        "company": "JKU Linz",
-        "title": "PostDoc Machine Learning",
-        "fit": 76,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because cutting-edge ML/AI research but not specialized in applicant's specific interests like NLP. Flexible/remote work arrangements 10 because based in Linz but some flexibility expected. Autonomy and independence 12 because good autonomy as PostDoc but still reports to professors. Alignment with interests 5 because academic research not high-risk startup. Opportunities to publish research 5 because publishing is a key requirement. Compensation level 6 because 55k-65k EUR decent but below 100k target. Work/life balance 8 because flexibility but high workload. Impact and meaning 3 because advancing ML knowledge, not direct application. Collaborative team environment 4 because collaborating with professors and students. Career advancement prospects 3 because enables research career but long timeline.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 55k - 65k",
-        "location": "Linz, Austria"
-    },
-    {
-        "company": "Rethink Priorities",
-        "title": "AI Governance",
-        "fit": 76,
-        "fit_detailed": "Intellectual stimulation and challenge (20/100): Grade: 15 Reasons: Work involves researching AI development and governance, which provides intellectual challenge, though not specifically in AI research. Topics seem diverse and complex. However, some work may involve less stimulating tasks like literature reviews. Flexible/remote work arrangements (15/100): Grade: 15 Reasons: Fully remote role with a globally distributed team. Flexible schedule and location. Autonomy and independence (15/100): Grade: 12 Reasons: Seems a good level of independence to conduct research, set own schedule. But likely some oversight on projects and collaboration needed. Alignment with interests in technology, startups, risk (10/100): Grade: 10 Reasons: Directly aligned with interests in AI governance, reducing long-term risks from advanced AI. Focuses on informing decisions by major funders. Opportunities to publish research (5/100): Grade: 4 Reasons: Expects most projects will result in a public output. But also deals with sensitive topics, so some work will remain private. Compensation level (10/100):  Grade: 8 Reasons: Salary range of $62k-119k is quite good for remote research role. But lower end of range is a bit below your benchmark. Equity unknown. Work/life balance (10/100): Grade: 10 Reasons: Fully remote, flexible schedule. Unlimited vacation policy. Generous family leave. Seems like a good work/life balance. Impact and meaning (5/100): Grade: 5  Reasons: Directly focused on reducing long-term risks from AI, high positive impact. Informs major funders allocating hundreds of millions. Collaborative team environment (5/100): Grade: 4 Reasons: Cross-functional teamwork seems likely. But limited detail provided on culture. Career advancement prospects (5/100): Grade: 3 Reasons: Good opportunities for professional development. But advancement path and trajectory unclear. Final Grade: 76",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "USD 62k - 119k",
-        "location": "Remote"
-    },
-    {
-        "company": "Mostly AI",
-        "title": "Product Marketing Manager",
-        "fit": 76,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100): Grade: 15 Reasons: Working with cutting-edge generative AI technology provides intellectual stimulation. However, the role is focused on marketing rather than hands-on AI work. Flexible/remote work arrangements (Weight: 15/100): Grade: 15 Reasons: Fully remote role based anywhere in EMEA provides maximum flexibility. Autonomy and independence (Weight: 15/100):  Grade: 10 Reasons: Some autonomy as product marketing manager, but needs to collaborate with various teams like marketing, sales, product. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 10 Reasons: AI startup focused on innovative synthetic data technology aligns with interests. Opportunities to publish research (Weight: 5/100): Grade: 1 Reasons: No research publication opportunities indicated for this commercial marketing role. Compensation level (Weight: 10/100): Grade: 5 Reasons: Salary range not provided. Likely competitive for role and location but unclear without details.  Work/life balance (Weight: 10/100): Grade: 10 Reasons: Fully remote flexibility supports work/life balance. Impact and meaning (Weight: 5/100): Grade: 5  Reasons: Synthetic data enables broader access to AI while protecting privacy which provides meaning. Collaborative team environment (Weight: 5/100): Grade: 3 Reasons: Some collaboration across teams, but limited details on actual team culture. Career advancement prospects (Weight: 5/100): Grade: 2 Reasons: Early stage startup may provide fast growth, but advancement path and trajectory very unclear.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Remote"
-    },
-    {
-        "company": "Mainz Biomed",
-        "title": "Vice President",
-        "fit": 76,
-        "fit_detailed": "Intellectual stimulation and challenge: Grade 3. Developing sales and marketing strategies requires creative thinking, but role is focused on commercialization rather than R&D innovation. Does not specialize in AI. Flexible/remote work arrangements: Grade 15. Fully remote role based in DACH region with flexible hours and home office. Maximizes flexibility. Autonomy and independence: Grade 12. Reports to CCO but has independent leadership of commercial team across Europe. Significant autonomy indicated. Alignment with interests: Grade 8. Biotech startup could offer exposure to innovative technology, but commercial rather than R&D focus. Some startup/risk exposure. Opportunities to publish research: Grade 1. No research publication opportunities indicated for commercial operations role. Compensation level: Grade 7. Salary not provided but likely competitive for VP level biotech role. Upside through stock options but base unclear. Work/life balance: Grade 10. Fully remote, flexible hours, and reasonable travel support strong work/life balance. Impact and meaning: Grade 4. Cancer prevention diagnostics have positive impact but commercial role more removed from end impact. Collaborative team environment: Grade 4. Leading commercial team indicates some collaboration, but limited cultural details provided. Career advancement prospects: Grade 2. Growth potential in dynamic startup, but specifics on advancement path lacking. Total Fit Score: 76",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Remote"
-    },
-    {
-        "company": "craftworks",
-        "title": "Technical Project Manager",
-        "fit": 75,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 5 Reason: The role involves technical project management for AI and machine learning projects, which provides some intellectual stimulation, but is not hands-on AI work. Flexible/remote work arrangements (Weight: 15/100) Grade: 15 Reason: Fully remote work is offered, with the ability to choose between working from home or from one of their offices. Flexible working hours are also mentioned. Autonomy and independence (Weight: 15/100) Grade: 10 Reason: Some autonomy is suggested by owning project processes, but oversight by customers and leading a team indicates only moderate independence. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 10 Reason: craftworks is focused on innovative AI and ML solutions, aligning with interests in technology and startups. Opportunities to publish research (Weight: 5/100) Grade: 1 Reason: The commercial focus of the role provides limited opportunity for publishing research. Compensation level (Weight: 10/100) Grade: 6 Reason: The salary range of 50k-60k Euros is reasonable but below the benchmark of 100k Euros for Europe. However, non-financial motivators matter more. Work/life balance (Weight: 10/100) Grade: 10 Reason: Fully remote work and flexible hours support a good work/life balance. Impact and meaning (Weight: 5/100) Grade: 5 Reason: Developing innovative AI solutions for industry has meaningful impact. Collaborative team environment (Weight: 5/100) Grade: 5 Reason: Leading projects and interacting with customers and development teams indicates a collaborative environment. Career advancement prospects (Weight: 5/100) Grade: 3 Reason: Growth opportunities in a startup, but advancement path is unclear.",
-        "dateAdded": "May 19, 2023",
-        "salaryRange": "EUR 50k - 60k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "epunkt",
-        "title": "Software Architect",
-        "fit": 75,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 15 Reasoning: Role involves research for scalable AI systems which provides intellectual stimulation. However, specific details on type of AI research are not provided. Flexible/remote work arrangements (Weight: 15/100) Grade: 12 Reasoning: 60-70% remote work available, along with flexible working hours mentioned. Good flexibility but not fully remote. Autonomy and independence (Weight: 15/100) Grade: 10 Reasoning: Some autonomy implied through research focus, but unclear on level of independence versus oversight. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 8 Reasoning: Innovative products in AI and robotics align with technology interests. Large corporate environment less risky than a startup. Opportunities to publish research (Weight: 5/100) Grade: 3 Reasoning: Research is a component but commercial focus may limit publishing opportunities. Compensation level (Weight: 10/100) Grade: 8 Reasoning: Salary range of 60k-84k EUR is quite competitive for the role and meets benchmark expectations. Work/life balance (Weight: 10/100) Grade: 10 Reasoning: Flexible hours and significant remote work enable strong work/life balance. Impact and meaning (Weight: 5/100) Grade: 3 Reasoning: Details on societal impact are limited for this commercial role. Collaborative team environment (Weight: 5/100) Grade: 3 Reasoning: Limited details provided on team culture and collaboration. Career advancement prospects (Weight: 5/100) Grade: 3 Reasoning: Advancement opportunities not clearly outlined.",
-        "dateAdded": "July 11, 2023",
-        "salaryRange": "EUR 60k - 84k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "RAND Corporation",
-        "title": "Vice President",
-        "fit": 74,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 15, because the role involves leading research initiatives on global risks which provides intellectual challenge, however the focus is policy research rather than AI specifically. Flexible/remote work arrangements (Weight: 15/100) Grade: 10, because the role offers a flex work arrangement with remote work, though some office time is expected. Autonomy and independence (Weight: 15/100) Grade: 12, because as a VP there is likely high autonomy, but still reports to SVP and needs to collaborate with other leaders. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 8, because the policy research is on emerging global risks which aligns with an interest in risk, however this is not a technology startup role. Opportunities to publish research (Weight: 5/100) Grade: 3, because some research is expected but the primary role is oversight and management rather than conducting and publishing studies. Compensation level (Weight: 10/100) Grade: 8, because the salary range of $200-315k is competitive but below the benchmark target of $300-400k equivalent in Europe. Work/life balance (Weight: 10/100) Grade: 8, because the role offers flex work arrangements which supports work/life balance, but still requires 25% travel. Impact and meaning (Weight: 5/100) Grade: 5, because the policy research aims to help governments and communities address global risks and challenges. Collaborative team environment (Weight: 5/100) Grade: 3, because limited detail provided on the organizational culture and collaborative environment. Career advancement prospects (Weight: 5/100) Grade: 3, because upward trajectory is unclear for this senior VP role. Final Fit Score: 74",
-        "dateAdded": "July 12, 2023",
-        "salaryRange": "USD 200k - 315k",
-        "location": "Santa Monica, USA"
-    },
-    {
-        "company": "IDSA",
-        "title": "Technology Strategist",
-        "fit": 73,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because role involves identifying technology potentials and developing proofs of concept, which provides intellectual challenge, however not specifically in AI. Flexible/remote work arrangements 10 because location is Linz so unclear if fully remote options. Autonomy and independence 10 because shaping technology strategy indicates autonomy but stakeholder coordination needed. Alignment with interests 15 because innovative digital university aligns with interests. Opportunities to publish research 5 because focus on applied strategy over publishing. Compensation level 7 because 90k meets minimum expectation. Work/life balance 5 because work arrangements unclear. Impact and meaning 5 because enabling digital university transformation has impact. Collaborative team environment 3 because coordinating stakeholders suggests collaboration. Career advancement prospects 3 because startup university offers growth but trajectory unclear.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 90k",
-        "location": "Linz, Austria"
-    },
-    {
-        "company": "Constellation",
-        "title": "Head of Business Operations",
-        "fit": 73,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because while not directly in AI research, supporting an AI safety organization provides indirect stimulation. Flexible/remote work arrangements 0 because on-site role with no remote flexibility mentioned. Autonomy and independence 10 because broad operational oversight indicates autonomy. Alignment with interests 15 because AI safety aligns with interests. Opportunities to publish research 0 because operations role. Compensation level 7 because $100-175k salary range provided, which meets but does not exceed benchmark. Work/life balance 5 because office location convenient but no other work-life balance details. Impact and meaning 10 because enabling AI safety research has big impact. Collaborative team environment 3 because some collaboration needed but culture unclear. Career advancement prospects 8 because operations leadership enables growth but startup environment has uncertainty.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 100k - 175k",
-        "location": "Berkeley, USA"
-    },
-    {
-        "company": "SIPRI",
-        "title": "Researcher",
-        "fit": 73,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 15\nThe role involves conducting research on AI governance, which provides intellectual stimulation. However, it is not directly in AI development.\n\nFlexible/remote work arrangements (Weight: 15/100)\nGrade: 10\nThe role is based in Stockholm, Sweden. No indication of remote work flexibility.\n\nAutonomy and independence (Weight: 15/100)\nGrade: 10\nThe researcher will conduct independent research but also collaborate on projects, indicating some autonomy.\n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 10\nResearching AI governance aligns with interests in technology. SIPRI is not a startup.\n\nOpportunities to publish research (Weight: 5/100)\nGrade: 5\nPublishing research is a key responsibility.\n\nCompensation level (Weight: 10/100)\nGrade: 5\nSalary not provided, expected to be reasonable but likely lower than industry.\n\nWork/life balance (Weight: 10/100)\nGrade: 5\nNo indication of work-life balance attributes.\n\nImpact and meaning (Weight: 5/100)\nGrade: 5\nResearching AI governance at a peace research institute provides societal impact.\n\nCollaborative team environment (Weight: 5/100)\nGrade: 5\nWill collaborate with other researchers at SIPRI.\n\nCareer advancement prospects (Weight: 5/100)\nGrade: 3\nLimited information provided on career growth.\n\nTotal Fit Score: 73",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "Not provided",
-        "location": "Solna, Sweden"
-    },
-    {
-        "company": "Inside.com",
-        "title": "AI Developer",
-        "fit": 73,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because role involves developing AI solutions like chatbots using latest NLP models like ChatGPT, requiring creative problem solving. Flexible/remote work arrangements 15 because fully remote role. Autonomy and independence 10 because seems independent but some collaboration needed. Alignment with interests 10 because startup focused on AI. Opportunities to publish research 0 because no mention of research. Compensation level 8 because $125k salary is decent but below benchmark. Work/life balance 10 because fully remote. Impact and meaning 3 because some positive impact curating newsletters. Collaborative team environment 1 because limited mention of culture. Career advancement prospects 1 because startup growth potential but path unclear.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "USD 125k",
-        "location": "Remote"
-    },
-    {
+        "uuid": 26,
         "company": "The Elders",
         "title": "AI Consultant",
-        "fit": 73,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because consulting on AI risks and opportunities across The Elders' program areas would provide intellectual challenge, though not directly in AI research. Flexible/remote work arrangements 15 because fully remote role. Autonomy and independence 10 because independent short-term consultancy suggests autonomy. Alignment with interests 10 because nonprofit focused on existential threats aligns with interests. Opportunities to publish research 0 because consulting role less focused on publishing. Compensation level 5 because day rate not provided, likely reasonable but unclear. Work/life balance 10 because remote consultancy enables work/life balance. Impact and meaning 10 because advising on AI risks for existential threats has big impact. Collaborative team environment 0 because independent consultancy. Career advancement prospects 3 because short-term role with unclear ongoing opportunities.",
-        "dateAdded": "July 13, 2023",
-        "salaryRange": "Not provided",
-        "location": "Remote"
+        "fit_applicant": 34,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 10 because consulting role focused on researching AI risks and opportunities across The Elders' program areas provides intellectual challenge, though not directly in AI development. Flexible/remote work arrangements 10 because fully remote, short-term role. Autonomy and independence 8 because independent consulting role though some direction provided. Alignment with interests 6 because focused on social impact of AI. Opportunities to publish research 0 because consulting deliverable, no mention of publishing. Compensation level 0 because not provided. Work/life balance 10 because short-term remote role provides flexibility. Impact and meaning 10 because advising on AI risks and social impact. Collaborative team environment 0 because independent role. Career advancement prospects 0 because short-term role.",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 10/10 - Strong technical skills in AI/ML evidenced by publications and academic projects (AI/ML skills proven by 'Paper in conference ECIS'). Also founded a company applying AI/ML. Educational Qualifications: 5/5 - Relevant master's degree in industrial engineering with computer science (Master's degree proven by 'Diploma industrial engineering'). Cultural Fit: 6/7.5 - Experience founding a startup and collaborating on technical projects suggests good cultural fit (Startup experience proven by 'Founder and CEO of Saturo'). Communication Skills: 7.5/7.5 - Fluent in English and German with technical writing skills evidenced by publications (Language skills proven by 'English, German native-ish' and writing skills by 'Paper in conference ECIS'). Problem-Solving Ability: 4/5 - Analytical skills demonstrated through academic projects and publications, but more evidence of industrial problem-solving would be better (Academic analytical skills proven by 'Paper in conference ECIS'). Adaptability: 3/5 - Some evidence of adaptability through varied experience, but more examples in research settings needed. Initiative and Motivation: 3/5 - Shows initiative through entrepreneurship, but more examples desired within a research role. Teamwork: 2/2.5 - Some collaboration evidenced on technical projects (Teamwork proven by 'Paper in conference ECIS'). More emphasis on team skills would be beneficial. Leadership Potential: 1/2.5 - Limited evidence of leadership potential. Total: 41/50. In summary, the candidate has a strong technical background and cultural fit seems good, but more proven applied research experience would be ideal.",
+        "date_added": "July 13, 2023",
+        "salary_range": "Not provided",
+        "location": "Remote",
+        "fit_total": 75
     },
     {
+        "uuid": 21,
+        "company": "Digital Factory Vorarlberg",
+        "title": "Research Engineer",
+        "fit_applicant": 33,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 10 because innovative AI/ML research provides intellectual stimulation, though not fully focused on AI. Flexible/remote work arrangements 3 because location is Dornbirn office with no remote details. Autonomy and independence 5 because research engineer role suggests some autonomy but unclear. Alignment with interests 8 because AI/ML research aligns with interests. Opportunities to publish research 2 because focus is industrial research, unclear on publishing. Compensation level 3 because 60k-80k EUR reasonable for Austria but below benchmark. Work/life balance 2 because no details on flexibility. Impact and meaning 0 because industrial research impact unclear. Collaborative team environment 0 because no team details. Career advancement prospects 0 because no advancement details.",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 8/10 - Strong software engineering and AI/ML skills proven through academic projects and publications (Technical University Darmstadt). Industrial experience limited to internships (Vistaprint, Accenture). Educational Qualifications: 5/5 - Relevant master's degree in industrial engineering with focus on IT (Technical University Darmstadt). Cultural Fit: 5/7.5 - Academic and startup experience suggests adaptability and ability to work in an innovative environment (Saturo Foods). Less clear on teamwork preferences. Communication Skills: 6/7.5 - Fluent in English and German. Published academic papers demonstrate writing ability. Unclear on verbal communication skills. Problem-Solving Ability: 4/5 - Showcased through academic projects and publications, but limited evidence solving industrial problems. Adaptability: 4/5 - Exposure to research, corporate, startup, and consulting suggests adaptability. More evidence in industrial research settings needed. Initiative and Motivation: 4/5 - Founded a startup and pursued research initiatives. More evidence of drive in a research role would be beneficial. Teamwork: 3/2.5 - Some collaboration through projects and startups. More emphasis on teamwork capabilities needed. Leadership Potential: 2/2.5 - Limited evidence, but could likely develop over time. Total: 41/50 In summary, the candidate has a strong technical skillset but limited hands-on industrial research experience. Cultural fit seems decent and they have potential, but more proven applied research experience would strengthen their candidacy. I would recommend an interview to further evaluate their motivation and fit.",
+        "date_added": "July 14, 2023",
+        "salary_range": "EUR 60k - 80k",
+        "location": "Dornbirn, Austria",
+        "fit_total": 74
+    },
+    {
+        "uuid": 17,
         "company": "epunkt",
         "title": "Senior Java Developer",
-        "fit": 73,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 10 Reasons: Developing a new cloud-based software system and shaping the architecture provides intellectual stimulation. However, this is not specifically in AI which was preferred. Flexible/remote work arrangements (Weight: 15/100) Grade: 15 Reasons: 80-90% home office is mentioned, so very flexible and remote arrangements. Autonomy and independence (Weight: 15/100) Grade: 10 Reasons: Some autonomy is suggested through shaping architecture and product lifecycle ownership, but unclear on level of oversight. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 7 Reasons: Developing an innovative new product indicates some elements of risk and interest alignment. However, not a startup specifically. Opportunities to publish research (Weight: 5/100) Grade: 2 Reasons: No research publication opportunities mentioned for this commercial software development role. Compensation level (Weight: 10/100) Grade: 8 Reasons: Salary range of 60k-80k Euros is pretty good for Europe, meeting expectations. Work/life balance (Weight: 10/100) Grade: 10 Reasons: Very flexible remote work arrangements support strong work/life balance. Impact and meaning (Weight: 5/100) Grade: 3 Reasons: Developing a new product provides some impact, but domain is unclear. Collaborative team environment (Weight: 5/100) Grade: 5 Reasons: Cross-functional collaboration with other teams is mentioned, indicating a team environment. Career advancement prospects (Weight: 5/100) Grade: 3 Reasons: Growth path and advancement opportunities are not detailed. Final Overall Fit Score: 73",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 60k - 80k",
-        "location": "Vienna, Austria"
+        "fit_applicant": 33,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge: 3 - Java and Spring development provides some intellectual challenge, but not focused on AI - Innovative new product indicates some stimulation, but details lacking Flexible/remote work arrangements: 7 - 80-90% remote work very flexible - Located in Vienna is reasonable for commute when required Autonomy and independence: 3 - Some independence implied as senior developer - But unclear how much autonomy versus taking direction from product team Alignment with interests: 2 - Software development aligns generally with tech interest - But company and product not focused on AI specifically Opportunities to publish research: 1 - No indication that research publishing would be possible Compensation level: 4 - Salary range of 42k-60k Euros reasonable for senior developer role - But below desired 100k benchmark target Work/life balance: 6 - Flexible work hours and extensive remote work enables good balance - Commute to Vienna office manageable Impact and meaning: 2 - Developing innovative new product has some impact potential - But no details on societal meaning or purpose Collaborative team environment: 3 - Cross-functional collaboration mentioned as positive - But limited details on actual team culture Career advancement prospects: 2 - Potential to advance as product evolves, but path unclear Final fit score: 33",
+        "fit_recruiter": 38,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 8/10 - Has 7 years of experience as a Java developer and founder of a tech startup (CV). Industrial experience is limited but has worked on relevant projects. Educational Qualifications: 5/5 - Master's degree in computer science (CV). Cultural Fit: 5/7.5 - Seems capable of working in an innovative environment (startup experience). Fits desire for teamwork (CV). Communication Skills: 7.5/7.5 - Fluent in English and German (CV). Can communicate technical details (publications). Problem-Solving Ability: 3/5 - Some evidence of analytical skills from academic work (CV). More industrial problem solving examples needed. Adaptability: 5/5 - Startup and consulting experience suggests adaptability (CV). Initiative and Motivation: 2.5/5 - Shows some initiative founding a company (CV). More evidence in developer roles needed. Teamwork: 2/2.5 - Some team collaboration mentioned (CV). More emphasis on teamwork capabilities needed. Leadership Potential: 0/2.5 - No evidence provided in CV. Total: 38/50. In summary, applicant has relevant skills but is relatively junior as a developer. Cultural fit and adaptability seem good but more proven industrial experience would strengthen candidacy. Would recommend an interview to further assess motivation and experience.",
+        "date_added": "July 9, 2023",
+        "salary_range": "EUR 42k - 60k",
+        "location": "Vienna, Austria",
+        "fit_total": 71
     },
     {
-        "company": "Synergeticon",
-        "title": "AI Software Developer",
-        "fit": 73,
-        "fit_detailed": "Intellectual stimulation and challenge 20 because developing AI solutions for computer vision provides intellectual challenge in AI field. Flexible/remote work arrangements 10 because remote work possible but details unclear. Autonomy and independence 10 because developing own modules indicates autonomy but unclear oversight. Alignment with interests 10 because AI and technology focus aligns with interests. Opportunities to publish research 5 because submitting research papers encouraged. Compensation level 7 because EUR 60-80k lower than benchmark. Work/life balance 8 because flexible hours mentioned. Impact and meaning 1 because industrial use cases less meaningful. Collaborative team environment 3 because mentoring indicates collaboration but limited cultural details. Career advancement prospects 0 because startup growth unclear.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "EUR 60k - 80k",
-        "location": "Hamburg, Germany"
+        "uuid": 28,
+        "company": "epunkt GmbH",
+        "title": "C++/Python Software Developer",
+        "fit_applicant": 33,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge: 4. The job involves maintenance and improvement of existing PHIL test software, which provides some intellectual challenge, but is not focused on AI research and development. The technologies used (C++, Python) are established rather than cutting edge. Flexible/remote work arrangements: 6. 60-70% home office is mentioned, providing good flexibility. Autonomy and independence: 3. The role involves working closely with engineers, suggesting more oversight and less independence. However, optimization of the software indicates some autonomy. Alignment with interests: 2. The renewable energy domain is interesting, but this is a commercial software role focused on existing products rather than a research-driven startup. Opportunities to publish research: 1. No research publishing opportunities are mentioned. The focus is on commercial software development. Compensation level: 4. The salary range of 60k-70k EUR is reasonable but below the 100k EUR benchmark for Europe. Work/life balance: 5. 60-70% home office provides very good work/life balance. Impact and meaning: 3. Renewable energy has societal impact, but the software role is somewhat removed from direct impact. Collaborative team environment: 3. Working closely with engineers indicates collaboration, but limited detail provided on culture. Career advancement prospects: 2. Growth potential within the company is mentioned, but advancement path is unclear.",
+        "fit_recruiter": 38,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 7/10 - Strong software engineering skills in Python evidenced by founding a company and developing its products (Saturo Foods product development). Some experience with C++ from university coursework (Diploma Program). No direct industrial experience in C++ development. General consulting experience, but not specific to software development (C-Level Consulting). Educational Qualifications: 5/5 - Relevant university degree in Industrial Engineering with specialization in IT (Diploma Program). Cultural Fit: 5/7.5 - Experience founding a startup suggests comfort with innovative environments (Saturo Foods). Military training indicates ability to adapt to intense working conditions (Special Operations Training). Less evidence of fit for collaborative teamwork culture. Communication Skills: 6/7.5 - Fluent in English and German (Languages). Some technical writing through university publications (Business Intelligence Publications). No direct evidence of verbal communication skills. Problem-Solving Ability: 3/5 - Some analytical skills demonstrated through academic projects (Business Intelligence Publications). Limited evidence of solving concrete industrial problems. Adaptability: 3/5 - Varied background provides some evidence of adaptability (Work Experience). More examples of adapting to new environments would be beneficial. Initiative and Motivation: 4/5 - Founded a startup which shows strong initiative (Saturo Foods). Pursued additional education and training opportunities (Education and Internships). Teamwork: 2/2.5 - Some collaboration through academic projects (Business Intelligence Publications). Minimal emphasis on teamwork capabilities. Leadership Potential: 3/2.5 - Managed a startup team and achieved strong growth (Saturo Foods). Total: 38/50 In summary, the candidate has a technical background and founding experience that could be beneficial, but lacks direct C++ development skills and industrial software experience. Cultural fit seems questionable. Additional examples of teamwork and communication would strengthen their candidacy. I would recommend an interview to further assess technical abilities and fit.",
+        "date_added": "July 10, 2023",
+        "salary_range": "EUR 60k - 70k",
+        "location": "Klosterneuburg, Austria",
+        "fit_total": 71
     },
     {
-        "company": "CIGI",
-        "title": "Research Associate",
-        "fit": 72,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 15 \nThe role involves researching international AI governance which provides intellectual stimulation. However, it is focused on policy rather than hands-on AI research and development.\n\nFlexible/remote work arrangements (Weight: 15/100) \nGrade: 10\nThe role offers flexible location and potential for remote work, but some travel may be required.\n\nAutonomy and independence (Weight: 15/100)\nGrade: 10 \nThe role requires ability to work independently with minimal supervision, indicating a moderate level of autonomy. However, it also involves supporting an initiative leader which may limit full independence.\n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 10\nThe AI governance focus aligns with interests in technology and risk management. However, this is a policy research role rather than working directly for a startup.\n\nOpportunities to publish research (Weight: 5/100)\nGrade: 5 \nPublishing briefs, reports and presentations is a key responsibility.\n\nCompensation level (Weight: 10/100) \nGrade: 5 \nThe salary range is not provided. For a 12-month contract role, I would estimate compensation around 80-100k EUR based on nonprofit research roles. This meets minimum expectations but is not highly competitive compensation.  \n\nWork/life balance (Weight: 10/100)\nGrade: 7\nThe flexibility and remote work options support work/life balance. However, travel requirements may limit this somewhat.\n\nImpact and meaning (Weight: 5/100) \nGrade: 5\nThe AI governance focus has important societal impact and meaning.\n\nCollaborative team environment (Weight: 5/100)\nGrade: 3\nLimited details provided on the team environment. Some collaboration is needed for the initiative.\n\nCareer advancement prospects (Weight: 5/100)\nGrade: 2\nA 12-month contract provides limited advancement prospects, though an extension may be possible.\n\nTotal Grade: 72",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "Not provided",
-        "location": "Waterloo, Canada"
+        "uuid": 19,
+        "company": "Future of Life Institute",
+        "title": "Rolling Applications",
+        "fit_applicant": 34,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 10 because work is focused on steering AI technology to benefit life, which provides intellectual challenge in AI ethics. Flexible/remote work arrangements 15 because fully remote international team. Autonomy and independence 10 because nonprofit suggests mission-driven autonomy. Alignment with interests 10 because nonprofit focused on reducing AI risks aligns with interests. Opportunities to publish research 2 because research publication opportunities not mentioned. Compensation level 5 because salary not provided, nonprofit compensation may be lower. Work/life balance 10 because remote work enables flexibility. Impact and meaning 10 because nonprofit mission has significant positive impact. Collaborative team environment 5 because distributed team requires collaboration. Career advancement prospects 2 because startup growth provides opportunities but nonprofit context may limit. ",
+        "fit_recruiter": 36,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 7/10 - Founded and scaled a food tech startup to 7-digit revenue (CV: Saturo Foods) - Consulting experience in strategy, planning, management, cost-cutting (CV: Novritsch Trading) - Product development experience in food/beverage industry (CV: Saturo Foods) - Some special operations military training (CV: Bundesheer) Educational Qualifications: 3/5 - Diploma in Industrial Engineering (CV: TU Darmstadt) - Relevant competencies in management systems (CV: St. Gallen) Cultural Fit: 5/7.5 - Experience founding a startup suggests comfort with innovative environments (CV: Saturo Foods) - Military training indicates ability to adapt to intense work cultures (CV: Bundesheer) Communication Skills: 5/7.5 - Published academic papers demonstrate written communication skills (CV: TU Darmstadt publications) - No direct evidence of verbal communication skills Problem-Solving Ability: 4/5 - Consulting work likely involved analytical problem solving (CV: Novritsch Trading) - Startup experience required creative problem solving (CV: Saturo Foods) Adaptability: 3/5 - Varied work history indicates adaptability (CV: experience timeline) - But limited direct evidence of adapting to major changes Initiative and Motivation: 4/5 - Founded a startup and drove growth, showing initiative (CV: Saturo Foods) - Pursued additional education/training (CV: program timeline) Teamwork: 3/2.5 - Some collaboration demonstrated through academic publications (CV: TU Darmstadt publications) - But limited teamwork emphasis in work experience Leadership Potential: 2/2.5 - Managed a startup, but as founder (CV: Saturo Foods) - No direct reports mentioned Total: 36/50 In summary, the candidate has strong entrepreneurial experience and drive, but is unproven in a research-focused role requiring close team collaboration. Cultural fit seems reasonable. I would recommend an interview to further assess the fit.",
+        "date_added": "July 14, 2023",
+        "salary_range": "Not provided",
+        "location": "Remote",
+        "fit_total": 70
     },
     {
-        "company": "Nexus",
-        "title": "Consultant AI",
-        "fit": 71,
-        "fit_detailed": "Intellectual stimulation and challenge (20): Grade 15. Working on AI/ML projects provides intellectual stimulation. However, unclear if core focus is AI/ML or just one part of technology stack. Flexible/remote work arrangements (15): Grade 10. Location is commutable from Zurich area but unclear if fully remote or hybrid remote options. Autonomy and independence (15): Grade 12. Consultant role and working directly with clients provides autonomy. However, unclear on level of oversight. Alignment with interests in technology, startups, risk (10): Grade 7. Established IT services firm, not a high-risk startup. But AI/ML focus aligned with interests. Opportunities to publish research (5): Grade 3. Consulting focus means limited research publishing opportunities. Compensation level (10): Grade 5. Salary not listed. Consultant role likely below benchmark. Work/life balance (10): Grade 8. Consultant travel is required which limits work/life balance. But office location commutable from Zurich. Impact and meaning (5): Grade 3. Consulting projects have impact but less meaning than core AI research and development. Collaborative team environment (5): Grade 4. Consulting teams tend to be collaborative but culture unclear. Career advancement prospects (5): Grade 4. Growth opportunities to progress to manager and project lead roles. But trajectory beyond that unclear. Total Fit Score: 71",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "Not provided",
-        "location": "St. Gallen, Switzerland"
+        "uuid": 24,
+        "company": "Mavida Group",
+        "title": "Stationsleitung",
+        "fit_applicant": 26,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 2 because role is focused on nursing management rather than AI. Flexible/remote work arrangements 4 because location is specified so likely not fully remote, but part-time possible suggesting some flexibility. Autonomy and independence 4 because management role indicates autonomy but oversight from Pflegedienstleitung. Alignment with interests 1 because healthcare services not a technology startup. Opportunities to publish research 0 as this is not a research role. Compensation level 5 because EUR 34-38k is below desired EUR 100k benchmark but reasonable for nursing management in Austria. Work/life balance 5 because part-time possible. Impact and meaning 3 because improving elder care has impact but limited details. Collaborative team environment 1 because leading station team suggests some collaboration. Career advancement prospects 1 because progression opportunities within company unclear.",
+        "fit_recruiter": 31,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 5/10 - Management experience as founder and CEO but not directly in healthcare (CV). No nursing qualifications mentioned (CV). Educational Qualifications: 3/5 - Technical university degree but not in nursing (CV). No evidence of nursing qualifications (CV). Cultural Fit: 5/7.5 - Entrepreneurial experience suits innovative culture (CV) but healthcare experience lacking. Communication Skills: 5/7.5 - Strong communication evidenced in CEO role (CV) but healthcare specifics unknown. Problem-Solving Ability: 3/5 - Strategic problem-solving shown in CEO role (CV) but healthcare context lacking. Adaptability: 5/5 - Experience scaling start-up and leading change suggests adaptability (CV). Initiative and Motivation: 5/5 - Strong self-drive evident from entrepreneurial career (CV). Teamwork: 2.5/2.5 - Some team collaboration shown (CV). Leadership Potential: 2.5/2.5 - Leadership capabilities proven as CEO (CV). Total: 31/50",
+        "date_added": "July 15, 2023",
+        "salary_range": "EUR 34k - 38k",
+        "location": "Villach, Austria",
+        "fit_total": 57
     },
     {
-        "company": "Ramboll",
-        "title": "Machine Learning Engineer",
-        "fit": 70,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because the role involves developing scalable data and machine learning pipelines using innovative technologies like GPT. However, the focus is not specifically on AI. Flexible/remote work arrangements 10 because the role is based in Munich but details on remote work are not provided. Autonomy and independence 12 because the role requires ability to work independently but also collaboration with cross-functional teams is mentioned. Alignment with interests in technology, startups, risk 5 because Ramboll is an established consulting firm, not a high-risk technology startup. However, they are using innovative technologies. Opportunities to publish research 3 because the role is focused on building commercial solutions rather than publishing research. Compensation level 8 because the salary range of 90k-192k USD is quite competitive for this role and location. Work/life balance 7 because no specific work-life balance policies are mentioned. Impact and meaning 3 because the role enables automation and efficiency for clients, which has some impact. Collaborative team environment 4 because collaboration with cross-functional teams is mentioned. Career advancement prospects 3 because growth opportunities are not specifically detailed.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 90k - 192k",
-        "location": "M\u00fcnchen, Germany"
-    },
-    {
-        "company": "PwC Deutschland",
-        "title": "AI Software Developer",
-        "fit": 70,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 15\nImplementing AI systems for public administration provides intellectual stimulation, though not specifically in AI research. Opportunity to take prototypes to production indicates applying existing methods.\n\nFlexible/remote work arrangements (Weight: 15/100)\nGrade: 10\nFlexWork provides some location flexibility but no specific remote work details given.\n\nAutonomy and independence (Weight: 15/100)  \nGrade: 12\nTaking responsibility and working in teams indicates some autonomy but likely oversight on projects.\n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 5  \nEstablished consulting firm, not a tech startup. Work is in public sector, lower risk tolerance needed.\n\nOpportunities to publish research (Weight: 5/100)\nGrade: 2\nImplementation focus, less emphasis on research publication.\n\nCompensation level (Weight: 10/100)\nGrade: 8\nEUR 60-80k is reasonable for role/level in Germany, meets needs.\n\nWork/life balance (Weight: 10/100)\nGrade: 7\nFlexWork provides some balance but consulting can have high workload.\n\nImpact and meaning (Weight: 5/100)\nGrade: 3 \nPublic sector AI applications can have positive impact.\n\nCollaborative team environment (Weight: 5/100)\nGrade: 4\nCross-functional teams indicates collaboration.\n\nCareer advancement prospects (Weight: 5/100)  \nGrade: 4\nMentorship and training enables growth but path unclear.\n\nTotal Grade: 70",
-        "dateAdded": "July 8, 2023",
-        "salaryRange": "EUR 60k - 80k",
-        "location": "D\u00fcsseldorf, Germany"
-    },
-    {
+        "uuid": 16,
         "company": "Bolzhauser AG",
         "title": "Low Code Developer",
-        "fit": 69,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100) Grade: 5 Reason: Developing business applications using low-code platforms provides some intellectual stimulation, but is not directly related to AI. Flexible/remote work arrangements (Weight: 15/100) Grade: 15 Reason: Fully remote work is possible, providing high flexibility. Autonomy and independence (Weight: 15/100) Grade: 10 Reason: Some autonomy is suggested in analyzing processes and identifying automation potential, but unclear how much independence there is from management oversight. Alignment with interests in technology, startups, risk (Weight: 10/100) Grade: 5 Reason: Established consulting firm focused on digital transformation, not a high-risk technology startup. Opportunities to publish research (Weight: 5/100) Grade: 0 Reason: No research publication opportunities mentioned for this commercial development role. Compensation level (Weight: 10/100) Grade: 5 Reason: Salary range not provided, but likely competitive based on similar roles. However, full compensation details unknown. Work/life balance (Weight: 10/100) Grade: 10 Reason: Fully remote work and flexible hours support strong work-life balance. Impact and meaning (Weight: 5/100) Grade: 3 Reason: Helping clients digitally transform has moderate impact. Collaborative team environment (Weight: 5/100) Grade: 3 Reason: Some collaboration implied through mentoring program and teambuilding events. Career advancement prospects (Weight: 5/100) Grade: 3 Reason: Established firm provides some advancement potential but trajectory is unclear. Final Overall Fit Score: 69",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": "Munich, Germany"
-    },
-    {
-        "company": "Bundesrechenzentrum",
-        "title": "Product Owner AI",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because AI development provides intellectual stimulation, though not specifically mentioned to be in AI field of interest. Developing solutions and managing requirements provides some challenge. Flexible/remote work arrangements 10 because 20% remote work mentioned but details unclear. Autonomy and independence 10 because product owner role and agile development indicates autonomy, but government bureaucracy may limit. Alignment with interests 5 because government/public sector focus doesn't align with startups and risk. Opportunities to publish research 0 because no research publishing opportunities mentioned for this commercial role. Compensation level 10 because 48-60k Euro salary range provided, which meets expectations. Work/life balance 5 because 20% remote work helps balance but schedule details unclear. Impact and meaning 10 because improving government services has societal impact and meaning. Collaborative team environment 3 because agile development indicates collaboration but culture unclear. Career advancement prospects 0 because startup growth opportunities not present in government role.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 48k - 60k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "EWP Recycling Pfand",
-        "title": "Leitung Operations",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 5 Reasons: Setting up recycling and deposit infrastructure is an interesting logistics challenge, but not directly related to AI, so limited alignment with intellectual interests. Flexible/remote work arrangements (Weight: 15/100): Grade: 10 Reasons: No indication of remote work or flexible arrangements mentioned. As a leadership role, some flexibility can be expected but likely still office-based. Autonomy and independence (Weight: 15/100): Grade: 15 Reasons: As head of operations, a high degree of autonomy and independence can be expected in managing infrastructure buildout. Broad responsibility mentioned. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 5 Reasons: Building recycling infrastructure aligns with sustainability interests, but not a technology startup. Limited risk-taking needed. Opportunities to publish research (Weight: 5/100): Grade: 0 Reasons: No research opportunities indicated, operational business role. Compensation level (Weight: 10/100): Grade: 7 Reasons: Salary of 75k EUR is on the lower end of expected range. Work/life balance (Weight: 10/100): Grade: 5 Reasons: No indication of work-life balance policies, but as a leadership role some flexibility can be expected. Likely high demands during infrastructure buildout. Impact and meaning (Weight: 5/100): Grade: 5 Reasons: Building recycling infrastructure has environmental sustainability impact. Collaborative team environment (Weight: 5/100): Grade: 3 Reasons: Limited details provided on culture and team environment. Career advancement prospects (Weight: 5/100): Grade: 3 Reasons: Leadership role already, but startup nature provides potential for growth. Advancement path unclear. Final Overall Fit Score: 68",
-        "dateAdded": "July 8, 2023",
-        "salaryRange": "EUR 75k",
-        "location": "Wien, Austria"
-    },
-    {
-        "company": "a.b.s.",
-        "title": "Frontend Developer",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge 3 because frontend development provides some challenge but not specialized AI work. Flexible/remote work arrangements 15 because fully remote work possible after initial training, very flexible. Autonomy and independence 10 because can take ownership of work but team collaboration also emphasized. Alignment with interests 5 because payroll software company, limited startup/tech details. Opportunities to publish research 1 because no research mentioned for this commercial role. Compensation level 8 because 60k-80k EUR competitive for frontend developer. Work/life balance 10 because fully remote and flexible enables excellent balance. Impact and meaning 3 because payroll software provides utility but limited societal impact. Collaborative team environment 5 because teamwork and collaboration emphasized. Career advancement prospects 2 because limited details on growth trajectory.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 60k - 80k",
-        "location": "Berlin, Germany"
-    },
-    {
-        "company": "STEINER-HITECH",
-        "title": "Test Manager",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge 10 because test automation and process improvement provide some challenge, but not core AI focus. Flexible/remote work arrangements 10 because flexible hours and home office mentioned. Autonomy and independence 10 because leading test process indicates independence. Alignment with interests 5 because transportation systems less aligned to AI startup interests. Opportunities to publish research 0 because no research mentioned. Compensation level 7 because 72-84k Euro lower end of acceptable range. Work/life balance 10 because flexible hours and home office. Impact and meaning 3 because transportation systems have moderate societal impact. Collaborative team environment 3 because coordinating teams indicates some collaboration. Career advancement prospects 10 because growth opportunities in leading tech company.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 72k - 84k",
-        "location": "Wien, Austria"
-    },
-    {
-        "company": "Maly & Partner",
-        "title": "E-Commerce Manager",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge 10 because ecommerce strategy requires creative thinking but not core AI. Flexible/remote work arrangements 10 because hybrid model with focus on office presence. Autonomy and independence 10 because full responsibility for ecommerce projects mentioned. Alignment with interests 5 because consumer brand but sustainability focus. Opportunities to publish research 0 because no research mentioned. Compensation level 3 because 45k Euro lower end of acceptable range. Work/life balance 5 because hybrid model helps. Impact and meaning 10 because sustainability focus has impact. Collaborative team environment 5 because team player desired. Career advancement prospects 10 because growth company indicates potential.",
-        "dateAdded": "July 12, 2023",
-        "salaryRange": "EUR 45k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "Nuffield Foundation",
-        "title": "Researcher",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because AI ethics research provides intellectual challenge, though not directly in AI development. Flexible/remote work arrangements 10 because 2 days remote working per week offered. Autonomy and independence 10 because researchers shape projects but unclear on level of independence. Alignment with interests 10 because nonprofit research institute focused on societal impacts of AI. Opportunities to publish research 10 because research outputs and publications expected. Compensation level 5 because 38k GBP is below desired 100k EUR benchmark. Work/life balance 8 because flexible and remote arrangements support balance. Impact and meaning 10 because research aims for positive societal impacts of AI. Collaborative team environment 5 because interdisciplinary team collaboration mentioned. Career advancement prospects 5 because startup may enable fast growth but path unclear.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "GBP 38k - 45k",
-        "location": "London, UK"
-    },
-    {
-        "company": "Center for AI Safety",
-        "title": "Project Manager",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because work is focused on advancing AI safety research which is intellectually stimulating, though not directly in AI research. Flexible/remote work arrangements 0 because role is on-site in San Francisco office. Autonomy and independence 10 because must manage diverse stakeholders but can work autonomously. Alignment with interests 15 because non-profit focused on AI safety aligns with interests. Opportunities to publish research 0 because project management role less focused on research. Compensation level 7 because USD 80-120k is decent but below benchmark. Work/life balance 5 because some flexibility but must be on-site. Impact and meaning 10 because advancing AI safety field has big impact. Collaborative team environment 3 because small growing team but limited detail on culture. Career advancement prospects 3 because startup may enable fast growth but path unclear.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 80k - 120k",
-        "location": "San Francisco, USA"
-    },
-    {
-        "company": "Lidl",
-        "title": "Senior Buyer Food",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because developing and optimizing product assortment requires strategic thinking, though not specifically in AI. Flexible/remote work arrangements 10 because ability to work from home 2 days per week mentioned. Autonomy and independence 10 because managing projects and processes indicates autonomy but oversight unclear. Alignment with interests 5 because retail business not a tech startup. Opportunities to publish research 0 because no research publication opportunities mentioned for this commercial role. Compensation level 7 because base salary range 90-100k Euros is decent but below desired level and unsure of bonus potential. Work/life balance 8 because work from home flexibility helps balance but retail purchasing likely has busy periods. Impact and meaning 3 because purchasing work enables product availability but limited societal impact. Collaborative team environment 3 because teamwork mentioned but culture unclear. Career advancement prospects 5 because growth opportunities in expanding company but trajectory uncertain.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "EUR 90k - 100k",
-        "location": "Salzburg, Austria"
-    },
-    {
-        "company": "epunkt",
-        "title": "Team Leader",
-        "fit": 68,
-        "fit_detailed": "Intellectual stimulation and challenge: Grade 3 because the role involves some problem solving in finance and operations but is not focused on AI. Flexible/remote work arrangements: Grade 15 because fully remote role with 1 day per week home office. Flexible hours mentioned. Autonomy and independence: Grade 12 because has responsibility for managing the finance team and driving improvements, suggesting good autonomy. But reports to parent company which may limit full independence. Alignment with interests: Grade 5 because IT services company so some alignment with technology interest but not a startup. Opportunities to publish research: Grade 0 because no indication of research or publishing opportunities. Compensation level: Grade 8 because salary range of EUR 54-66k is decent but below the EUR 100k benchmark target. Work/life balance: Grade 12 because fully remote with flexible hours and 1 day home office provides excellent work/life balance. Impact and meaning: Grade 3 because running finance/operations for an IT services company has modest impact. Collaborative team environment: Grade 5 because leading a small team indicates some collaboration. Positive culture referenced but limited details. Career advancement prospects: Grade 5 because potential to take on more responsibility over time but trajectory unclear.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 54k - 66k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "Gates Foundation",
-        "title": "Associate Program Officer",
-        "fit": 67,
-        "fit_detailed": "The role provides some intellectual stimulation through strategy development and analysis but is not directly in AI field. It does not offer location flexibility or remote work arrangement. There is some autonomy in managing portfolio and coordinating grantees. The nonprofit global health focus does not directly align with interests in technology and startups. Research publication opportunities are limited. Salary is not provided but expected to be reasonable, likely below market rate. Work/life balance may be decent but 25% travel could limit flexibility. Role enables impact in global health but not in line with specific interests. Cross-team collaboration provides a collaborative environment. Career advancement prospects within the role may be limited over time.",
-        "dateAdded": "July 10, 2023",
-        "salaryRange": "Not provided",
-        "location": "Abuja, Nigeria"
-    },
-    {
-        "company": "Lidl Austria",
-        "title": "Senior Buyer Food",
-        "fit": 65,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 5 Reason: Buying food products for a grocery retailer provides some intellectual challenge in trend analysis and assortment optimization, but is not focused on AI. Flexible/remote work arrangements (Weight: 15/100): Grade: 10 Reason: Ability to work from home 2 days per week provides flexibility. Autonomy and independence (Weight: 15/100): Grade: 10 Reason: Role involves actively managing product assortment which indicates autonomy. As a senior position, likely has independence in decision making. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 3 Reason: Large established grocery retailer, not a technology startup. Low risk tolerance needed. Opportunities to publish research (Weight: 5/100): Grade: 0 Reason: No research publishing opportunities indicated for this commercial buying role. Compensation level (Weight: 10/100): Grade: 8 Reason: Salary of 76k EUR meets expectations for this type of role. Work/life balance (Weight: 10/100): Grade: 8 Reason: Ability to work remotely 2 days per week contributes to work/life balance. Impact and meaning (Weight: 5/100): Grade: 3 Reason: Buying food products has modest societal impact. Collaborative team environment (Weight: 5/100): Grade: 3 Reason: Some collaboration with international teams, but limited detail on culture. Career advancement prospects (Weight: 5/100): Grade: 5 Reason: Large established company provides advancement opportunities.",
-        "dateAdded": "July 10, 2023",
-        "salaryRange": "EUR 76k",
-        "location": "Salzburg, Austria"
-    },
-    {
-        "company": "BearingPoint",
-        "title": "Consultant Data Analytics",
-        "fit": 64,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because role involves developing machine learning models and AI transformations, providing intellectual stimulation. However, not specifically focused on AI which is the applicant's main interest. Flexible/remote work arrangements 10 because location is office-based in Germany, no clear indication of remote work options. Some flexibility may be possible but details not provided. Autonomy and independence 12 because consulting role suggests some autonomy in developing solutions, but oversight implied as part of project teams. Independence level unclear. Alignment with interests in technology, startups, risk 5 because established management consulting firm, not a technology startup. Low alignment with interests in startups and risk-taking. Opportunities to publish research 2 because consulting focused, less emphasis on publishing research. Compensation level 5 because salary range not provided. Likely competitive base consulting salary but unclear on bonus potential. Work/life balance 5 because consulting roles tend to involve travel and long hours. Details on work-life balance not provided. Impact and meaning 3 because consulting projects can enable client impact but meaning may vary. Collaborative team environment 4 because mentions working in project teams, suggests some collaboration. Culture not emphasized. Career advancement prospects 3 because established firm provides advancement opportunities but trajectory and growth potential unclear.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "Not provided",
-        "location": "Berlin, Germany"
-    },
-    {
-        "company": "Ratbacher",
-        "title": "Business Analyst",
-        "fit": 64,
-        "fit_detailed": "Intellectual stimulation and challenge (20/100): Grade: 12 Reasons: Business analysis of ERP systems provides some intellectual challenge, but is not directly in AI field of interest. Process optimization and solution architecture offer additional stimulation. Flexible/remote work arrangements (15/100): Grade: 10 Reasons: Gleitzeit provides flexibility, but no full remote or indication of extensive WFH options. Some flexibility but not ideal. Autonomy and independence (15/100): Grade: 10 Reasons: Business analyst role allows some autonomy, but change management and interfacing between IT and business units implies oversight. Alignment with interests in technology, startups, risk (10/100): Grade: 5 Reasons: Large established company, not a startup. ERP systems less aligned with cutting edge technology interests. Opportunities to publish research (5/100): Grade: 1 Reasons: Business analyst role focused on internal process optimization, not publishing research. Compensation level (10/100): Grade: 8 Reasons: Salary of EUR 85k is reasonable for business analyst role and meets minimum expectations. But not exceeding hopes. Work/life balance (10/100): Grade: 8 Reasons: Flexitime provides work/life balance, but no indication of remote work options. Reasonable balance but could be better. Impact and meaning (5/100): Grade: 3 Reasons: Internal business analysis and process optimization creates some impact but not as meaningful. Collaborative team environment (5/100): Grade: 3 Reasons: Some mention of team events, but limited detail on actual team collaboration and culture. Career advancement prospects (5/100): Grade: 4 Reasons: Large company provides options to advance over time, but trajectory and growth path not clearly defined. Final Overall Fit Score: 64",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "EUR 85k",
-        "location": "Feldkirch, Austria"
-    },
-    {
-        "company": "ALDI S\u00dcD HOLDING",
-        "title": "Buying Manager Food",
-        "fit": 64,
-        "fit_detailed": "Intellectual stimulation and challenge (20): Grade 10. Buying food brands globally provides some intellectual challenge, but likely more operational than highly strategic. Not AI-focused. Flexible/remote work arrangements (15): Grade 10. Options for remote work from home or anywhere in Austria up to 13 days per month. Also 30 days abroad. Provides flexibility.  Autonomy and independence (15): Grade 12. Leading a buying business unit independently indicates a high degree of autonomy. Central contact for suppliers also suggests independence. Alignment with interests in technology, startups, risk (10): Grade 5. Large established retailer, not a tech startup. Buying branded foods is lower risk.  Opportunities to publish research (5): Grade 1. No research publishing opportunities indicated for this commercial buying role. Compensation level (10): Grade 8. Salary range EUR 96k-120k is decent but below benchmark expectations. Willingness to overpay helps. Work/life balance (10): Grade 8. Remote work options help balance. 6 weeks annual leave is good. Travel up to 25% could impact balance somewhat. Impact and meaning (5): Grade 3. Buying food brands has modest impact. Not a core strategic growth role. Collaborative team environment (5): Grade 4. Leading a team of 6 suggests some collaboration. Details on culture limited. Career advancement prospects (5): Grade 3. Progression opportunities within buying team, but trajectory and scope unclear.  Fit: 64 The job scores reasonably well on autonomy, remote work flexibility and compensation but is weaker on intellectual stimulation, startup alignment, research publishing, meaning, and career growth. The overall fit score is 64/100.",
-        "dateAdded": "July 10, 2023",
-        "salaryRange": "EUR 96k - 120k",
-        "location": "Wals, Austria"
-    },
-    {
-        "company": "KI group",
-        "title": "AI Engineer",
-        "fit": 63,
-        "fit_detailed": "Intellectual stimulation and challenge 15 because implementing state-of-the-art AI solutions and working with latest technologies like OpenAI provides intellectual challenge, though not fully specialized in AI. Flexible/remote work arrangements 10 because hybrid setup with option to work remotely. Autonomy and independence 10 because driving implementation of AI solutions indicates some autonomy. Alignment with interests 15 because startup culture and AI focus aligns with interests. Opportunities to publish research 0 because no indication of research opportunities. Compensation level 7 because EUR 60k-90k range provided, which is decent but below ideal benchmark. Work/life balance 8 because hybrid flexibility provides good balance. Impact and meaning 5 because AI solutions can enable business impact but specifics unclear. Collaborative team environment 3 because intercultural team indicates collaboration but limited detail on culture. Career advancement prospects 0 because startup may provide opportunities but advancement path unclear.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "EUR 60k - 90k",
-        "location": "Cologne, Germany"
-    },
-    {
-        "company": "Ubitec",
-        "title": "Python Developer",
-        "fit": 63,
-        "fit_detailed": "Intellectual stimulation and challenge 10 because Python backend development provides some intellectual stimulation but likely not highly innovative or complex work. However, ability to explore different topics and find specialization area indicates potential for more challenge. Flexible/remote work arrangements 10 because office location in Linz but flexible work hours and home office mentioned. Likely hybrid remote work but details unclear. Autonomy and independence 5 because junior role so likely less autonomy. Proactive and self-driven work style desired but unclear decision making authority. Alignment with interests in technology, startups, risk 5 because small tech company but not a startup. Product innovation in chatbots but low risk. Opportunities to publish research 1 because no indication of research publication opportunities. Focused on product development. Compensation level 4 because salary range at EUR 38-42k is below desired EUR 100k benchmark. However meets expectations for junior developer role. Work/life balance 8 because flexible work hours and partial remote work positive for balance. Impact and meaning 3 because chatbot technology has moderate impact potential. Collaborative team environment 4 because small dynamic team and open culture indicates collaboration. Career advancement prospects 3 because junior role provides experience but unclear trajectory for advancement.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 38k - 42k",
-        "location": "Linz, Austria"
-    },
-    {
-        "company": "Forecasting Research Institute",
-        "title": "Operations Lead",
-        "fit": 63,
-        "fit_detailed": "Intellectual stimulation and challenge 10 because operations role less focused on AI research but forecasting institute indicates analytical thinking needed. Flexible/remote work arrangements 15 because fully remote role. Autonomy and independence 10 because taking ownership and self-directed environment indicates autonomy. Alignment with interests 5 because forecasting institute aligned to technology interests but operations less focused on research. Opportunities to publish research 0 because operations role unlikely to publish. Compensation level 5 because not provided, operations roles tend to be average compensation. Work/life balance 10 because remote work enables flexibility. Impact and meaning 3 because operations enables productivity for research but not direct impact. Collaborative team environment 3 because working closely with CEO indicates some collaboration. Career advancement prospects 2 because operations offers limited advancement prospects.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "Not provided",
-        "location": ""
-    },
-    {
-        "company": "Liebherr",
-        "title": "Strategischer Facheink\u00e4ufer",
-        "fit": 63,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 5 - Developing material group strategies provides some intellectual challenge, but focused on procurement rather than AI. Flexible/remote work arrangements (Weight: 15/100): Grade: 10 - Home office and flexible working hours mentioned. Autonomy and independence (Weight: 15/100):  Grade: 10 - Lead buyer role and developing strategies indicates autonomy. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 3 - Large established company, not a tech startup. Low risk tolerance needed. Opportunities to publish research (Weight: 5/100): Grade: 1 - No research publication opportunities mentioned. Focus is operational procurement. Compensation level (Weight: 10/100):  Grade: 5 - No salary provided, expected to be competitive for procurement manager role but likely below benchmark. Work/life balance (Weight: 10/100): Grade: 8 - Home office and flexible hours positive for work/life balance. Impact and meaning (Weight: 5/100): Grade: 3 - Procurement has modest impact on product and operations. Collaborative team environment (Weight: 5/100): Grade: 3 - Cross-functional collaboration mentioned but culture unclear. Career advancement prospects (Weight: 5/100): Grade: 5 - Large international company may provide good advancement potential.",
-        "dateAdded": "July 7, 2023",
-        "salaryRange": "Not provided",
-        "location": "Bischofshofen, Austria"
-    },
-    {
-        "company": "Bundesrechenzentrum",
-        "title": "KI Project Manager",
-        "fit": 61,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 10 Reason: KI focus provides some intellectual stimulation, but implementation and project management rather than research. Flexible/remote work arrangements (Weight: 15/100): Grade: 10 Reason: Up to 60% remote work mentioned. Flexible working hours without core times. Autonomy and independence (Weight: 15/100): Grade: 10 Reason: Project manager role indicates some autonomy and independence in executing projects. Unclear on amount of oversight. Alignment with interests in technology, startups, risk (Weight: 10/100):  Grade: 5 Reason: Public sector technology provider, not a startup. KI focus aligned with interests but limited risk. Opportunities to publish research (Weight: 5/100): Grade: 1 Reason: No research focus in project management implementation role. Compensation level (Weight: 10/100): Grade: 8 Reason: Salary range of 73-74k EUR is decent but below 100k benchmark target. Work/life balance (Weight: 10/100): Grade: 8 Reason: Up to 60% remote work and flexible hours support work/life balance. Public sector may limit overtime. Impact and meaning (Weight: 5/100): Grade: 3  Reason: Enabling digital public services has societal impact but unclear on specific projects. Collaborative team environment (Weight: 5/100): Grade: 3 Reason: Limited detail provided on team culture and environment. Career advancement prospects (Weight: 5/100): Grade: 2 Reason: Public sector may limit fast career growth, but opportunities to advance in project management. Total Fit Score: 61",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 73k - 74k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "epunkt",
-        "title": "Cost Engineer",
-        "fit": 61,
-        "fit_detailed": "Intellectual stimulation and challenge, though the challenge should be in the AI area, not biotech or else. (Weight: 20/100)\nGrade: 10\nReasoning: The role involves cost engineering for steel and cylinder manufacturing processes which provides some intellectual challenge, but is not focused on AI.\n\nFlexible/remote work arrangements (Weight: 15/100) \nGrade: 12 \nReasoning: 30-40% remote work is mentioned, providing some flexibility.\n\nAutonomy and independence (Weight: 15/100)\nGrade: 10\nReasoning: The role involves taking on responsibilities in a growing team, suggesting some autonomy, but unclear on level of independence. \n\nAlignment with interests in technology, startups, risk (Weight: 10/100)\nGrade: 5\nReasoning: Established company focused on manufacturing processes, not a technology startup.\n\nOpportunities to publish research (Weight: 5/100) \nGrade: 1\nReasoning: Commercial operations role unlikely to provide research publication opportunities.\n\nCompensation level (Weight: 10/100)\nGrade: 6  \nReasoning: Salary range of EUR 63k-84k is decent but below the EUR 100k benchmark target. \n\nWork/life balance (Weight: 10/100)\nGrade: 8\nReasoning: 30-40% remote work provides work-life balance benefits.\n\nImpact and meaning (Weight: 5/100)\nGrade: 3\nReasoning: Manufacturing processes may enable product impact but meaning likely limited.\n\nCollaborative team environment (Weight: 5/100) \nGrade: 3\nReasoning: Working in a team is mentioned but culture unclear.\n\nCareer advancement prospects (Weight: 5/100)\nGrade: 3\nReasoning: Growth is mentioned but advancement path and trajectory are unclear.\n\nFinal Overall Fit Score: 61",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "EUR 63k - 84k",
-        "location": "Salzburg, Austria"
-    },
-    {
-        "company": "Digital Waffle",
-        "title": "AI Engineer",
-        "fit": 61,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 15 Working on greenfield AI/ML projects and shaping future products provides intellectual stimulation. However, specific details on level of innovation are lacking. Flexible/remote work arrangements (Weight: 15/100): Grade: 10 Flexible/remote working mentioned but no specifics on how flexible or remote-friendly. Autonomy and independence (Weight: 15/100): Grade: 10 Flat hierarchy suggests autonomy, but unclear how much independence in technical decisions/approach. Alignment with interests in technology, startups, risk (Weight: 10/100):  Grade: 5 Established software/AI company, not a startup. Focus on AI/ML is aligned with interests. Opportunities to publish research (Weight: 5/100): Grade: 1 No indication that publishing research would be possible in this commercial role. Compensation level (Weight: 10/100): Grade: 7 Salary range of 45k-65k EUR is decent but below 100k benchmark target. Work/life balance (Weight: 10/100): Grade: 5 Remote work provides flexibility but no other details on work/life balance policies. Impact and meaning (Weight: 5/100): Grade: 3 Building AI/ML products has impact potential but specifics unclear. Collaborative team environment (Weight: 5/100): Grade: 3 Sociable team mentioned but limited detail on actual collaboration. Career advancement prospects (Weight: 5/100): Grade: 2 No clear details provided on advancement opportunities. Final Overall Fit Score: 61",
-        "dateAdded": "02/06/2023",
-        "salaryRange": "EUR 45k - 65k",
-        "location": "Deutschland"
-    },
-    {
-        "company": "Deloitte Leadership Services",
-        "title": "Vorstand Markt",
-        "fit": 60,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 5 Reasons: The role involves strategic leadership and driving innovation which provides some intellectual stimulation, but is more focused on operational management than research or highly technical work. Flexible/remote work arrangements (Weight: 15/100): Grade: 10 Reasons: No indication that remote work or flexible arrangements are supported. As a senior executive role likely requires presence in Baden area. Autonomy and independence (Weight: 15/100): Grade: 15 Reasons: As a C-level position has high degree of autonomy and ability to shape strategy and operations. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 3 Reasons: Established financial services company, not a technology startup. Risk tolerance needed in leadership role but core business is relatively stable/low risk. Opportunities to publish research (Weight: 5/100): Grade: 0 Reasons: No research publishing opportunities indicated for this commercial leadership position. Compensation level (Weight: 10/100): Grade: 10 Reasons: Salary of 170k EUR exceeds minimum expected level of 100k EUR. Work/life balance (Weight: 10/100): Grade: 5 Reasons: Executive role likely has high demands on time, but details on hours/travel not provided. Impact and meaning (Weight: 5/100): Grade: 3 Reasons: Leadership of regional bank provides ability to positively impact customers and community, but likely not global impact. Collaborative team environment (Weight: 5/100): Grade: 3 Reasons: Must foster collaboration as C-suite leader, but limited details provided on culture. Career advancement prospects (Weight: 5/100): Grade: 2 Reasons: As a C-level role, limited advancement prospects within the company.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "EUR 170k",
-        "location": "Baden, Austria"
-    },
-    {
-        "company": "Liebherr",
-        "title": "Projektleiter Logistics",
-        "fit": 58,
-        "fit_detailed": "Intellectual stimulation and challenge 5 because logistics projects provide some intellectual challenge, but likely not highly innovative or complex AI work. Flexible/remote work arrangements 15 because home office and flexible hours mentioned, so full remote work seems very possible. Autonomy and independence 10 because leading projects indicates some autonomy, but unclear on level of oversight. Alignment with interests in technology, startups, risk 3 because established industrial company, not a tech startup. Low risk tolerance needed. Opportunities to publish research 0 because no research publication opportunities mentioned. Focus is operational logistics. Compensation level 7 because salary range EUR 60-80k. Slightly below desired benchmark but reasonable for role. Work/life balance 10 because flexible hours and remote work enable good work/life balance. Impact and meaning 3 because logistics enable operations but limited societal impact. Collaborative team environment 3 because some collaboration with internal stakeholders but culture unclear. Career advancement prospects 2 because established company but promotion path not mentioned.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 60k - 80k",
-        "location": "Bischofshofen, Austria"
-    },
-    {
-        "company": "Raiffeisen Bank",
-        "title": "Student Job AI",
-        "fit": 58,
-        "fit_detailed": "Intellectual stimulation and challenge: Grade 15/20 - Working on conversational AI and NLP provides intellectual stimulation, though not specifically in AI research. Contributing to innovative solutions is challenging. Flexible/remote work arrangements: Grade 10/15 - Office-based role in Vienna, no remote work mentioned. Flexible hours to fit university schedule provides some flexibility. Autonomy and independence: Grade 5/15 - Some independence in developing solutions, but closely assisting AI team. Unclear decision-making authority. Alignment with interests: Grade 7/10 - Banking industry not a top interest, but conversational AI and innovative solutions are interesting. Opportunities to publish research: Grade 1/5 - No research publication opportunities mentioned. Commercial focus. Compensation level: Grade 3/10 - Salary of EUR 27k is quite low for AI role. Does not meet benchmark expectations. Work/life balance: Grade 8/10 - Flexible hours help balance work and studies. Reasonable hours at 20-25 per week. Impact and meaning: Grade 3/5 - Customer service impact, but limited societal meaning. Collaborative team environment: Grade 4/5 - Will collaborate with AI team and stakeholders. Supportive onboarding mentioned. Career advancement prospects: Grade 2/5 - Limited visibility into advancement opportunities as a student role. Total Grade: 58/100",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 27k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "GiveDirectly",
-        "title": "Operations Manager",
-        "fit": 57,
-        "fit_detailed": "Intellectual stimulation and challenge 5 because logistics, procurement, administration provide some problem-solving but limited technical challenge. Flexible/remote work arrangements 10 because location flexibility within Congo but no remote options mentioned. Autonomy and independence 10 because manages procurement, logistics independently and supervises staff. Alignment with interests 5 because innovative non-profit but operations not technical. Opportunities to publish research 1 because no research mentioned. Compensation level 3 because salary range unclear. Work/life balance 7 because no flexible schedule but reasonable hours likely. Impact and meaning 5 because international aid is meaningful but operations role is removed from impact. Collaborative team environment 3 because limited team details. Career advancement prospects 3 because no advancement opportunities mentioned.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "Not provided",
-        "location": "Goma, Congo"
-    },
-    {
-        "company": "ALDI S\u00dcD HOLDING",
-        "title": "Senior Manager Global Strategy",
-        "fit": 57,
-        "fit_detailed": "Intellectual stimulation and challenge 3 because strategic planning can be stimulating but not in AI field directly. Flexible/remote work arrangements 10 because 13 remote days in Austria and 30 abroad. Autonomy and independence 7 because VP title suggests autonomy but CCO oversight and team may limit. Alignment with interests 5 because established retail, not startup or tech focus. Opportunities to publish research 0 because corporate strategy execution role. Compensation level 8 because 113-114k EUR decent, but below US potential. Work/life balance 8 because 6 weeks leave and remote flexibility. Impact and meaning 3 because contributes to business strategy but retail company. Collaborative team environment 3 because leading team enables collaboration but culture unclear. Career advancement prospects 2 because slower in established corporate vs startup.",
-        "dateAdded": "July 13, 2023",
-        "salaryRange": "EUR 113k - 114k",
-        "location": "Salzburg, Austria"
-    },
-    {
-        "company": "Mavida Group",
-        "title": "Stationsleitung Stellvertretung",
-        "fit": 54,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 5 Reasons: The job provides some intellectual stimulation in managing operations and leading a nursing team, but is not focused on AI. Flexible/remote work arrangements (Weight: 15/100): Grade: 10 Reasons: Full-time or part-time schedule provides flexibility. Location is commutable. Autonomy and independence (Weight: 15/100): Grade: 10 Reasons: Role involves representing the head nurse and managing operations with autonomy when head nurse is absent. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 2 Reasons: Traditional nursing home setting, not a technology startup. Low risk tolerance needed. Opportunities to publish research (Weight: 5/100): Grade: 0 Reasons: No research publication opportunities in an operational nursing leadership role. Compensation level (Weight: 10/100): Grade: 3 Reasons: Salary of EUR 34k is below desired benchmark. Industry average for nursing leadership. Work/life balance (Weight: 10/100): Grade: 8 Reasons: Flexible full-time or part-time schedule supports work-life balance. Nursing can be demanding. Impact and meaning (Weight: 5/100): Grade: 5 Reasons: Directly caring for elderly and dementia patients is meaningful. Collaborative team environment (Weight: 5/100): Grade: 3 Reasons: Leading nursing team indicates some collaboration. Culture unclear. Career advancement prospects (Weight: 5/100): Grade: 3 Reasons: Advancement opportunities in large nursing home group but path unclear. Final Fit Score: 54",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "EUR 34k",
-        "location": "Villach, Austria"
-    },
-    {
-        "company": "Biotest",
-        "title": "Demand Chain Manager",
-        "fit": 50,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): \nGrade: 10\nReasons: Supply chain planning and demand management provide some analytical challenge, but likely not highly innovative work. Biotest is a pharmaceutical company focused on immunology and hematology rather than AI.\n\nFlexible/remote work arrangements (Weight: 15/100):  \nGrade: 5\nReasons: No indication that remote work or flexible arrangements are offered. Likely a standard onsite role. \n\nAutonomy and independence (Weight: 15/100):\nGrade: 10 \nReasons: Position involves monitoring forecasts and inventory, suggesting plan changes, and making allocation decisions which indicates a moderate level of autonomy. However, it also requires close collaboration with other teams.\n\nAlignment with interests in technology, startups, risk (Weight: 10/100):\nGrade: 3\nReasons: Biotest is an established pharmaceutical company focused on medical products, not a technology startup. Work does not seem very risky or entrepreneurial.\n\nOpportunities to publish research (Weight: 5/100):\nGrade: 1\nReasons: This is a commercial supply chain operations role, not a research position. Very unlikely to lead to published studies. \n\nCompensation level (Weight: 10/100): \nGrade: 5\nReasons: Salary range not provided in job description. As a manager role at an established pharma company in Germany, estimated around 80-100k EUR annually.\n\nWork/life balance (Weight: 10/100):\nGrade: 7 \nReasons: No indication of remote work or above-average flexibility. Standard office-based role likely with average work-life balance for the field.\n\nImpact and meaning (Weight: 5/100):\nGrade: 3\nReasons: Helping provide important pharmaceutical products to patients provides some meaning, but supply chain operations role itself does not directly improve healthcare.\n\nCollaborative team environment (Weight: 5/100):\nGrade: 3\nReasons: Requires collaboration with other groups, but culture and environment details not provided.\n\nCareer advancement prospects (Weight: 5/100):  \nGrade: 3\nReasons: Established company provides some advancement potential to higher supply chain roles, but limited details provided.\n\nFinal Overall Fit Score: 50\n",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "Not provided",
-        "location": "Dreieich, Germany"
-    },
-    {
-        "company": "Philip Morris Austria",
-        "title": "Lead Supply Chain",
-        "fit": 49,
-        "fit_detailed": "Intellectual stimulation and challenge: Grade 3 - Supply chain operations are complex but focused more on logistics than AI or advanced analytics. Some strategic thinking required but limited mention of innovation. Flexible/remote work arrangements: Grade 10 - Full-time role based in Vienna office suggests limited remote flexibility. No other details provided. Autonomy and independence: Grade 8 - Lead position indicates some independence to manage supply chain operations. Unclear on level of oversight. Alignment with interests in technology, startups, risk: Grade 2 - Large established tobacco company unlikely to align with interests in startups or emerging tech. Opportunities to publish research: Grade 1 - No research opportunities indicated for supply chain operations role. Compensation level: Grade 7 - Salary range of 66k-80k EUR is decent but below benchmark expectations. Work/life balance: Grade 5 - Full-time office-based role may limit flexibility for work/life balance. No other details. Impact and meaning: Grade 3 - Supply chain enables product availability but limited direct impact. Tobacco products have questionable social impact. Collaborative team environment: Grade 5 - Leading a team indicates some collaboration. Culture and environment details lacking. Career advancement prospects: Grade 5 - Large company may offer advancement but trajectory and growth path not specified. Total Fit Score: 49",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 66k - 80k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "Aldi",
-        "title": "Consultant Projektmanagement",
-        "fit": 48,
-        "fit_detailed": "Intellectual stimulation and challenge 3 because supply chain project management provides some problem solving but is not focused on AI. Flexible/remote work arrangements 10 because up to 50% home office is allowed. Autonomy and independence 8 because independent project planning and management but also cross-functional collaboration. Alignment with interests 5 because retail/supply chain is somewhat aligned with interest in startups and tech. Opportunities to publish research 1 because no research publishing in this operational role. Compensation level 4 because salary range of 47k-60k Euros is below desired level. Work/life balance 8 because home office up to 50% supports work/life balance. Impact and meaning 3 because supply chain optimization has modest societal impact. Collaborative team environment 4 because cross-functional collaboration required. Career advancement prospects 2 because retail roles may have limited advancement compared to tech.",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 47k - 60k",
-        "location": "Sattledt, Austria"
-    },
-    {
-        "company": "Anthropic",
-        "title": "Physical Security Officer",
-        "fit": 45,
-        "fit_detailed": "Intellectual stimulation and challenge 0 because physical security role is not intellectually stimulating or AI focused. Flexible/remote work arrangements 0 because onsite role with no remote work mentioned. Autonomy and independence 5 because oversees security team and implements new initiatives but reports to director. Alignment with interests 0 because physical security not a technology startup role. Opportunities to publish research 0 because no research component. Compensation level 10 because USD 130-270k is decent but below benchmark. Work/life balance 5 because no detail on hours. Impact and meaning 10 because protecting people and assets has impact. Collaborative team environment 5 because collaborates with HR and IT but limited on culture. Career advancement prospects 10 because experience could enable security management roles.",
-        "dateAdded": "July 15, 2023",
-        "salaryRange": "USD 130k - 270k",
-        "location": "San Francisco, USA"
-    },
-    {
-        "company": "Post",
-        "title": "Expert Application Management",
-        "fit": 45,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 5 Reasons: Application management and support provides some intellectual challenge, but likely not highly innovative work in AI. Parametrizing and maintaining core banking system provides some analytical thinking but is not cutting edge technology. Flexible/remote work arrangements (Weight: 15/100): Grade: 10 Reasons: Home office mentioned as an option, suggesting some flexibility. However, unclear if fully remote or just hybrid schedule. Autonomy and independence (Weight: 15/100): Grade: 5 Reasons: Some autonomy to provide support and create documentation, but taking direction from internal stakeholders on projects and tests. Not fully independent role. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 3 Reasons: Established bank, not a tech startup. Work is in IT but not highly innovative or risky. Opportunities to publish research (Weight: 5/100): Grade: 1 Reasons: No indication that publishing research would be part of this operational support role. Compensation level (Weight: 10/100): Grade: 5 Reasons: Salary of 55k EUR is reasonable for the role but below the 100k EUR benchmark target. Work/life balance (Weight: 10/100): Grade: 7 Reasons: Home office provides flexibility but extent unclear. Reasonable work-life balance for a professional services role expected. Impact and meaning (Weight: 5/100): Grade: 3 Reasons: Enabling banking services has some societal value but limited ability to drive impact from this individual contributor role. Collaborative team environment (Weight: 5/100): Grade: 3 Reasons: Some collaboration with internal teams but culture not emphasized. Career advancement prospects (Weight: 5/100): Grade: 3 Reasons: Established organization may provide advancement opportunities but trajectory not highlighted. Final Overall Fit Score: 45",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 55k",
-        "location": "Vienna, Austria"
-    },
-    {
-        "company": "Eblinger & Partner",
-        "title": "Betriebsleiter Lebensmittelindustrie",
-        "fit": 42,
-        "fit_detailed": "Intellectual stimulation and challenge (Weight: 20/100): Grade: 5 Reason: Leading a production site provides some intellectual challenge, but operations management is not directly in AI. Some innovation and project work could provide stimulation. Flexible/remote work arrangements (Weight: 15/100): Grade: 0 Reason: No indication of remote work or flexible arrangements mentioned. Likely an on-site role. Autonomy and independence (Weight: 15/100): Grade: 10 Reason: Position has full responsibility for managing site operations with minimal oversight, indicating a high degree of autonomy. Alignment with interests in technology, startups, risk (Weight: 10/100): Grade: 2 Reason: Established food company, not a technology startup. Operations role has limited risk exposure. Opportunities to publish research (Weight: 5/100): Grade: 0 Reason: No research publication opportunities for an operations management role. Focus is on execution. Compensation level (Weight: 10/100): Grade: 7 Reason: Salary range of 75k-85k EUR is decent but below the 100k benchmark target. Work/life balance (Weight: 10/100): Grade: 5 Reason: No indication of remote work or flexible schedules. Operations management can have long hours. Impact and meaning (Weight: 5/100): Grade: 3 Reason: Enabling a successful family business has moderate positive impact. Collaborative team environment (Weight: 5/100): Grade: 3 Reason: Leading a team of ~20 indicates some collaboration. Culture not described. Career advancement prospects (Weight: 5/100): Grade: 2 Reason: Limited visibility into advancement opportunities beyond site leadership role. Final fit score: 42",
-        "dateAdded": "July 14, 2023",
-        "salaryRange": "EUR 75k - 85k",
-        "location": "Nieder\u00f6sterreich, Austria"
+        "fit_applicant": 25,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge 3 because developing business applications with low code platforms provides some challenge but is not AI focused. Flexible/remote work arrangements 10 because full remote work and home office mentioned. Autonomy and independence 5 because analyzing processes and identifying automation indicates some autonomy. Alignment with interests 2 because customer experience and process optimization not a strong alignment. Opportunities to publish research 0 because no research publishing in this commercial role. Compensation level 5 because 60k-80k EUR reasonable based on role and experience. Work/life balance 8 because flexible work arrangements and 30 days vacation. Impact and meaning 1 because optimizing customer processes has limited societal impact. Collaborative team environment 2 because working on customer projects in teams. Career advancement prospects 2 because growth opportunities not clearly stated.",
+        "fit_recruiter": 31,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 5/10 - Management experience as founder and CEO but not directly in healthcare (CV). No nursing qualifications mentioned (CV). Educational Qualifications: 3/5 - Technical university degree but not in nursing (CV). No evidence of nursing qualifications (CV). Cultural Fit: 5/7.5 - Entrepreneurial experience suits innovative culture (CV) but healthcare experience lacking. Communication Skills: 5/7.5 - Strong communication evidenced in CEO role (CV) but healthcare specifics unknown. Problem-Solving Ability: 3/5 - Strategic problem-solving shown in CEO role (CV) but healthcare context lacking. Adaptability: 5/5 - Experience scaling start-up and leading change suggests adaptability (CV). Initiative and Motivation: 5/5 - Strong self-drive evident from entrepreneurial career (CV). Teamwork: 2.5/2.5 - Some team collaboration shown (CV). Leadership Potential: 2.5/2.5 - Leadership capabilities proven as CEO (CV). Total: 31/50",
+        "date_added": "July 14, 2023",
+        "salary_range": "EUR 60k - 80k",
+        "location": "Munich, Germany",
+        "fit_total": 56
     }
 ]

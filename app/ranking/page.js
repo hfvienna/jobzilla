@@ -18,11 +18,14 @@ export default function JobsTable() {
     <table className="table table-zebra w-full">
       <thead>
         <tr>
-          <th>#</th>
+          <th>UUID</th>
           <th>Company</th>
           <th>Job Title</th>
-          <th>Company Applicant Fit</th>
-          <th>Fit Detailed</th>
+          <th>Fit Total</th>
+          <th>Fit Recruiter View</th>
+          <th>Fit Recruiter View Detailed</th> 
+          <th>Fit Applicant View</th>
+          <th>Fit Applicant View Detailed</th>
           <th>Date Added</th>
           <th>Salary Range</th>
           <th>Location</th>
@@ -35,10 +38,13 @@ export default function JobsTable() {
             <td>{index + 1}</td>
             <td>{job.company || DEFAULT_VALUE}</td>
             <td>{job.title || DEFAULT_VALUE}</td>
-            <td>{job.fit || DEFAULT_VALUE}</td>
-            <td>{job.fit_detailed || DEFAULT_VALUE}</td>
-            <td>{job.dateAdded || DEFAULT_VALUE}</td>
-            <td>{job.salaryRange || DEFAULT_VALUE}</td>
+            <td>{(job.fit_recruiter + job.fit_applicant) || DEFAULT_VALUE}</td>
+            <td>{job.fit_recruiter || DEFAULT_VALUE}</td>
+            <td>{job.fit_recruiter_detailed || DEFAULT_VALUE}</td>
+            <td>{job.fit_applicant || DEFAULT_VALUE}</td>
+            <td>{job.fit_applicant_detailed || DEFAULT_VALUE}</td>
+            <td>{job.date_added || DEFAULT_VALUE}</td>
+            <td>{job.salary_Range || DEFAULT_VALUE}</td>
             <td>{job.location || DEFAULT_VALUE}</td>
           </tr>
         ))}
@@ -46,11 +52,14 @@ export default function JobsTable() {
 
       <tfoot>
         <tr>
-          <th>#</th>
+          <th>UUID</th>
           <th>Company</th>
           <th>Job Title</th>
-          <th>Company Applicant Fit</th>
-          <th>Fit Detailed</th>
+          <th>Fit Total</th>
+          <th>Fit Recruiter View</th>
+          <th>Fit Recruiter View Detailed</th> 
+          <th>Fit Applicant View</th>
+          <th>Fit Applicant View Detailed</th>
           <th>Date Added</th>
           <th>Salary Range</th>
           <th>Location</th>

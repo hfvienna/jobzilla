@@ -14,13 +14,14 @@ def load_job_data(directory):
                     print(f"JSONDecodeError in file {filename}: ", e.doc, e.pos)
     return pd.DataFrame(data)  # Convert list of dicts to DataFrame
 
-data = load_job_data("../public/jobs/JSONs_applicant_fits")  # Load job data
+data = load_job_data("../public/jobs/JSONS_merged")  # Load job data
 
-# Fill missing fit values with 0
-data['fit'] = data['fit'].fillna(0)
+# Convert "fit_applicant" and "fit_recruiter" to numeric, coerce errors (invalid values) to NaN, then fill with 0
+data['fit_applicant'] = pd.to_numeric(data['fit_applicant'], errors='coerce').fillna(0)
+data['fit_recruiter'] = pd.to_numeric(data['fit_recruiter'], errors='coerce').fillna(0)
 
-# Convert "fit" to numeric, coerce errors (invalid values) to NaN, then fill with 0
-data['fit'] = pd.to_numeric(data['fit'], errors='coerce').fillna(0)
+# Calculate total fit as the sum of applicant and recruiter fits
+data['fit_total'] = data['fit_applicant'] + data['fit_recruiter']
 
 # Drop the 'email' column
 if 'email' in data.columns:
@@ -28,7 +29,7 @@ if 'email' in data.columns:
 
 print(data)  # Print the DataFrame
 
-df_sorted = data.sort_values("fit", ascending=False)  # Sort by fit
+df_sorted = data.sort_values("fit_total", ascending=False)  # Sort by total fit
 
 # Convert the DataFrame to a list of dictionaries and save to JSON
 with open("../app/job_table.json", "w") as f:

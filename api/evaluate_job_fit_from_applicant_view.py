@@ -1,7 +1,8 @@
 import json
+import logging
 import os
 
-from claude import llm
+from llm_claude import llm
 
 SYSTEM_MESSAGE = """
 You are an expert job hunter.
@@ -9,13 +10,17 @@ You will receive a weighted rankings for requirements from the applicant
 as well as a job description from a company as well as a JSON with company facts.
 This is an example:
 {
+  "uuid": 24,
   "company": "ALDI SÜD", 
   "title": "Senior Manager",
-  "fit": null,
-  "fit_detailed": "",
-  "dateAdded": "July 14, 2023",
-  "salaryRange": "EUR 113k",
-  "location": "Salzburg, Austria"
+  "fit_applicant": null,
+  "fit_applicant_detailed": "",
+  "fit_recruiter": null,
+  "fit_recruiter_detailed": "",
+  "date_added": "July 14, 2023",
+  "salary_range": "EUR 113k",
+  "location": "Salzburg, Austria",
+  "email": ""
 }
 Using the weighted requirements grade the job on a scale from 0-50 so 
 that the applicant can make a ranking of all jobs and decide which ones to apply first to.
@@ -37,13 +42,17 @@ Make the fit a number between 0 and 50 where 50 is perfect fit.
 Your outcome should look like this:
 Provide all your detailed reasoning and not just "reason 1", "reason", do it like in the example below.
 {
+  "uuid": 27,
   "company": "Biotech International",
   "title": "Biotech Data Analyzer",
-  "fit": 38,
-  "fit_detailed": "Intellectual stimulation and challenge 6 because innovative biotech diagnostics are intellectually stimulating, however, this is not in the field of AI. Developing sales strategy requires creative thinking, and oncology focus provides complexity. Flexible/remote work arrangements 8 because fully remote DACH-based role, flexible hours mentioned, and home office stated. Autonomy and independence 5 because VP suggests autonomy but unclear on CCO oversight and leading team indicates some independence. Alignment with interests 5 because biotech startup with innovative cancer prevention technology indicates risk tolerance needed. Opportunities to publish research 1 because commercial operations less focused on research, could partner with R&D. Compensation level 2 because salary range not provided, likely competitive for role but equity details unknown. Work/life balance 5 because fully remote, flexible hours, reasonable travel. Impact and meaning 2 because cancer prevention diagnostics have big impact and commercial success enables product impact. Collaborative team environment 2 because leading commercial team indicates collaboration and cross-functional partnerships mentioned but limited detail on culture. Career advancement prospects 2 because startup may enable fast growth but advancement path and trajectory unclear.",
+  "fit_applicant": 38,
+  "fit_applicant_detailed": "Intellectual stimulation and challenge 6 because innovative biotech diagnostics are intellectually stimulating, however, this is not in the field of AI. Developing sales strategy requires creative thinking, and oncology focus provides complexity. Flexible/remote work arrangements 8 because fully remote DACH-based role, flexible hours mentioned, and home office stated. Autonomy and independence 5 because VP suggests autonomy but unclear on CCO oversight and leading team indicates some independence. Alignment with interests 5 because biotech startup with innovative cancer prevention technology indicates risk tolerance needed. Opportunities to publish research 1 because commercial operations less focused on research, could partner with R&D. Compensation level 2 because salary range not provided, likely competitive for role but equity details unknown. Work/life balance 5 because fully remote, flexible hours, reasonable travel. Impact and meaning 2 because cancer prevention diagnostics have big impact and commercial success enables product impact. Collaborative team environment 2 because leading commercial team indicates collaboration and cross-functional partnerships mentioned but limited detail on culture. Career advancement prospects 2 because startup may enable fast growth but advancement path and trajectory unclear.",
+  "fit_recruiter": null,
+  "fit_recruiter_detailed": "",
   "dateAdded": "July 14, 2023",
   "salaryRange": "EUR 130k - 160k",
-  "location": "Redmond, USA"
+  "location": "Redmond, USA",
+  "email": ""
 }
 Do not return a JSON that does not have both a filled fit integer and a filled fit_detailed with a long explanatory string!
 Do not repeat the weights. We know them, we just want the resulting grade for each category.
@@ -77,28 +86,41 @@ for filename in os.listdir(JSON_FOLDER_FACTS):
         # Load job facts JSON
         with open(os.path.join(JSON_FOLDER_FACTS, filename)) as f:
             json_facts = json.load(f)
+            logging.debug(f"Loaded JSON facts: {json_facts}")
 
         # Load job text
         with open(txt_path) as f:
             job_text = f.read()
+            logging.debug(f"Loaded job text: {job_text}")
 
         # Combine all texts
         context = user_message + "\n" + job_text + "\n" + json.dumps(json_facts)
+        logging.debug(f"Combined context: {context}")
 
         result = llm(SYSTEM_MESSAGE, context)
+        logging.debug(f"LLM result: {result}")
 
         # extract the 'completion' part
         completion = result["completion"]
+        logging.debug(f"Completion: {completion}")
 
         # find the start and end of the JSON string
         start = completion.find("{")
         end = completion.rfind("}") + 1
+        logging.debug(f"Start and end of JSON string: {start}, {end}")
 
         # extract and clean the JSON string
         clean_result_str = completion[start:end]
+        logging.debug(f"Clean result string: {clean_result_str}")
 
         # convert the JSON string back to a Python dictionary
-        clean_result_dict = json.loads(clean_result_str)
+        try:
+            clean_result_dict = json.loads(clean_result_str)
+            logging.debug(f"Clean result dict: {clean_result_dict}")
+        except json.JSONDecodeError as e:
+            logging.error(f"Error decoding JSON: {e}")
+            logging.error(f"JSON string that caused the error: {clean_result_str}")
+            continue
 
         # print the dictionary as a pretty JSON string
         print(json.dumps(clean_result_dict, indent=4))

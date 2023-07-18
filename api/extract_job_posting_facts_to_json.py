@@ -1,7 +1,8 @@
 import json
 import os
+import uuid
 
-from claude import llm
+from llm_claude import llm
 
 SYSTEM_MESSAGE = """You are an expert job hunter.
 You will receive a job description from a company.
@@ -23,33 +24,43 @@ Make the location City, Country or Remote.
 Leave the location empty if you can not find it.
 Leave email empty if you can not find it.
 DON'T write NaN or so, just "".
+Don't add a uuid, keep it null.
 {
+  "uuid": null,
   "company": "Anthropic",
   "title": "Software Engineer",
-  "fit": null,
-  "fit_detailed": "",
-  "dateAdded": "July 10, 2023",
-  "salaryRange": "USD 120k - 150k",
+  "fit_applicant": null,
+  "fit_applicant_detailed": "",
+  "fit_recruiter": null,
+  "fit_recruiter_detailed": "",
+  "date_added": "July 10, 2023",
+  "salary_range": "USD 120k - 150k",
   "location": "Remote"
   "email": hr@anthropic.org
 },
 {
+  "uuid": null,
   "company": "Google",
   "title": "Product Manager",
-  "fit": null,
-  "fit_detailed": "",
-  "dateAdded": "July 12, 2023",
-  "salaryRange": "EUR 150k - 180k",
+  "fit_applicant": null,
+  "fit_applicant_detailed": "",
+  "fit_recruiter": null,
+  "fit_recruiter_detailed": "",
+  "date_added": "July 12, 2023",
+  "salary_range": "EUR 150k - 180k",
   "location": "Mountain View, USA"
   "email": ""
 },
 {
+  "uuid": null,
   "company": "Microsoft",
   "title": "Software Engineer",
-  "fit": null,
-  "fit_detailed": "",
-  "dateAdded": "July 14, 2023",
-  "salaryRange": "EUR 133k",
+  "fit_applicant": null,
+  "fit_applicant_detailed": "",
+  "fit_recruiter": null,
+  "fit_recruiter_detailed": "",
+  "date_added": "July 14, 2023",
+  "salary_range": "EUR 133k",
   "location": "Redmond, USA"
   "email": jobs@microsoft.com
 }
@@ -65,13 +76,11 @@ ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 JOBS_FOLDER = os.path.join(ROOT_DIR, "../public/jobs/txts")
 JSON_FOLDER = os.path.join(ROOT_DIR, "../public/jobs/JSONs_facts")
 
-
 for filename in os.listdir(JOBS_FOLDER):
     if filename.endswith(".txt"):
         json_filename = os.path.splitext(filename)[0] + ".json"
         json_path = os.path.join(JSON_FOLDER, json_filename)
         
-        # Check if JSON file already exists, and if so, skip processing this TXT file
         if os.path.exists(json_path):
             continue
 
@@ -82,25 +91,34 @@ for filename in os.listdir(JOBS_FOLDER):
 
         try:
             result = llm(SYSTEM_MESSAGE, context)
-
-            # extract the 'completion' part
             completion = result["completion"]
-
-            # find the start and end of the JSON string
             start = completion.find("{")
             end = completion.rfind("}") + 1
-
-            # extract and clean the JSON string
             clean_result = completion[start:end]
 
-            print(clean_result)
-
-            # Convert the JSON string to a Python dictionary
             dict_result = json.loads(clean_result)
 
-            # Save result to JSON file
+            # Check if the log file exists
+            if not os.path.exists('facts_to_json_log.txt'):
+                # If not, create it and initialize with 0
+                with open('facts_to_json_log.txt', 'w') as f:
+                    f.write('0')
+
+            # Read the running number from the log file
+            with open('facts_to_json_log.txt', 'r') as f:
+                running_number = int(f.read())
+
+            # Increment the running number
+            running_number += 1
+
+            # Write the running number back to the log file
+            with open('facts_to_json_log.txt', 'w') as f:
+                f.write(str(running_number))
+
+            # Add the running number as a UUID to the dictionary
+            dict_result['uuid'] = running_number
+
             with open(json_path, "w") as f:
                 json.dump(dict_result, f, indent=4)
         except json.JSONDecodeError:
             print(f"Failed to process file: {filename}")
-            

@@ -1,8 +1,3 @@
-"""
-Take pdf from folder public/digitaltwin/cv-hfvienna.pdf and extract text to txt in same folder
-Save it as cv_hfvienna.txt
-"""
-
 import os
 from PyPDF2 import PdfReader
 

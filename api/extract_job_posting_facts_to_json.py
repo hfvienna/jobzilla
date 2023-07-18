@@ -1,5 +1,3 @@
-# api/process_job_facts.py
-
 import json
 import os
 

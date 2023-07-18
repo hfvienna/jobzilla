@@ -1,5 +1,3 @@
-# api/process_job_fit.py
-
 import json
 import os
 
@@ -55,7 +53,7 @@ Do not repeat the weights. We know them, we just want the resulting grade for ea
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 JOBS_FOLDER = os.path.join(ROOT_DIR, "../public/jobs/txts")
 JSON_FOLDER_FACTS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_facts")
-JSON_FOLDER_FITS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_fits")
+JSON_FOLDER_FITS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_applicant_fits")
 REQUIREMENTS_FILE = os.path.join(
     ROOT_DIR, "../public/digitaltwin/weighted_rankings_for_requirements.txt"
 )

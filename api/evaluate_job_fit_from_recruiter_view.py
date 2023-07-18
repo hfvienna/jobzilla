@@ -1,5 +1,3 @@
-# api/process_company_requirement_fit.py
-
 import json
 import os
 

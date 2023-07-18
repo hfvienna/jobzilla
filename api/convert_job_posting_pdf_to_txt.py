@@ -1,5 +1,3 @@
-# api/pdf_to_text.py
-
 import logging
 import os
 from pathlib import Path

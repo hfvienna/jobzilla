@@ -66,6 +66,8 @@ __pycache__/
 **/llms/interactions_log_anthropic_for_debugging.txt
 **/extraction.log
 **/processed_files.log
+**/cv_hfvienna.pdf
+**/cv_hfvienna.txt
 
 # Ignore .DS_Store in all directories
 **/.DS_Store

@@ -14,7 +14,7 @@ def load_job_data(directory):
                     print(f"JSONDecodeError in file {filename}: ", e.doc, e.pos)
     return pd.DataFrame(data)  # Convert list of dicts to DataFrame
 
-data = load_job_data("../public/jobs/JSONs_fits")  # Load job data
+data = load_job_data("../public/jobs/JSONs_applicant_fits")  # Load job data
 
 # Fill missing fit values with 0
 data['fit'] = data['fit'].fillna(0)

@@ -61,13 +61,17 @@ __pycache__/
 **/repository_code.txt
 **/clean_code.txt
 **/clean_code.py
-**/.log.md
 **/question_response_pairs.json
 **/llms/interactions_log_anthropic_for_debugging.txt
 **/extraction.log
 **/processed_files.log
 **/cv_hfvienna.pdf
 **/cv_hfvienna.txt
+
+#Logfiles
+**/.log_coding.md
+**/.log_knowledge.md
+**/.log_project.md
 
 # Ignore .DS_Store in all directories
 **/.DS_Store
@@ -76,4 +80,4 @@ __pycache__/
 .vscode/
 
 # Ignore jobs
-public/jobs/*
+data/*

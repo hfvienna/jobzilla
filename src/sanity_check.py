@@ -25,7 +25,7 @@ def count_files(directory):
 #    invalid_json_files = []
 #    invalid_schema_files = []
     for f in os.listdir(directory):
-        if f.startswith('.'):  # Skip hidden files
+        if f.startswith('.') or f.endswith('.DS_Store'):  # Skip hidden files and .DS_Store files
             continue
         if os.path.isfile(os.path.join(directory, f)):
             num_files += 1

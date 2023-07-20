@@ -4,7 +4,7 @@ import logging
 import shutil
 
 # Set up logging
-logging.basicConfig(filename='job_processing.log', level=logging.INFO)
+logging.basicConfig(filename='logging_job_processing.log', level=logging.INFO)
 
 # Maximum filename length
 MAX_FILENAME_LENGTH = 100
@@ -33,22 +33,25 @@ for filename in os.listdir(inbox_dir):
         # Generate a UUID
         file_uuid = uuid.uuid4()
 
+        # Copy the file to the renamed directory with its original name
+        shutil.copy(os.path.join(inbox_dir, filename), os.path.join(renamed_dir, filename))
+
+        # Store the original filename before truncation
+        original_filename = filename
+
         # Truncate the filename if it's too long
         if len(filename) > MAX_FILENAME_LENGTH:
             # Keep the extension of the file
             ext = filename.split('.')[-1]
             filename = filename[:MAX_FILENAME_LENGTH - len(ext) - 1] + '.' + ext
 
-        # Copy the file to the renamed directory
-        shutil.copy(os.path.join(inbox_dir, filename), os.path.join(renamed_dir, filename))
-
-        # Rename the copied file
+        # Rename the copied file using the new (potentially truncated) filename
         new_filename = f"{file_uuid}_{filename}"
-        os.rename(os.path.join(renamed_dir, filename), os.path.join(renamed_dir, new_filename))
+        os.rename(os.path.join(renamed_dir, original_filename), os.path.join(renamed_dir, new_filename))
 
         # Log that we have handled this file
         with open(log_file_path, 'a') as f:
-            f.write(new_filename + '\n')
-        logging.info(f'Copied, renamed file: {filename} to {new_filename}')
+            f.write(original_filename + '\n')  # Log the original filename, not the new one
+        logging.info(f'Copied, renamed file: {original_filename} to {new_filename}')
     else:
         logging.info(f'File: {filename} already processed')

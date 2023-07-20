@@ -22,9 +22,9 @@ If a monthly salary is given in Austria, multiply by 14.
 Leave the salary as "Not provided" if you can not find it.
 Make the location City, Country or Remote.
 Leave the location empty if you can not find it.
-Leave email empty if you can not find it.
-DON'T write NaN or so, just "".
+Leave email empty if you can not find it, jus
 Don't add a uuid, keep it null.
+Don't add a day added, keep it null.
 {
   "uuid": null,
   "company": "Anthropic",

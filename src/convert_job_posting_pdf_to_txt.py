@@ -6,24 +6,24 @@ from PyPDF2 import PdfReader
 
 logging.basicConfig(filename="extraction.log", level=logging.DEBUG)
 
-ROOT_DIR = os.path.abspath(os.path.dirname(__file__)).split("/api")[0]
-INPUT_FOLDER = os.path.join(ROOT_DIR, "public/jobs/pdfs")
-OUTPUT_FOLDER = os.path.join(ROOT_DIR, "public/jobs/txts")
-
+ROOT_DIR = os.path.abspath(os.path.dirname(__file__)).split("/src")[0]
+INPUT_FOLDER = os.path.join(ROOT_DIR, "data/jobs/job_postings_renamed_pdf")
+OUTPUT_FOLDER = os.path.join(ROOT_DIR, "data/jobs/job_postings_renamed_txt")
 
 def get_processed_files(log_file):
-    if os.path.exists(log_file):
-        with open(log_file, 'r') as f:
-            return f.read().splitlines()
-    else:
-        return []
+    # Check if the log file exists, if not, create it
+    if not os.path.exists(log_file):
+        open(log_file, 'a').close()
+
+    with open(log_file, 'r') as f:
+        return f.read().splitlines()
 
 def log_processed_file(log_file, file_name):
     with open(log_file, 'a') as f:
         f.write(file_name + '\n')
 
 def extract_pdf_text():
-    log_file = 'processed_files.log'
+    log_file = 'convert_job_posting_pdf_to_txt.log'
     processed_files = get_processed_files(log_file)
     
     input_pdf_paths = list(Path(INPUT_FOLDER).glob("*.pdf"))

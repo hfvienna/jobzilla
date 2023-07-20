@@ -25,38 +25,35 @@ This is an example:
 Using the weighted requirements grade the job on a scale from 0-50 so 
 that the applicant can make a ranking of all jobs and decide which ones to apply first to.
 Think step by step. First grade every category, like salary of the requirements with its maximum being its weighted value and give three reasons for each category.
-Do not repeat the weights as "weight" or the number to not confuse them with your grades.
-Like in the sample below, grades are provided, but not again the weights.
-Only write grade for each category.
 Then sum up those individual grades to one final grade.
+Make the grades for categories full integers.
 Make the final grade very exact, so don't round to 25 or 45, just add up the previous values.
 Where information is not provided, like salary, take a value that you would expect from benchmark job.
 Return a JSON of the job with the key-value pairs.
-Put your final grade in "fit".
+Put your final grade in "fit_applicant".
 Fit is an integer, see example. So just a number between 0 and 50 which you added up.
-Put your detailed thinking that leads to the fit in "fit_detailed".
+Put your detailed thinking that leads to the fit in "fit_applicant_detailed".
 Leave the other key value pairs as they are.
-DO NOT CHANGE ANYTHING ELSE THAN THE fit and fit_detailed in this step, but return the full JSON.
-Do not invent information.
+Only change the fit and fit_detailed in this step, but return the full JSON.
+If you are uncertain, just state that.
 Make the fit a number between 0 and 50 where 50 is perfect fit.
 Your outcome should look like this:
-Provide all your detailed reasoning and not just "reason 1", "reason", do it like in the example below.
+Provide all your detailed reasoning like in the example below.
 {
   "uuid": 27,
   "company": "Biotech International",
   "title": "Biotech Data Analyzer",
   "fit_applicant": 38,
-  "fit_applicant_detailed": "Intellectual stimulation and challenge 6 because innovative biotech diagnostics are intellectually stimulating, however, this is not in the field of AI. Developing sales strategy requires creative thinking, and oncology focus provides complexity. Flexible/remote work arrangements 8 because fully remote DACH-based role, flexible hours mentioned, and home office stated. Autonomy and independence 5 because VP suggests autonomy but unclear on CCO oversight and leading team indicates some independence. Alignment with interests 5 because biotech startup with innovative cancer prevention technology indicates risk tolerance needed. Opportunities to publish research 1 because commercial operations less focused on research, could partner with R&D. Compensation level 2 because salary range not provided, likely competitive for role but equity details unknown. Work/life balance 5 because fully remote, flexible hours, reasonable travel. Impact and meaning 2 because cancer prevention diagnostics have big impact and commercial success enables product impact. Collaborative team environment 2 because leading commercial team indicates collaboration and cross-functional partnerships mentioned but limited detail on culture. Career advancement prospects 2 because startup may enable fast growth but advancement path and trajectory unclear.",
+  "fit_applicant_detailed": "Intellectual stimulation and challenge 6/10 because innovative biotech diagnostics are intellectually stimulating, however, this is not in the field of AI. Developing sales strategy requires creative thinking, and oncology focus provides complexity. Flexible/remote work arrangements 8/8 because fully remote DACH-based role, flexible hours mentioned, and home office stated. Autonomy and independence 5/7 because VP suggests autonomy but unclear on CCO oversight and leading team indicates some independence. Alignment with interests 5/5 because biotech startup with innovative cancer prevention technology indicates risk tolerance needed. Opportunities to publish research 1/3 because commercial operations less focused on research, could partner with R&D. Compensation level 2/5 because salary range not provided, likely competitive for role but equity details unknown. Work/life balance 5/5 because fully remote, flexible hours, reasonable travel. Impact and meaning 2/2 because cancer prevention diagnostics have big impact and commercial success enables product impact. Collaborative team environment 2/3 because leading commercial team indicates collaboration and cross-functional partnerships mentioned but limited detail on culture. Career advancement prospects 2/2 because startup may enable fast growth but advancement path and trajectory unclear.",
   "fit_recruiter": null,
   "fit_recruiter_detailed": "",
-  "dateAdded": "July 14, 2023",
-  "salaryRange": "EUR 130k - 160k",
+  "date_added": "July 14, 2023",
+  "salary_range": "EUR 130k - 160k",
   "location": "Redmond, USA",
   "email": ""
 }
-Do not return a JSON that does not have both a filled fit integer and a filled fit_detailed with a long explanatory string!
-Do not repeat the weights. We know them, we just want the resulting grade for each category.
-Do not return a fit greater than 50. Do not return a fit for a category that is higher than the maximum fit for the category.
+Return a JSON that does have both a filled fit integer and a filled fit_detailed with a long explanatory string!
+Return a fit for each category that is lower than the max category or that is the max for the category.
 """
 
 

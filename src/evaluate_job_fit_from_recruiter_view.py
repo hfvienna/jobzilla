@@ -76,11 +76,11 @@ The applicant does not have the criteria from the job description unless stated 
 
 
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
-JOBS_TXTS = os.path.join(ROOT_DIR, "../public/jobs/txts")
-CV_TXT = os.path.join(ROOT_DIR, "../public/digitaltwin/cv_hfvienna.txt")
-JSON_FACTS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_facts")
-JSON_FITS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_recruiter_fits")
-REQUIREMENTS_FILE = os.path.join(ROOT_DIR, "../public/jobs/weighted_rankings_for_recruiters.txt")
+JOBS_TXTS = os.path.join(ROOT_DIR, "../data/jobs/job_postings_renamed_txt")
+CV_TXT = os.path.join(ROOT_DIR, "../data/digitaltwin/cv_hfvienna.txt")
+JSON_FACTS = os.path.join(ROOT_DIR, "../data/jobs/job_postings_facts_json")
+JSON_FITS = os.path.join(ROOT_DIR, "../data/jobs/fits_recruiter_json")
+REQUIREMENTS_FILE = os.path.join(ROOT_DIR, "../data/jobs/weighted_rankings_for_recruiters.txt")
 
 def load_file(file_path):
     with open(file_path) as f:

@@ -8,9 +8,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def merge_applicant_and_recruiter_views():
     # Define the directories
     ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
-    JSON_FOLDER_APP_VIEW = os.path.join(ROOT_DIR, "../public/jobs/JSONS_applicant_fits")
-    JSON_FOLDER_REC_VIEW = os.path.join(ROOT_DIR, "../public/jobs/JSONS_recruiter_fits")
-    JSON_FOLDER_MERGED = os.path.join(ROOT_DIR, "../public/jobs/JSONS_merged")
+    JSON_FOLDER_APP_VIEW = os.path.join(ROOT_DIR, "../data/jobs/fits_applicant_json")
+    JSON_FOLDER_REC_VIEW = os.path.join(ROOT_DIR, "../data/jobs/fits_recruiter_json")
+    JSON_FOLDER_MERGED = os.path.join(ROOT_DIR, "../data/jobs/fits_merged_json")
 
     # Check if directories exist and contain files
     if not os.path.exists(JSON_FOLDER_APP_VIEW) or not os.listdir(JSON_FOLDER_APP_VIEW):

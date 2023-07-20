@@ -1,7 +1,7 @@
-import json
 import os
+import json
 import uuid
-
+from datetime import datetime
 from llm_claude import llm
 
 SYSTEM_MESSAGE = """You are an expert job hunter.
@@ -22,9 +22,9 @@ If a monthly salary is given in Austria, multiply by 14.
 Leave the salary as "Not provided" if you can not find it.
 Make the location City, Country or Remote.
 Leave the location empty if you can not find it.
-Leave email empty if you can not find it, jus
-Don't add a uuid, keep it null.
-Don't add a day added, keep it null.
+When you find an email, add it in email, otherwise leave it "".
+Leave the uuid at null.
+Leave the date_added at "".
 {
   "uuid": null,
   "company": "Anthropic",
@@ -46,7 +46,7 @@ Don't add a day added, keep it null.
   "fit_applicant_detailed": "",
   "fit_recruiter": null,
   "fit_recruiter_detailed": "",
-  "date_added": "July 12, 2023",
+  "date_added": "",
   "salary_range": "EUR 150k - 180k",
   "location": "Mountain View, USA"
   "email": ""
@@ -59,10 +59,10 @@ Don't add a day added, keep it null.
   "fit_applicant_detailed": "",
   "fit_recruiter": null,
   "fit_recruiter_detailed": "",
-  "date_added": "July 14, 2023",
+  "date_added": "",
   "salary_range": "EUR 133k",
   "location": "Redmond, USA"
-  "email": jobs@microsoft.com
+  "email": ""
 }
 Only use the given information in the job description and the requirements.
 Do not return any Unicode. Just write USD or EUR ; never u20ac.
@@ -73,8 +73,8 @@ Do not leave space(s) between integer and k. Do leave a space, however, between 
 
 
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
-JOBS_FOLDER = os.path.join(ROOT_DIR, "../public/jobs/txts")
-JSON_FOLDER = os.path.join(ROOT_DIR, "../public/jobs/JSONs_facts")
+JOBS_FOLDER = os.path.join(ROOT_DIR, "../data/jobs/job_postings_renamed_txt")
+JSON_FOLDER = os.path.join(ROOT_DIR, "../data/jobs/job_postings_facts_json")
 
 for filename in os.listdir(JOBS_FOLDER):
     if filename.endswith(".txt"):
@@ -98,25 +98,17 @@ for filename in os.listdir(JOBS_FOLDER):
 
             dict_result = json.loads(clean_result)
 
-            # Check if the log file exists
-            if not os.path.exists('facts_to_json_log.txt'):
-                # If not, create it and initialize with 0
-                with open('facts_to_json_log.txt', 'w') as f:
-                    f.write('0')
+            # Extract the UUID from the filename
+            file_uuid = filename.split('_')[0]
+            dict_result['uuid'] = file_uuid
 
-            # Read the running number from the log file
-            with open('facts_to_json_log.txt', 'r') as f:
-                running_number = int(f.read())
+            # Get the creation date of the file
+            stat = os.stat(os.path.join(JOBS_FOLDER, filename))
+            creation_time = stat.st_birthtime
+            creation_date = datetime.fromtimestamp(creation_time)
 
-            # Increment the running number
-            running_number += 1
-
-            # Write the running number back to the log file
-            with open('facts_to_json_log.txt', 'w') as f:
-                f.write(str(running_number))
-
-            # Add the running number as a UUID to the dictionary
-            dict_result['uuid'] = running_number
+            # Add the creation date to the dictionary
+            dict_result['date_added'] = creation_date.strftime('%B %d, %Y')
 
             with open(json_path, "w") as f:
                 json.dump(dict_result, f, indent=4)

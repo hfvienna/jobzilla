@@ -61,11 +61,11 @@ Do not return a fit greater than 50. Do not return a fit for a category that is 
 
 
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
-JOBS_FOLDER = os.path.join(ROOT_DIR, "../public/jobs/txts")
-JSON_FOLDER_FACTS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_facts")
-JSON_FOLDER_FITS = os.path.join(ROOT_DIR, "../public/jobs/JSONs_applicant_fits")
+JOBS_FOLDER = os.path.join(ROOT_DIR, "../data/jobs/job_postings_renamed_txt")
+JSON_FOLDER_FACTS = os.path.join(ROOT_DIR, "../data/jobs/job_postings_facts_json")
+JSON_FOLDER_FITS = os.path.join(ROOT_DIR, "../data/jobs/fits_applicant_json")
 REQUIREMENTS_FILE = os.path.join(
-    ROOT_DIR, "../public/digitaltwin/weighted_rankings_for_requirements.txt"
+    ROOT_DIR, "../data/digitaltwin/weighted_rankings_for_requirements.txt"
 )
 
 with open(REQUIREMENTS_FILE) as f:

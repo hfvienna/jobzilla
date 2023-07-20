@@ -14,7 +14,7 @@ def load_job_data(directory):
                     print(f"JSONDecodeError in file {filename}: ", e.doc, e.pos)
     return pd.DataFrame(data)  # Convert list of dicts to DataFrame
 
-data = load_job_data("../public/jobs/JSONS_merged")  # Load job data
+data = load_job_data("../data/jobs/fits_merged_json")  # Load job data
 
 # Convert "fit_applicant" and "fit_recruiter" to numeric, coerce errors (invalid values) to NaN, then fill with 0
 data['fit_applicant'] = pd.to_numeric(data['fit_applicant'], errors='coerce').fillna(0)

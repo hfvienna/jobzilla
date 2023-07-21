@@ -45,9 +45,15 @@ def merge_applicant_and_recruiter_views():
             with open(json_path_rec_view) as f:
                 rec_view = json.load(f)
 
+            # Check if the necessary keys exist in the recruiter view
+            if "fit_recruiter" not in rec_view or "fit_recruiter_detailed" not in rec_view:
+                logging.error(f"Skipping {filename} because it does not contain necessary keys in the recruiter view.")
+                continue
+
             # Merge the recruiter fields into the applicant view
             app_view["fit_recruiter"] = rec_view["fit_recruiter"]
             app_view["fit_recruiter_detailed"] = rec_view["fit_recruiter_detailed"]
+
 
             # Store the merged view
             with open(json_path_merged, "w") as f:

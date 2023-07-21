@@ -54,6 +54,8 @@ Provide all your detailed reasoning like in the example below.
 }
 Return a JSON that does have both a filled fit integer and a filled fit_detailed with a long explanatory string!
 Return a fit for each category that is lower than the max category or that is the max for the category.
+In the string use only normal characters and spaces.
+If you feel you have to use non-JSON code like tabs then escape it.
 """
 
 

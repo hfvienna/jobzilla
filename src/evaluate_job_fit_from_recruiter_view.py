@@ -71,6 +71,8 @@ Make your total ranking lower or the same as category max.
 Only arguments from the CV count as only they apply to the applicant.
 The job description is only to be used to check for what this recruiter look for, not what the applicant offers.
 The applicant does not have the criteria from the job description unless stated in or infered from the CV.
+In the string use only normal characters and spaces.
+If you feel you have to use non-JSON code like tabs then escape it.
 """
 
 

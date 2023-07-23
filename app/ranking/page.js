@@ -25,7 +25,7 @@ export default function JobsTable() {
     <table className="table table-zebra">
       <thead>
         <tr>
-          <th>UUID</th>
+          <th>ID</th>
           <th>Company</th>
           <th>Job Title</th>
           <th>Fit Total</th>
@@ -46,9 +46,13 @@ export default function JobsTable() {
             <td>{job.title || DEFAULT_VALUE}</td>
             <td>{(job.fit_recruiter + job.fit_applicant) || DEFAULT_VALUE}</td>
             <td>{job.fit_recruiter || DEFAULT_VALUE}</td>
-            <td>{truncate(job.fit_recruiter_detailed, 200) || DEFAULT_VALUE}</td>
+            <td className="tooltip tooltip-bottom" data-tip={job.fit_recruiter_detailed}>
+              {truncate(job.fit_recruiter_detailed, 200) || DEFAULT_VALUE}
+            </td>
             <td>{job.fit_applicant || DEFAULT_VALUE}</td>
-            <td>{truncate(job.fit_applicant_detailed, 200) || DEFAULT_VALUE}</td>
+            <td className="tooltip tooltip-bottom" data-tip={job.fit_applicant_detailed}>
+              {truncate(job.fit_applicant_detailed, 200) || DEFAULT_VALUE}
+            </td>
             <td>{job.date_added || DEFAULT_VALUE}</td>
             <td>{job.salary_range || DEFAULT_VALUE}</td>
             <td>{job.location || DEFAULT_VALUE}</td>
@@ -57,7 +61,7 @@ export default function JobsTable() {
       </tbody>
       <tfoot>
         <tr>
-          <th>UUID</th>
+          <th>ID</th>
           <th>Company</th>
           <th>Job Title</th>
           <th>Fit Total</th>

@@ -58,7 +58,7 @@ Leave the uuid as is.
 Ensure that for every category the grade is smaller that the category weight.
 Only give full points.
 So, for leadership potential for example, only the following are possible 0/3, 1/3, 2/3, 3/3.
-Return a JSON that does have both a filled fit_applicant and a filled fit_applicant_detailed with a long explanatory string!
+Return a JSON that does have both a filled fit_recruiter and a filled fit_recruiter_detailed with a long explanatory string!
 Only add human readable non-code text.
 Put citations in round brackets.
 To make sure the information is correct, cite your source for every supporting from the cv abbreviated to 5 words per supporting argument.

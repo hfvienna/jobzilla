@@ -48,7 +48,7 @@ export default function JobsTable() {
               <div 
                 className={`alert ${(job.fit_recruiter + job.fit_applicant) >= 85 ? 'alert-success' : 
                                   (job.fit_recruiter + job.fit_applicant) >= 80 ? 'alert-warning' : 
-                                  'alert-danger'}`}
+                                  'alert-error'}`}
               >
                 {(job.fit_recruiter + job.fit_applicant) || DEFAULT_VALUE}
               </div>

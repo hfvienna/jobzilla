@@ -1,3 +1,19 @@
+#    Jobzilla automates job search using a LLM.
+#    Copyright (C) 2023  hfvienna, author of Jobzilla
+
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 import logging
 import os
 import json
@@ -10,9 +26,9 @@ logging.basicConfig(level=logging.DEBUG)
 SYSTEM_MESSAGE = """
 Assume you are an "expert job hunter".
 You have the CV from the applicant and the job posting.
-Write a complete application letter to send out to apply for the job.
+Write a complete application letter to send out to apply for the job. Only use words like Python if you can explicitly find them in the CV.
 Only use arguments that you can prove from the CV and cite them with quotes to make it visible which source you cite.
-If the company will aprreciate it (because the job is IT/AI related) write that your letter is automatically written using an LLM and a software that the applicant programmed. In this case, definitely add that they can check out their companies automatically generated job posting ranking and the underlying reasoning at https://jobzillaai.vercel.app/ranking
+If the company will appreciate it (because the job is IT/AI related) definitely add and write explicity that the letter is automatically written using an LLM and a software that the applicant programmed. Warn that cases of hallucinations can not be 100 percent ruled out at the current stage as chains are not yet implemented. If adding the AI part, definitely add that they can check out their companies automatically generated job posting ranking and the underlying reasoning at https://jobzillaai.vercel.app/ranking
 If the job posting is in German, write the application letter in German only.
 If the job posting is in English or any other language, write the application letter in English only.
 Sign as the name in the CV (assume you are the person in the CV plus having the skill of an expert job hunter).

@@ -4,6 +4,9 @@ import json
 
 from llm_claude import llm
 
+# Set logging level to DEBUG
+logging.basicConfig(level=logging.DEBUG)
+
 SYSTEM_MESSAGE = """
 Assume you are an "expert job hunter".
 You have the CV from the applicant and the job posting.
@@ -78,4 +81,3 @@ for filename in os.listdir(JOBS_FOLDER):
     # Save result to txt file
     with open(output_path, "w") as f:
         f.write(completion)
-        

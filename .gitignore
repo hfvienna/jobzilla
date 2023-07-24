@@ -67,6 +67,7 @@ __pycache__/
 **/processed_files.log
 **/cv_hfvienna.pdf
 **/cv_hfvienna.txt
+**/job_table.json
 
 #Logfiles
 **/.log_coding.md

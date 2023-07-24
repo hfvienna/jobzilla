@@ -637,6 +637,19 @@
         "fit_total": 80
     },
     {
+        "uuid": "c27c25e6-71a1-4441-a1b4-a9cf3fa8b04f",
+        "company": "University of Cambridge",
+        "title": "Research Assistant",
+        "fit_applicant": 39,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge (10/10): This role involves cutting-edge AI safety research into reward hacking, directly aligned with the applicant's interests in AI. Investigating this phenomenon and proposing solutions provides significant intellectual challenge. Flexible/remote work arrangements (3/8): The role is based in Cambridge so is not fully remote. No indication of flexibility in work arrangements. Autonomy and independence (7/7): As a postdoctoral research assistant, a high degree of autonomy and independence to develop ideas, run experiments, and publish findings is expected. Alignment with interests in technology, startups, risk (5/5): Directly aligned with interests in AI and investigating risks like reward hacking. Academic research environment rather than startup. Opportunities to publish research (3/3): Key responsibilities include publishing technical reports and papers on research findings. Compensation level (3/5): Salary range of \u00a328,929 - \u00a333,348 is reasonable for a postdoc role but lower than the \u00a375k target. Work/life balance (3/5): Academic research can involve long hours, though depends on approach. Location requires relocation. Impact and meaning (2/2): AI safety research has significant positive impact. Collaborative team environment (2/3): Will work with research group but limited detail on culture. Career advancement prospects (1/2): Academic research enables skills development but advancement prospects unclear. Total fit score: 39/50",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 10/10 - Strong technical skills in AI/ML and software engineering proven by publications (Paper in conference ECIS, Paper in conference BIS). Industrial experience developing meal replacement products and consulting experience. (CV: Founder Saturo Foods, C-Level Consulting). Educational Qualifications: 5/5 - Relevant master's degree in industrial engineering with high grades (CV: Diploma Program Industrial Engineering, Grade: 1.3 / Top 10%). Cultural Fit: 6/7 - Experience founding a startup and consulting suggests ability to work in an innovative, fast-paced research environment. Desire for teamwork evidenced by collaborations and cross-functional teams. (CV: Founder Saturo Foods, C-Level Consulting, Competence Center Corporate Management Systems). Communication Skills: 7/7 - Fluent in English and German with publications demonstrating writing skills (CV: Multiple publications). Presentation skills evidenced by consulting and entrepreneurship experience. (CV: C-Level Consulting, Founder Saturo Foods). Problem-Solving Ability: 4/5 - Analytical skills demonstrated through academic projects and publications, but specific details of industrial problems solved lacking. (CV: Multiple publications). Adaptability: 4/5 - Varied background suggests adaptability, but more evidence in research settings needed. (CV: Diverse work experience). Initiative and Motivation: 5/5 - Strong initiative and drive demonstrated by founding a company, pursuing research, and taking on challenging military training (CV: Founder Saturo Foods, Publications, Special Operations Training). Teamwork: 3/3 - Has collaborated in teams, led cross-functional teams. (CV: Competence Center Corporate Management Systems, C-Level Consulting). Leadership Potential: 3/3 - Leadership experience as founder of startup. (CV: Founder and CEO Saturo Foods). Total: 41/50. In summary, the candidate has a strong technical and academic background. Cultural fit seems good and leadership potential is demonstrated. However, more direct research experience would be beneficial.",
+        "date_added": "July 24, 2023",
+        "salary_range": "GBP 28,929 - 33,348",
+        "location": "Cambridge, UK",
+        "fit_total": 80
+    },
+    {
         "uuid": "2f2271f7-c08d-4660-88d9-4b0d1a4c4d38",
         "company": "CIGI",
         "title": "Program Manager",
@@ -884,6 +897,19 @@
         "fit_total": 75
     },
     {
+        "uuid": "65cbd697-3203-4f4e-82d2-794fda92008b",
+        "company": "DeepOpinion",
+        "title": "Jr Entrepreneur",
+        "fit_applicant": 34,
+        "fit_applicant_detailed": "Intellectual stimulation and challenge: 7/10. Work involves strategic initiatives and projects in AI and automation technology which is intellectually stimulating. However, role is more operational than technical. Flexible/remote work arrangements: 8/8. Fully remote role with no location requirement. Autonomy and independence: 5/7. Some independence to manage projects but oversight from leadership team. Alignment with interests: 4/5. AI and automation technology aligns with interests. Opportunities to publish research: 0/3. No indication of research opportunities. Compensation level: 3/5. No salary provided but likely entry level based on junior role. Work/life balance: 5/5. Fully remote role. Impact and meaning: 1/2. Positive societal impact helping shape future of work. Collaborative team environment: 1/3. Cross-functional collaboration mentioned but limited detail. Career advancement prospects: 0/2. Entry level role so advancement opportunities unclear.",
+        "fit_recruiter": 41,
+        "fit_recruiter_detailed": "Relevant Skills and Experience: 7/10 - Founded and grew a startup from 0 to 7-digit revenue (CV: Saturo Foods). Experience in product development, investment rounds, strategy/planning (CV: Saturo Foods, Novritsch). Limited direct experience in AI/automation industry (CV). Educational Qualifications: 5/5 - Diploma in Industrial Engineering, top 10% at Technical University Darmstadt (CV). Cultural Fit: 5/7 - Entrepreneurial experience suggests fit for fast-paced startup (CV: Saturo). Collaborative approach evidenced by team projects (CV: University). More clarity needed on passion for AI/automation. Communication Skills: 6/7 - Fluent in English and German (CV: Languages). Presentation skills evidenced by C-level consulting (CV: Novritsch). No direct evidence of writing skills. Problem-Solving Ability: 4/5 - Strategic planning and cost-cutting projects demonstrate analytical skills (CV: Novritsch). More evidence of technical problem-solving would be beneficial. Adaptability: 5/5 - Worked in diverse roles and industries (CV: Experience). Studied abroad in India and USA (CV: Education). Initiative and Motivation: 4/4 - Founded a startup and grew it successfully (CV: Saturo Foods). Pursued additional education and projects (CV: Education). Teamwork: 3/3 - Collaborated in cross-functional teams (CV: University, Novritsch projects). Leadership Potential: 2/3 - Managed a team and grew a company (CV: Saturo Foods). No direct people management experience stated. Total: 41/50. In summary, the candidate demonstrates a strong entrepreneurial background and project management capabilities. Their communication, adaptability and problem-solving skills seem decent. However, more direct experience in AI/automation would be beneficial. I would recommend an interview to further assess cultural fit and passion for the industry.",
+        "date_added": "July 20, 2023",
+        "salary_range": "Not provided",
+        "location": "Remote",
+        "fit_total": 75
+    },
+    {
         "uuid": "1ea2162a-f12e-4779-8532-c8df5cad5d96",
         "company": "Mostly AI",
         "title": "Product Marketing Manager",
@@ -907,19 +933,6 @@
         "date_added": "July 20, 2023",
         "salary_range": "Not provided",
         "location": "Cologne, Germany",
-        "fit_total": 75
-    },
-    {
-        "uuid": "65cbd697-3203-4f4e-82d2-794fda92008b",
-        "company": "DeepOpinion",
-        "title": "Jr Entrepreneur",
-        "fit_applicant": 34,
-        "fit_applicant_detailed": "Intellectual stimulation and challenge: 7/10. Work involves strategic initiatives and projects in AI and automation technology which is intellectually stimulating. However, role is more operational than technical. Flexible/remote work arrangements: 8/8. Fully remote role with no location requirement. Autonomy and independence: 5/7. Some independence to manage projects but oversight from leadership team. Alignment with interests: 4/5. AI and automation technology aligns with interests. Opportunities to publish research: 0/3. No indication of research opportunities. Compensation level: 3/5. No salary provided but likely entry level based on junior role. Work/life balance: 5/5. Fully remote role. Impact and meaning: 1/2. Positive societal impact helping shape future of work. Collaborative team environment: 1/3. Cross-functional collaboration mentioned but limited detail. Career advancement prospects: 0/2. Entry level role so advancement opportunities unclear.",
-        "fit_recruiter": 41,
-        "fit_recruiter_detailed": "Relevant Skills and Experience: 7/10 - Founded and grew a startup from 0 to 7-digit revenue (CV: Saturo Foods). Experience in product development, investment rounds, strategy/planning (CV: Saturo Foods, Novritsch). Limited direct experience in AI/automation industry (CV). Educational Qualifications: 5/5 - Diploma in Industrial Engineering, top 10% at Technical University Darmstadt (CV). Cultural Fit: 5/7 - Entrepreneurial experience suggests fit for fast-paced startup (CV: Saturo). Collaborative approach evidenced by team projects (CV: University). More clarity needed on passion for AI/automation. Communication Skills: 6/7 - Fluent in English and German (CV: Languages). Presentation skills evidenced by C-level consulting (CV: Novritsch). No direct evidence of writing skills. Problem-Solving Ability: 4/5 - Strategic planning and cost-cutting projects demonstrate analytical skills (CV: Novritsch). More evidence of technical problem-solving would be beneficial. Adaptability: 5/5 - Worked in diverse roles and industries (CV: Experience). Studied abroad in India and USA (CV: Education). Initiative and Motivation: 4/4 - Founded a startup and grew it successfully (CV: Saturo Foods). Pursued additional education and projects (CV: Education). Teamwork: 3/3 - Collaborated in cross-functional teams (CV: University, Novritsch projects). Leadership Potential: 2/3 - Managed a team and grew a company (CV: Saturo Foods). No direct people management experience stated. Total: 41/50. In summary, the candidate demonstrates a strong entrepreneurial background and project management capabilities. Their communication, adaptability and problem-solving skills seem decent. However, more direct experience in AI/automation would be beneficial. I would recommend an interview to further assess cultural fit and passion for the industry.",
-        "date_added": "July 20, 2023",
-        "salary_range": "Not provided",
-        "location": "Remote",
         "fit_total": 75
     },
     {

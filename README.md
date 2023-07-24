@@ -11,7 +11,7 @@ Jobzilla is a revolutionary AI-powered job hunting tool designed to automate and
 
 # Architecture
 
-![Jobzilla](https://github.com/hfvienna/jobzilla/assets/130350299/26c40d27-5d67-423c-97e9-4e6bb3143f8e)
+![Jobzilla](https://github.com/hfvienna/jobzilla/assets/130350299/86e106bf-83cd-41f2-8972-e55e1de6bfad)
 
 Jobs are initially manually collected from company career pages and job platforms. As there is no additional effort once the job is added to the app, every remotely interesting job is added. After the MVP is completed am automatic scraping will be built. Job descriptions are then stored. From hfvienna's Human Digital Twin (simplified a large data collection about hfvienna) the job requirements and their weighing for the job hunter are automatically determined and stored as well. If you adapt this code for your job hunt, you can just edit the job_requirements_and_weighing.txt file. Both are then merged in a prompt and sent to an LLM (Claude 2) which returns a Grade job-applicant-fit and returns it. A loop through all job offers then results in a job ranking list. This ranking list is sent to the Next.js. For frontend design, TailwindCSS and DaisyUI is used and React is by default in a Next.js app.
 

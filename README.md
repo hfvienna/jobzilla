@@ -1,4 +1,4 @@
-# Jobzilla
+# 🦖Jobzilla v0.1.0
 
 Jobzilla stomps onto the job search scene, ferociously sniffing out opportunities like a wild beast on the hunt, aggressively tracking down opportunities and crushing its competition with its monstrous AI might.
 

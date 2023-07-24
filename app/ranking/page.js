@@ -44,7 +44,15 @@ export default function JobsTable() {
             <td>{index + 1}</td>
             <td>{job.company || DEFAULT_VALUE}</td>
             <td>{job.title || DEFAULT_VALUE}</td>
-            <td>{(job.fit_recruiter + job.fit_applicant) || DEFAULT_VALUE}</td>
+            <td>
+              <div 
+                className={`alert ${(job.fit_recruiter + job.fit_applicant) >= 85 ? 'alert-success' : 
+                                  (job.fit_recruiter + job.fit_applicant) >= 80 ? 'alert-warning' : 
+                                  'alert-danger'}`}
+              >
+                {(job.fit_recruiter + job.fit_applicant) || DEFAULT_VALUE}
+              </div>
+            </td>
             <td>{job.fit_recruiter || DEFAULT_VALUE}</td>
             <td className="tooltip tooltip-bottom" data-tip={job.fit_recruiter_detailed}>
               {truncate(job.fit_recruiter_detailed, 200) || DEFAULT_VALUE}

@@ -12,7 +12,7 @@ Assume you are an "expert job hunter".
 You have the CV from the applicant and the job posting.
 Write a complete application letter to send out to apply for the job.
 Only use arguments that you can prove from the CV and cite them with quotes to make it visible which source you cite.
-If the company will aprreciate it (because the job is IT/AI related) write that your letter is automatically written using an LLM and a software that the applicant programmed. In this case, definitely add that they can review the software under https://github.com/hfvienna/jobzilla and check out their companies job posting ranking and reasoning at https://jobzillaai.vercel.app/ranking
+If the company will aprreciate it (because the job is IT/AI related) write that your letter is automatically written using an LLM and a software that the applicant programmed. In this case, definitely add that they can check out their companies automatically generated job posting ranking and the underlying reasoning at https://jobzillaai.vercel.app/ranking
 If the job posting is in German, write the application letter in German only.
 If the job posting is in English or any other language, write the application letter in English only.
 Sign as the name in the CV (assume you are the person in the CV plus having the skill of an expert job hunter).

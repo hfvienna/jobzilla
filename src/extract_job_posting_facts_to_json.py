@@ -53,6 +53,7 @@ Leave the date_added at "".
   "salary_range": "USD 120k - 150k",
   "location": "Remote"
   "email": hr@anthropic.org
+  "applied": "",
 },
 {
   "uuid": null,
@@ -66,6 +67,8 @@ Leave the date_added at "".
   "salary_range": "EUR 150k - 180k",
   "location": "Mountain View, USA"
   "email": ""
+  "applied": "",
+
 },
 {
   "uuid": null,
@@ -79,6 +82,8 @@ Leave the date_added at "".
   "salary_range": "EUR 133k",
   "location": "Redmond, USA"
   "email": ""
+  "applied": "",
+
 }
 Only use the given information in the job description and the requirements.
 Do not return any Unicode. Just write USD or EUR ; never u20ac.

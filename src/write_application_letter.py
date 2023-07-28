@@ -18,7 +18,7 @@ import logging
 import os
 import json
 
-from llm_claude import llm
+from llm_openai import llm
 
 # Set logging level to DEBUG
 logging.basicConfig(level=logging.DEBUG)
@@ -98,8 +98,11 @@ for filename in os.listdir(JOBS_FOLDER):
     result = llm(SYSTEM_MESSAGE, context)
     logging.debug(f"LLM result: {result}")
 
+
     # extract the 'completion' part
-    completion = result["completion"]
+    completion = result
+    #if llm claude, then completion = result["completion"]
+
     logging.debug(f"Completion: {completion}")
 
     # Save result to txt file

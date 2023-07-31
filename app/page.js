@@ -23,16 +23,8 @@ export default function Home() {
 //  }, []);
 
 return (
-  <div className="card bg-base-200 shadow-xl w-full">
-    <div className="card-body">
-      <h2 className="card-title">Hello DaisyUI!</h2> 
-      <p>Lets add some Daisy styling!</p>
-      <div className="btn-group">
-        <button className="btn">Button 1</button>
-        <button className="btn btn-outline">Button 2</button>
-      </div>
+  <div>
       <Link href="/ranking">Go to Ranking</Link>
-    </div>
   </div>
 );
 }

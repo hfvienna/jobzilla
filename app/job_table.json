@@ -10,7 +10,7 @@
         "date_added": "July 25, 2023",
         "salary_range": "EUR 56k",
         "location": "Linz, Austria",
-        "applied": "",
+        "applied": "Applied",
         "fit_total": 90
     },
     {
@@ -80,7 +80,7 @@
         "date_added": "July 31, 2023",
         "salary_range": "USD 130k - 180k",
         "location": "Remote, USA",
-        "applied": "",
+        "applied": "Applied",
         "fit_total": 87
     },
     {

@@ -142,11 +142,16 @@ def process_files():
                 job_txt_path = os.path.join(JOBS_TXTS, txt_filename)
                 cv_txt_path = os.path.join(CV_TXT)
 
-                json_facts = load_json(os.path.join(JSON_FACTS, filename))
+                json_facts_path = os.path.join(JSON_FACTS, filename)
+                json_facts_content = load_file(json_facts_path)
+                print(f"Content of {filename} before parsing: {json_facts_content}")  # Add this line to print the content
+
+                json_facts = json.loads(json_facts_content)
                 job_text = load_file(job_txt_path)
                 cv_text = load_file(cv_txt_path)
 
                 context = user_message + "\n" + "XXXX" + job_text + "XXXX" + "\n" + cv_text + "\n" + json.dumps(json_facts)
+                print(f"Context: {context}")  # Add this line to print the context
 
                 result = llm(SYSTEM_MESSAGE, context)
                 completion = result
@@ -154,7 +159,7 @@ def process_files():
                 end = completion.rfind("}") + 1
 
                 clean_result_str = completion[start:end]
-                print(clean_result_str)  # Add this line to print the string
+                print(f"Clean result str: {clean_result_str}")  # Add this line to print the string
 
                 clean_result_dict = json.loads(clean_result_str)
                 save_json(json_path_fits, clean_result_dict)
@@ -162,6 +167,8 @@ def process_files():
             except Exception as e:
                 logger.error(f'Error occurred in processing file {filename} with error {str(e)}')
                 print(f'Error occurred in processing file {filename}. Check the error_log.txt for more details.')
+
+
 
 if __name__ == "__main__":
     process_files()

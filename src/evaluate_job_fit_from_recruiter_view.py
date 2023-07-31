@@ -16,8 +16,9 @@
 
 import json
 import os
+import logging
 
-from llm_claude import llm
+from llm_openai import llm  #select llm
 
 SYSTEM_MESSAGE = """
 You are an expert recruiter.
@@ -35,7 +36,7 @@ This is an example:
   "date_added": "July 14, 2023",
   "salary_range": "EUR 113k",
   "location": "Salzburg, Austria",
-  "email": ""
+  "applied": ""
 }
 Using the weighted requirements from the recruiter grade the applicant on a scale from 0-50 so 
 that the recruiter can make a ranking of all applicants and decide which one to make an offer to.
@@ -69,7 +70,8 @@ Leave the uuid as is.
   "date:added": "July 14, 2023",
   "salary_range": "EUR 130k - 160k",
   "location": "Redmond, USA",
-  "email": "biotech@hr.com"
+  "email": "biotech@hr.com",
+  "applied": ""
 }
 Ensure that for every category the grade is smaller that the category weight.
 Only give full points.
@@ -89,6 +91,7 @@ The job description is only to be used to check for what this recruiter look for
 The applicant does not have the criteria from the job description unless stated in or infered from the CV.
 In the string use only normal characters and spaces.
 If you feel you have to use non-JSON code like tabs then escape it.
+If it is super unlikely that they will consider the applicant, for example because they strictly require a PhD which the candidate does not have, set fit_recruiter to 0 and explain in fit_recruiter_detailed.
 """
 
 
@@ -111,8 +114,19 @@ def save_json(file_path, data):
     with open(file_path, "w") as f:
         json.dump(data, f, indent=4)
 
+def setup_logger():
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.INFO)
+    handler = logging.FileHandler('error_log.txt')
+    handler.setLevel(logging.INFO)
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+    return logger
+
 def process_files():
     user_message = load_file(REQUIREMENTS_FILE)
+    logger = setup_logger()
 
     for filename in os.listdir(JSON_FACTS):
         if filename.endswith(".json"):
@@ -123,30 +137,31 @@ def process_files():
                 print(f"Skipping {filename} because {json_filename_fits} already exists.")
                 continue
 
-            txt_filename = os.path.splitext(filename)[0] + ".txt"
-            job_txt_path = os.path.join(JOBS_TXTS, txt_filename)
-            cv_txt_path = os.path.join(CV_TXT)
-
-            json_facts = load_json(os.path.join(JSON_FACTS, filename))
-            job_text = load_file(job_txt_path)
-            cv_text = load_file(cv_txt_path)
-
-            context = user_message + "\n" + "XXXX" + job_text + "XXXX" + "\n" + cv_text + "\n" + json.dumps(json_facts) + "\n" + SYSTEM_MESSAGE
-            #repeat of system message to increase prompt visibility
-
-            result = llm(SYSTEM_MESSAGE, context)
-            completion = result["completion"]
-            start = completion.find("{")
-            end = completion.rfind("}") + 1
-
-            clean_result_str = completion[start:end]
-            print(clean_result_str)  # Add this line to print the string
             try:
-                clean_result_dict = json.loads(clean_result_str)
-            except json.JSONDecodeError as e:
-                print(f"JSON decoding error: {e}")
+                txt_filename = os.path.splitext(filename)[0] + ".txt"
+                job_txt_path = os.path.join(JOBS_TXTS, txt_filename)
+                cv_txt_path = os.path.join(CV_TXT)
 
-            save_json(json_path_fits, clean_result_dict)
+                json_facts = load_json(os.path.join(JSON_FACTS, filename))
+                job_text = load_file(job_txt_path)
+                cv_text = load_file(cv_txt_path)
+
+                context = user_message + "\n" + "XXXX" + job_text + "XXXX" + "\n" + cv_text + "\n" + json.dumps(json_facts)
+
+                result = llm(SYSTEM_MESSAGE, context)
+                completion = result
+                start = completion.find("{")
+                end = completion.rfind("}") + 1
+
+                clean_result_str = completion[start:end]
+                print(clean_result_str)  # Add this line to print the string
+
+                clean_result_dict = json.loads(clean_result_str)
+                save_json(json_path_fits, clean_result_dict)
+
+            except Exception as e:
+                logger.error(f'Error occurred in processing file {filename} with error {str(e)}')
+                print(f'Error occurred in processing file {filename}. Check the error_log.txt for more details.')
 
 if __name__ == "__main__":
     process_files()

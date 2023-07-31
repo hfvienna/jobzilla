@@ -39,7 +39,7 @@ py_files = [
     "evaluate_job_fit_from_applicant_view.py",
     "merge_applicant_and_recruiter_views.py",
     "aggregate_jsons_to_table_to_display_ranked_jobs.py",
-    "write_application_letter.py",
+#    "write_application_letter.py",
     "sanity_check.py",
 ]
 

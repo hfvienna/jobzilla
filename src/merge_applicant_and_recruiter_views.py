@@ -50,6 +50,11 @@ def merge_applicant_and_recruiter_views():
             json_path_rec_view = os.path.join(JSON_FOLDER_REC_VIEW, filename)
             json_path_merged = os.path.join(JSON_FOLDER_MERGED, filename)
 
+            # Skip if merged file already exists
+            if os.path.exists(json_path_merged):
+                logging.info(f"Skipping {filename} because merged file already exists.")
+                continue
+
             # Skip if corresponding recruiter view doesn't exist
             if not os.path.exists(json_path_rec_view):
                 logging.info(f"Skipping {filename} because recruiter view doesn't exist.")
@@ -70,7 +75,6 @@ def merge_applicant_and_recruiter_views():
             app_view["fit_recruiter"] = rec_view["fit_recruiter"]
             app_view["fit_recruiter_detailed"] = rec_view["fit_recruiter_detailed"]
 
-
             # Store the merged view
             with open(json_path_merged, "w") as f:
                 json.dump(app_view, f, indent=4)
@@ -81,4 +85,3 @@ def merge_applicant_and_recruiter_views():
 
 if __name__ == "__main__":
     merge_applicant_and_recruiter_views()
-

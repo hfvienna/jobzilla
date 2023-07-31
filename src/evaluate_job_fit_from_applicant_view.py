@@ -18,7 +18,7 @@ import json
 import logging
 import os
 
-from llm_claude import llm
+from llm_openai import llm #select llm
 
 SYSTEM_MESSAGE = """
 You are an expert job hunter.
@@ -36,7 +36,8 @@ This is an example:
   "date_added": "July 14, 2023",
   "salary_range": "EUR 113k",
   "location": "Salzburg, Austria",
-  "email": ""
+  "email": "",
+  "applied": ""
 }
 Using the weighted requirements grade the job on a scale from 0-50 so 
 that the applicant can make a ranking of all jobs and decide which ones to apply first to.
@@ -66,12 +67,14 @@ Provide all your detailed reasoning like in the example below.
   "date_added": "July 14, 2023",
   "salary_range": "EUR 130k - 160k",
   "location": "Redmond, USA",
-  "email": ""
+  "email": "",
+  "applied": ""
 }
 Return a JSON that does have both a filled fit integer and a filled fit_detailed with a long explanatory string!
 Return a fit for each category that is lower than the max category or that is the max for the category.
 In the string use only normal characters and spaces.
 If you feel you have to use non-JSON code like tabs then escape it.
+If it is not technically possible for the applicant to apply, for example because they only take candidates from the US and don't sponsor a VISA, set the fit applicant to 0 and detail the reason in fit_applicant_detailed
 """
 
 
@@ -116,7 +119,7 @@ for filename in os.listdir(JSON_FOLDER_FACTS):
         logging.debug(f"LLM result: {result}")
 
         # extract the 'completion' part
-        completion = result["completion"]
+        completion = result
         logging.debug(f"Completion: {completion}")
 
         # find the start and end of the JSON string

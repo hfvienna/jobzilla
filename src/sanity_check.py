@@ -17,7 +17,8 @@
 import os
 import json
 
-def count_files(directory):
+def get_file_names_and_count(directory):
+    file_names = []
     num_files = 0
     num_high_fit = 0
     for f in os.listdir(directory):
@@ -25,14 +26,21 @@ def count_files(directory):
             continue
         if os.path.isfile(os.path.join(directory, f)):
             num_files += 1
-            if f.endswith('.json'):
+            filename, file_extension = os.path.splitext(f)
+            if file_extension == '.json':
                 with open(os.path.join(directory, f)) as json_file:
                     data = json.load(json_file)
                     # Calculate the total fit
                     total_fit = (data.get('fit_applicant', 0) or 0) + (data.get('fit_recruiter', 0) or 0)
                     if total_fit >= 80:
                         num_high_fit += 1
-    return num_files, num_high_fit
+            if directory in [
+                "../data/jobs/job_postings_facts_json",
+                "../data/jobs/fits_recruiter_json",
+                "../data/jobs/fits_applicant_json",
+            ]:
+                file_names.append(filename)
+    return num_files, num_high_fit, file_names
 
 directories = [
     "../data/jobs/job_postings_inbox_pdf",
@@ -45,8 +53,22 @@ directories = [
     "../data/jobs/application_letters_txt"
 ]
 
+file_names_dict = {}
+
 for directory in directories:
-    num_files, num_high_fit = count_files(directory)
+    num_files, num_high_fit, file_names = get_file_names_and_count(directory)
     print(f"There are {num_files} files in {directory}")
     if directory.endswith("fits_merged_json"):
         print(f"There are {num_high_fit} jobs with a fit score of 80 or higher in {directory}")
+    file_names_dict[directory] = set(file_names)
+
+# Find the missing files
+job_postings_facts_files = file_names_dict["../data/jobs/job_postings_facts_json"]
+recruiter_files = file_names_dict["../data/jobs/fits_recruiter_json"]
+applicant_files = file_names_dict["../data/jobs/fits_applicant_json"]
+
+missing_in_recruiter = job_postings_facts_files - recruiter_files
+missing_in_applicant = job_postings_facts_files - applicant_files
+
+print(f"Missing files in recruiter json: {missing_in_recruiter}")
+print(f"Missing files in applicant json: {missing_in_applicant}")

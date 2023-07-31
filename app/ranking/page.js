@@ -36,6 +36,7 @@ export default function JobsTable() {
           <th>Date Added</th>
           <th>Salary Range</th>
           <th>Location</th>
+          <th>Applied</th>
         </tr>
       </thead>
       <tbody>
@@ -64,6 +65,7 @@ export default function JobsTable() {
             <td>{job.date_added || DEFAULT_VALUE}</td>
             <td>{job.salary_range || DEFAULT_VALUE}</td>
             <td>{job.location || DEFAULT_VALUE}</td>
+            <td>{job.applied || DEFAULT_VALUE}</td>
           </tr>
         ))}
       </tbody>
@@ -80,6 +82,7 @@ export default function JobsTable() {
           <th>Date Added</th>
           <th>Salary Range</th>
           <th>Location</th>
+          <th>Applied</th>
         </tr>
       </tfoot>
     </table>
